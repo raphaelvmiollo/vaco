@@ -1,0 +1,486 @@
+2015-04-25 16:48:00 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests"
+Request URL: /vaco/debug_kit/toolbar/2de96ec2-19d8-4cf7-873d-392584c22285
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\debug_kit\src\Controller\RequestsController.php(51): Cake\ORM\Table->get('2de96ec2-19d8-4...', Array)
+#2 [internal function]: DebugKit\Controller\RequestsController->view('2de96ec2-19d8-4...')
+#3 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(DebugKit\Controller\RequestsController))
+#6 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-04-25 17:03:51 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /vaco/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-04-25 17:03:52 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /vaco/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-04-25 17:09:39 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\vaco\src\Controller\AppController.php, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-25 17:09:40 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /vaco/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-25 17:09:43 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\vaco\src\Controller\AppController.php, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-25 17:09:43 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /vaco/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-25 17:13:56 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\vaco\src\Controller\AppController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-25 17:13:56 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /vaco/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-25 17:13:59 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\vaco\src\Controller\AppController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-25 17:14:00 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /vaco/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-25 17:14:11 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\vaco\src\Controller\AppController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-25 17:14:12 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /vaco/users
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-25 17:14:33 Error: Fatal Error (1): Call to a member function error() on a non-object in [C:\xampp\htdocs\vaco\src\Controller\UsersController.php, line 116]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-25 17:14:33 Error: [Cake\Error\FatalErrorException] Call to a member function error() on a non-object
+Request URL: /vaco/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 116)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-25 17:17:06 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /vaco/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-04-25 17:35:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Classification could not be found.
+Exception Attributes: array (
+  'class' => 'Classification',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/classification
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-25 17:37:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Logout could not be found.
+Exception Attributes: array (
+  'class' => 'Logout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/logout
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-25 17:38:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Home could not be found.
+Exception Attributes: array (
+  'class' => 'Home',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/home
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-25 17:38:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Src could not be found.
+Exception Attributes: array (
+  'class' => 'Src',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/src/home
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-25 17:40:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Scripts could not be found.
+Exception Attributes: array (
+  'class' => 'Scripts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/scripts/browser-detector-min.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-25 17:40:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/css/browser-detector-min.css
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-25 17:40:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/css/mocca-pack-ufsm-min.css
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-25 17:40:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Scripts could not be found.
+Exception Attributes: array (
+  'class' => 'Scripts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/scripts/jquery-ui-min.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-25 17:40:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Scripts could not be found.
+Exception Attributes: array (
+  'class' => 'Scripts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/scripts/jquery-min.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-25 17:40:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Scripts could not be found.
+Exception Attributes: array (
+  'class' => 'Scripts',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/scripts/jquery-mocca-pack-min.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-25 17:40:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/img/UFSM-logo.png
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-25 17:40:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/img/UFSM-banner.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-25 17:42:29 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\home.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\home.ctp',
+)
+Request URL: /vaco/
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName('home')
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render('home', NULL)
+#2 C:\xampp\htdocs\vaco\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('home')
+#3 [internal function]: App\Controller\PagesController->display('home')
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-04-25 17:42:29 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\home.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\home.ctp',
+)
+Request URL: /vaco/
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName('home')
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render('home', NULL)
+#2 C:\xampp\htdocs\vaco\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('home')
+#3 [internal function]: App\Controller\PagesController->display('home')
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-04-25 17:42:43 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\home.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\home.ctp',
+)
+Request URL: /vaco/
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName('home')
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render('home', NULL)
+#2 C:\xampp\htdocs\vaco\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('home')
+#3 [internal function]: App\Controller\PagesController->display('home')
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-04-25 17:42:56 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\home.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\home.ctp',
+)
+Request URL: /vaco/
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName('home')
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render('home', NULL)
+#2 C:\xampp\htdocs\vaco\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('home')
+#3 [internal function]: App\Controller\PagesController->display('home')
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-04-25 17:52:33 Error: [Cake\View\Exception\MissingLayoutException] Layout file "Layout\1.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layout\\1.ctp',
+)
+Request URL: /vaco/
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(490): Cake\View\View->_getLayoutFileName(true)
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(471): Cake\View\View->renderLayout('', true)
+#2 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render('home', NULL)
+#3 C:\xampp\htdocs\vaco\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('home')
+#4 [internal function]: App\Controller\PagesController->display('home')
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#7 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 {main}
+
+
+2015-04-25 18:16:55 Error: Fatal Error (1): Class 'Configure' not found in [C:\xampp\htdocs\vaco\src\Template\Pages\home.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-04-25 18:16:55 Error: [Cake\Error\FatalErrorException] Class 'Configure' not found
+Request URL: /vaco/
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Configur...', 'C:\\xampp\\htdocs...', 11)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-04-25 18:18:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Classification could not be found.
+Exception Attributes: array (
+  'class' => 'Classification',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/classification
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-28 12:41:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 12:42:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 12:53:01 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 12:53:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 12:53:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 12:53:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 12:53:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Activits could not be found.
+Exception Attributes: array (
+  'class' => 'Activits',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /activits
+Stack Trace:
+#0 /home/raphaelvmiollo/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-28 12:53:40 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 12:53:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Categories could not be found.
+Exception Attributes: array (
+  'class' => 'Categories',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /categories
+Stack Trace:
+#0 /home/raphaelvmiollo/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-28 12:54:16 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 12:54:16 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 13:00:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 13:00:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 13:00:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 13:01:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 13:01:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Categories could not be found.
+Exception Attributes: array (
+  'class' => 'Categories',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /categories
+Stack Trace:
+#0 /home/raphaelvmiollo/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-28 13:01:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 13:01:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 13:02:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 13:02:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 13:03:16 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 13:06:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 13:06:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 13:08:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-04-28 13:08:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
