@@ -18,6 +18,7 @@ $cakeDescription = 'V.A.C.O.';
 <html>
     <head>
     <?= $this->Html->charset() ?>
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
         <?= $cakeDescription ?>
@@ -36,6 +37,8 @@ $cakeDescription = 'V.A.C.O.';
                 <?= $this->Form->input('password') ?>
                 <?= $this->Form->button('Login') ?>
              <?= $this->Form->end() ?>
+             <?= $this->Flash->error ?>
+           
         </div>
         <footer>
         </footer>

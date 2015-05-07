@@ -1,11 +1,7 @@
 <div class="actions columns large-2 medium-3">
     <h3><?= __('Actions') ?></h3>
     <ul class="side-nav">
-        <li><?= $this->Html->link(__('New Activity'), ['action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('List Classifications'), ['controller' => 'Classifications', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Classification'), ['controller' => 'Classifications', 'action' => 'add']) ?> </li>
-        <li><?= $this->Html->link(__('List Avaliations'), ['controller' => 'Avaliations', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Avaliation'), ['controller' => 'Avaliations', 'action' => 'add']) ?> </li>
+     
         <li>    <?= $this->Html->link(__('Sair'), ['controller' => 'Users', 'action' => 'logout']) ?> </li>
     </ul>
 </div>

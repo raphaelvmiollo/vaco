@@ -1,0 +1,12 @@
+2015-04-28 15:45:00 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Sercer" could not be found.
+Exception Attributes: array (
+  'class' => 'Sercer',
+)
+Stack Trace:
+#0 /home/raphaelvmiollo/projetosFaculdade/vaco/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(201): Cake\Console\ShellDispatcher->findShell('sercer')
+#1 /home/raphaelvmiollo/projetosFaculdade/vaco/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#2 /home/raphaelvmiollo/projetosFaculdade/vaco/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#3 /home/raphaelvmiollo/projetosFaculdade/vaco/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+

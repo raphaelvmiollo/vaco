@@ -25,6 +25,16 @@ class ActivitiesController extends AppController
         $this->set('_serialize', ['activities']);
     }
 
+
+    public function Aluno()
+    {
+        $this->paginate = [
+            'contain' => ['Classifications', 'Avaliations']
+        ];
+        $this->set('activities', $this->paginate($this->Activities));
+        $this->set('_serialize', ['activities']);
+    }
+
     /**
      * View method
      *
@@ -109,4 +119,33 @@ class ActivitiesController extends AppController
         }
         return $this->redirect(['action' => 'index']);
     }
+
+    public function listar(){
+         $this->paginate = [
+            'contain' => ['Classifications', 'Avaliations']
+        ];
+        $this->set('activities', $this->paginate($this->Activities));
+        $this->set('_serialize', ['activities']);
+    }
+
+    public function editcolegiado(){$activity = $this->Activities->get($id, [
+            'contain' => []
+        ]);
+        if ($this->request->is(['patch', 'post', 'put'])) {
+            $activity = $this->Activities->patchEntity($activity, $this->request->data);
+            if ($this->Activities->save($activity)) {
+                $this->Flash->success('The activity has been saved.');
+                return $this->redirect(['action' => 'index']);
+            } else {
+                $this->Flash->error('The activity could not be saved. Please, try again.');
+            }
+        }
+        $classifications = $this->Activities->Classifications->find('list', ['limit' => 200]);
+        $avaliations = $this->Activities->Avaliations->find('list', ['limit' => 200]);
+        $this->set(compact('activity', 'classifications', 'avaliations'));
+        $this->set('_serialize', ['activity']);}
+
+
+
+
 }
