@@ -126,7 +126,19 @@ class ActivitiesController extends AppController
         ];
         $this->set('activities', $this->paginate($this->Activities));
         $this->set('_serialize', ['activities']);
+        $this->set('msg', ['123']);
     }
+
+    public function alunolistar(){
+        $this->set('nome', $this->Auth->user('name'));
+         $this->paginate = [
+            'contain' => ['Classifications', 'Avaliations']
+        ];
+        $this->set('activities', $this->paginate($this->Activities->find('all', array('conditions' => array('Activities.users_iduser' => $this->Auth->user('iduser'))))));
+        $this->set('_serialize', ['activities']);
+        $this->set('msg', ['123']);
+    }
+
 
     public function editcolegiado(){$activity = $this->Activities->get($id, [
             'contain' => []
@@ -144,6 +156,26 @@ class ActivitiesController extends AppController
         $avaliations = $this->Activities->Avaliations->find('list', ['limit' => 200]);
         $this->set(compact('activity', 'classifications', 'avaliations'));
         $this->set('_serialize', ['activity']);}
+
+
+        public function alunoadd()
+    {
+         $this->set('nome', $this->Auth->user('name'));
+        $activity = $this->Activities->newEntity();
+        if ($this->request->is('post')) {
+            $activity = $this->Activities->patchEntity($activity, $this->request->data);
+            if ($this->Activities->save($activity)) {
+                $this->Flash->success('The activity has been saved.');
+                return $this->redirect(['action' => 'alunolistar']);
+            } else {
+                $this->Flash->error('The activity could not be saved. Please, try again.');
+            }
+        }
+        $classifications = $this->Activities->Classifications->find('list', ['limit' => 200]);
+        $avaliations = $this->Activities->Avaliations->find('list', ['limit' => 200]);
+        $this->set(compact('activity', 'classifications', 'avaliations'));
+        $this->set('_serialize', ['activity']);
+    }
 
 
 

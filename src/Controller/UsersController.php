@@ -68,6 +68,7 @@ class UsersController extends AppController {
 	 * @throws \Cake\Network\Exception\NotFoundException When record not found.
 	 */
 	public function edit($id = null) {
+
 		$user = $this->Users->get($id, [
 			'contain' => []
 			]);
@@ -84,6 +85,31 @@ class UsersController extends AppController {
 		$this->set(compact('user', 'courses'));
 		$this->set('_serialize', ['user']);
 	}
+
+
+	public function alunoeditsenha($id = null) {
+		$id = $this->Auth->user('iduser');
+		$this->set('nome', $this->Auth->user('name'));
+		$user = $this->Users->get($id, [
+			'contain' => []
+			]);
+		if ($this->request->is(['patch', 'post', 'put'])) {
+			if( base64_encode($this->request->data['oldpassword'])== $this->Auth->user('password')){
+				$user = $this->Users->patchEntity($user, $this->request->data);
+				if ($this->Users->save($user)) {
+					$this->Flash->success('The user has been saved.');
+					return $this->redirect(['controller' => 'Activities','action' => 'Alunolistar']);
+				} else {
+					$this->Flash->error('The user could not be saved. Please, try again.');
+				}
+			}
+		}
+		$courses = $this->Users->Courses->find('list', ['limit' => 200]);
+		$this->set(compact('user', 'courses'));
+		$this->set('_serialize', ['user']);
+	}
+
+
 
 	/**
 	 * Delete method
@@ -110,9 +136,9 @@ class UsersController extends AppController {
 		if ($this->request->is('post')) {
 			$user = $this->Auth->identify();
 			if ($user) {
-				$this->Auth->setUser($user);    
+				$this->Auth->setUser($user);
 				if($this->Auth->user('type') == 1){
-					$this->redirect(array('controller' => 'users', 'action' => 'aluno'));
+					$this->redirect(array('controller' => 'Activities', 'action' => 'Alunolistar'));
 				}
 				if($this->Auth->user('type') == 2){
 					$this->redirect(array('controller' => 'users', 'action' => 'colegiado'));
@@ -125,7 +151,8 @@ class UsersController extends AppController {
 				}
 				return $this->redirect($this->Auth->redirectUrl());
 			}
-			$this->Flash->error('Your login or password is incorrect.');
+			$this->Flash->error('Seu login ou senha estão incorretos.');
+
 		}
 	}
 
@@ -134,16 +161,21 @@ class UsersController extends AppController {
 	 * @return type
 	 */
 	public function logout() {
-		$this->Flash->success('You are now logged out.');
+		$this->Flash->success('Você acabou de sair da sessão.');
 		return $this->redirect($this->Auth->logout());
 	}
 
-	public function aluno(){}
+	public function aluno(){
+		$this->set('nome', $this->Auth->user('name'));
+	}
 
 	public function administrador(){}
 
 	public function coordenacao(){}
 
 	public function colegiado(){}
+
+
+
 
 }

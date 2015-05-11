@@ -13,7 +13,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
+$cakeDescription = 'V.A.C.O - Validação de ACG Online';
 ?>
 <!DOCTYPE html>
 <html>
@@ -25,35 +25,45 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <?= $this->fetch('title') ?>
     </title>
     <?= $this->Html->meta('icon') ?>
-
-    <?= $this->Html->css('base.css') ?>
-    <?= $this->Html->css('cake.css') ?>
-
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <!--<?= $this->Html->css('base.css') ?>-->
+    <?= $this->Html->css('bootstrap.min') ?>
+    <?= $this->Html->script('bootstrap.min'); ?>
+    
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
+    <?php
+    echo $this->Html->script('jQuery-1.7');
+    ?>
 </head>
 <body>
     <header>
         <div class="header-title">
-            <span><?= $this->fetch('title') ?></span>
+            <span>
+                <center><h1>Sistema de Validação<br> de ACG</h1></center>
+            </span>
         </div>
         <div class="header-help">
-            <span><a target="_blank" href="http://book.cakephp.org/3.0/">Documentation</a></span>
-            <span><a target="_blank" href="http://api.cakephp.org/3.0/">API</a></span>
-        </div>
-    </header>
-    <div id="container">
+           <!-- <span><a target="_blank" href="http://book.cakephp.org/3.0/">Documentation</a></span>
+           <span><a target="_blank" href="http://api.cakephp.org/3.0/">APdfI</a></span>-->
+       </div>
+   </header>
+   <div id="container">
 
-        <div id="content">
-            <?= $this->Flash->render() ?>
+    <div id="content">
 
-            <div class="row">
+
+        <div class="row">
+            
                 <?= $this->fetch('content') ?>
-            </div>
+            
         </div>
-        <footer>
-        </footer>
     </div>
+    <footer class="footer">
+
+    </footer>
+</div>
+
 </body>
 </html>

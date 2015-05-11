@@ -10,6 +10,12 @@ a {
   color: #1798A5;
 }
 
+.footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+
 .side-nav li a:not(.button) {
   color: #15848F;
 }
