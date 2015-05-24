@@ -220,8 +220,8 @@ return [
              */
             //'port' => 'nonstandard_port_number',
             'username' => 'root',
-            'password' => '123123',
-            'database' => 'cakedb',
+            'password' => '',
+            'database' => 'vaco',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'cacheMetadata' => true,

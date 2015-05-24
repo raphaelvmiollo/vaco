@@ -93,6 +93,7 @@ class CoursesController extends AppController
      */
     public function delete($id = null)
     {
+         $this->set('nome', $this->Auth->user('name'));
         $this->request->allowMethod(['post', 'delete']);
         $course = $this->Courses->get($id);
         if ($this->Courses->delete($course)) {
@@ -100,6 +101,50 @@ class CoursesController extends AppController
         } else {
             $this->Flash->error('The course could not be deleted. Please, try again.');
         }
-        return $this->redirect(['action' => 'index']);
+        return $this->redirect(['action' => 'administradorlistar']);
     }
+
+     public function administradoradd()
+    {
+         $this->set('nome', $this->Auth->user('name'));
+        $course = $this->Courses->newEntity();
+        if ($this->request->is('post')) {
+            $course = $this->Courses->patchEntity($course, $this->request->data);
+            if ($this->Courses->save($course)) {
+                $this->Flash->success('The course has been saved.');
+                return $this->redirect(['action' => 'administradorlistar']);
+            } else {
+                $this->Flash->error('The course could not be saved. Please, try again.');
+            }
+        }
+        $this->set(compact('course'));
+        $this->set('_serialize', ['course']);
+    }
+
+    public function administradorlistar()
+    {
+         $this->set('nome', $this->Auth->user('name'));
+        $this->set('courses', $this->paginate($this->Courses));
+        $this->set('_serialize', ['courses']);
+    }
+
+ public function administradoredit($id = null)
+    {
+        $this->set('nome', $this->Auth->user('name'));
+        $course = $this->Courses->get($id, [
+            'contain' => []
+        ]);
+        if ($this->request->is(['patch', 'post', 'put'])) {
+            $course = $this->Courses->patchEntity($course, $this->request->data);
+            if ($this->Courses->save($course)) {
+                $this->Flash->success('The course has been saved.');
+                return $this->redirect(['action' => 'administradorlistar']);
+            } else {
+                $this->Flash->error('The course could not be saved. Please, try again.');
+            }
+        }
+        $this->set(compact('course'));
+        $this->set('_serialize', ['course']);
+    }
+
 }

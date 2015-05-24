@@ -65,5 +65,5 @@
            <?= $this->Form->button(__('Adicionar')) ?>
            <?= $this->Form->end() ?>
            </div>
-           <div class="col-sm-"></div>
+           <div class="col-sm-7"></div>
        </div>

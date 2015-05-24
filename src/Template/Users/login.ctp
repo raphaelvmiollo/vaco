@@ -7,7 +7,7 @@
 			<?= $this->Form->create() ?>
 			<?= $this->Form->input('login', array('class' => 'form-control')); ?>
 			<?= $this->Form->input('password', array('class' => 'form-control')); ?> <br>
-			<?= $this->Form->button('Login', array('class' => 'btn btn-lg btn-primary btn-block')) ?>
+			<?= $this->Form->button('Entrar', array('class' => 'btn btn-lg btn-primary btn-block')) ?>
 			<?= $this->Form->end() ?>
 			<br>
 			<?= $this->Flash->render() ?>

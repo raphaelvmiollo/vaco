@@ -117,7 +117,7 @@ class ActivitiesController extends AppController
         } else {
             $this->Flash->error('The activity could not be deleted. Please, try again.');
         }
-        return $this->redirect(['action' => 'index']);
+        return $this->redirect(['action' => 'administradorlistar']);
     }
 
     public function listar(){
@@ -178,6 +178,55 @@ class ActivitiesController extends AppController
     }
 
 
+    public function administradorlistar(){
 
+         $this->set('nome', $this->Auth->user('name'));
+         $this->paginate = [
+            'contain' => ['Classifications', 'Avaliations']
+        ];
+        $this->set('activities', $this->paginate($this->Activities));
+        $this->set('_serialize', ['activities']);
+        $this->set('msg', ['123']);
+    }
+
+ public function administradoradd()
+    {
+        $this->set('nome', $this->Auth->user('name'));
+        $activity = $this->Activities->newEntity();
+        if ($this->request->is('post')) {
+            $activity = $this->Activities->patchEntity($activity, $this->request->data);
+            if ($this->Activities->save($activity)) {
+                $this->Flash->success('The activity has been saved.');
+                return $this->redirect(['action' => 'administradorlistar']);
+            } else {
+                $this->Flash->error('A atividade não pode ser salva.Por favor, tente novamente.');
+            }
+        }
+        $classifications = $this->Activities->Classifications->find('list', ['limit' => 200]);
+        $avaliations = $this->Activities->Avaliations->find('list', ['limit' => 200]);
+        $this->set(compact('activity', 'classifications', 'avaliations'));
+        $this->set('_serialize', ['activity']);
+    }
+
+ public function administradoredit($id = null)
+    {
+         $this->set('nome', $this->Auth->user('name'));
+        $activity = $this->Activities->get($id, [
+            'contain' => []
+        ]);
+        if ($this->request->is(['patch', 'post', 'put'])) {
+            $activity = $this->Activities->patchEntity($activity, $this->request->data);
+            if ($this->Activities->save($activity)) {
+                $this->Flash->success('The activity has been saved.');
+                return $this->redirect(['action' => 'administradorlistar']);
+            } else {
+                $this->Flash->error('The activity could not be saved. Please, try again.');
+            }
+        }
+        $classifications = $this->Activities->Classifications->find('list', ['limit' => 200]);
+        $avaliations = $this->Activities->Avaliations->find('list', ['limit' => 200]);
+        $this->set(compact('activity', 'classifications', 'avaliations'));
+        $this->set('_serialize', ['activity']);
+    }
 
 }

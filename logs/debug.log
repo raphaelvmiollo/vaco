@@ -3833,3 +3833,1297 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
 
 
 
+2015-05-11 15:49:33 Notice: Notice (8): Undefined property: Cake\ORM\Query::$classification_name in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/alunoadd.ctp, line 61]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/alunoadd.ctp, line 61
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-11 15:51:07 Notice: Notice (8): Undefined property: Cake\ORM\Query::$classification_name in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/alunoadd.ctp, line 61]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/alunoadd.ctp, line 61
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-11 15:51:10 Notice: Notice (8): Undefined property: Cake\ORM\Query::$classification_name in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/alunoadd.ctp, line 61]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/alunoadd.ctp, line 61
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-11 15:51:17 Notice: Notice (8): Undefined property: Cake\ORM\Query::$classification_name in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/alunoadd.ctp, line 61]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/alunoadd.ctp, line 61
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-11 15:51:18 Notice: Notice (8): Undefined property: Cake\ORM\Query::$classification_name in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/alunoadd.ctp, line 61]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/alunoadd.ctp, line 61
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-11 15:51:18 Notice: Notice (8): Undefined property: Cake\ORM\Query::$classification_name in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/alunoadd.ctp, line 61]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/alunoadd.ctp, line 61
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 12:39:30 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/administrador.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/administrador.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:05:13 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:18:47 Notice: Notice (8): Undefined variable: users in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/administradorlistar.ctp, line 90]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/administradorlistar.ctp, line 90
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:18:47 Notice: Notice (8): Undefined index: pageCount in [/home/raphaelvmiollo/projetosFaculdade/vaco/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 625]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::numbers() - CORE/src/View/Helper/PaginatorHelper.php, line 625
+include - APP/Template/Users/administradorlistar.ctp, line 114
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:18:47 Notice: Notice (8): Undefined index: pageCount in [/home/raphaelvmiollo/projetosFaculdade/vaco/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 548]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 548
+include - APP/Template/Users/administradorlistar.ctp, line 117
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:18:47 Notice: Notice (8): Undefined index: count in [/home/raphaelvmiollo/projetosFaculdade/vaco/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 552]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 552
+include - APP/Template/Users/administradorlistar.ctp, line 117
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:18:47 Notice: Notice (8): Undefined index: perPage in [/home/raphaelvmiollo/projetosFaculdade/vaco/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 555]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 555
+include - APP/Template/Users/administradorlistar.ctp, line 117
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:18:47 Notice: Notice (8): Undefined index: count in [/home/raphaelvmiollo/projetosFaculdade/vaco/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 556]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 556
+include - APP/Template/Users/administradorlistar.ctp, line 117
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:18:47 Notice: Notice (8): Undefined index: count in [/home/raphaelvmiollo/projetosFaculdade/vaco/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 557]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 557
+include - APP/Template/Users/administradorlistar.ctp, line 117
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:18:47 Notice: Notice (8): Undefined index: page in [/home/raphaelvmiollo/projetosFaculdade/vaco/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 570]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 570
+include - APP/Template/Users/administradorlistar.ctp, line 117
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:18:47 Notice: Notice (8): Undefined index: current in [/home/raphaelvmiollo/projetosFaculdade/vaco/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 572]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 572
+include - APP/Template/Users/administradorlistar.ctp, line 117
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:18:47 Notice: Notice (8): Undefined index: count in [/home/raphaelvmiollo/projetosFaculdade/vaco/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 573]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 573
+include - APP/Template/Users/administradorlistar.ctp, line 117
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:20:50 Notice: Notice (8): Undefined variable: id in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Controller/UsersController.php, line 185]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::administradorlistar() - APP/Controller/UsersController.php, line 185
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 412
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:21:33 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:21:36 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:22:05 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:22:07 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:22:13 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:45:49 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/alunoedit.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/alunoedit.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:46:21 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/alunoedit.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/alunoedit.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:46:30 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/alunoedit.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/alunoedit.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:47:21 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/alunoedit.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/alunoedit.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:47:29 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/alunoedit.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/alunoedit.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:47:51 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/alunoedit.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/alunoedit.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:47:54 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/alunoedit.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/alunoedit.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:48:37 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/alunoedit.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/alunoedit.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:49:00 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/alunoedit.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/alunoedit.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:50:07 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/alunoedit.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/alunoedit.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 14:50:52 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Users/alunoedit.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/alunoedit.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:05:06 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:05:08 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:05:08 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:23:37 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:23:37 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:23:54 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:23:54 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:23:56 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:23:56 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:24:05 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:24:05 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:24:06 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:24:06 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:24:41 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:24:41 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:24:42 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:24:42 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:24:42 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:24:42 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:25:14 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:25:14 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:25:15 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:25:15 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:44:43 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Courses/administradoradd.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Courses/administradoradd.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:44:48 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Courses/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Courses/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:45:03 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Courses/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Courses/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:45:04 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Courses/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Courses/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:45:05 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Courses/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Courses/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:45:05 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Courses/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Courses/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:45:05 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Courses/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Courses/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:46:20 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Courses/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Courses/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:46:21 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Courses/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Courses/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:46:22 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Courses/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Courses/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:46:22 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Courses/administradorlistar.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Courses/administradorlistar.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 16:51:22 Notice: Notice (8): Undefined variable: nome in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Courses/administradoredit.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Courses/administradoredit.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:45:30 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:45:30 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:45:45 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:45:45 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:45:54 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:45:54 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:46:35 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:46:35 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:46:43 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:46:43 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:46:51 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:46:51 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:46:59 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 83]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 83
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:46:59 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:47:38 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:47:38 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 85]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 85
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:47:49 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-14 17:47:49 Notice: Notice (8): Array to string conversion in [/home/raphaelvmiollo/projetosFaculdade/vaco/src/Template/Activities/administradoradd.ctp, line 85]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Activities/administradoradd.ctp, line 85
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-05-20 18:01:55 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\vaco\src\Template\Activities\administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Activities\administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-05-20 18:01:55 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\vaco\src\Template\Activities\administradoradd.ctp, line 85]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Activities\administradoradd.ctp, line 85
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-05-20 18:05:10 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\vaco\src\Template\Activities\administradoradd.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Activities\administradoradd.ctp, line 84
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-05-20 18:05:11 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\vaco\src\Template\Activities\administradoradd.ctp, line 85]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Activities\administradoradd.ctp, line 85
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+

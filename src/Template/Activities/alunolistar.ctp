@@ -46,7 +46,6 @@
 						<th><?= $this->Paginator->sort('Local da Atividade') ?></th>
 						<th><?= $this->Paginator->sort('Horas de Atividade') ?></th>
 						<th><?= $this->Paginator->sort('Semestre') ?></th>
-
 						<th><?= $this->Paginator->sort('Data e Hora ') ?></th>
 						<th><?= $this->Paginator->sort('arquivo') ?></th>
 						<th><?= $this->Paginator->sort('Situação') ?></th>
@@ -79,7 +78,7 @@
 							<!-- <td><?= $this->Number->format($activity->idactivity) ?></td>-->
 							<td><?= h($activity->abstract) ?></td>
 							<td><?= h($activity->activity_local) ?></td>
-							<td><?= h($activity->activity_hours) ?></td>
+							<td><?= h($activity->activity_hours) ?> horas</td>
 							<td><?php  if($activity->semester == 1){echo "Primeiro";}else{echo "Segundo";} ?>
 
 
