@@ -189,7 +189,7 @@ class ActivitiesController extends AppController
         $this->set('msg', ['123']);
     }
 
- public function administradoradd()
+ public function administradorAdd()
     {
         $this->set('nome', $this->Auth->user('name'));
         $activity = $this->Activities->newEntity();

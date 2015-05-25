@@ -18,7 +18,7 @@ class UsersController extends AppController {
      */
     public function index() {
         $this->paginate = [
-        'contain' => ['Courses']
+            'contain' => ['Courses']
         ];
         $this->set('users', $this->paginate($this->Users));
         $this->set('_serialize', ['users']);
@@ -34,7 +34,7 @@ class UsersController extends AppController {
     public function view($id = null) {
         $user = $this->Users->get($id, [
             'contain' => ['Courses']
-            ]);
+        ]);
         $this->set('user', $user);
         $this->set('_serialize', ['user']);
     }
@@ -71,14 +71,14 @@ class UsersController extends AppController {
 
         $user = $this->Users->get($id, [
             'contain' => []
-            ]);
+        ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $user = $this->Users->patchEntity($user, $this->request->data);
             if ($this->Users->save($user)) {
-                $this->Flash->success('The user has been saved.');
+                $this->Flash->success('O usuário foi salvo.');
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error('The user could not be saved. Please, try again.');
+                $this->Flash->error('O usuário não pode ser salvo. Por favor tente mais tarde.');
             }
         }
         $courses = $this->Users->Courses->find('list', ['limit' => 200]);
@@ -86,22 +86,21 @@ class UsersController extends AppController {
         $this->set('_serialize', ['user']);
     }
 
-
-    public function alunoeditsenha($id = null) {
+    public function alterPass($id = null) {
         $id = $this->Auth->user('iduser');
         $this->set('nome', $this->Auth->user('name'));
         $user = $this->Users->get($id, [
             'contain' => []
-            ]);
+        ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
-            if($this->request->data['oldpassword'] == '123'){
+            if ($this->request->data['oldpassword'] == '123') {
                 $user = $this->Users->patchEntity($user, $this->request->data);
                 if ($this->Users->save($user)) {
-                    return $this->redirect(['controller' => 'Activities','action' => 'Alunolistar']);
+                    $this->Flash->success('Senha alterada com sucesso!');
                 } else {
-                    $this->Flash->error('The user could not be saved. Please, try again.');
+                    $this->Flash->error('A senha não pode ser salva. Por favor tente mais tarde.');
                 }
-            }else{
+            } else {
                 $this->Flash->error('A sua senha atual está incorreta. Por favor tente novamente.');
             }
         }
@@ -136,22 +135,21 @@ class UsersController extends AppController {
             $user = $this->Auth->identify();
             if ($user) {
                 $this->Auth->setUser($user);
-                if($this->Auth->user('type') == 1){
-                    $this->redirect(array('controller' => 'Activities', 'action' => 'Alunolistar'));
+                if ($this->Auth->user('type') == 1) {
+                    $this->redirect(array('controller' => 'Activities', 'action' => 'AlunoList'));
                 }
-                if($this->Auth->user('type') == 2){
+                if ($this->Auth->user('type') == 2) {
                     $this->redirect(array('controller' => 'users', 'action' => 'colegiado'));
                 }
-                if($this->Auth->user('type') == 3){
+                if ($this->Auth->user('type') == 3) {
                     $this->redirect(array('controller' => 'users', 'action' => 'coordenacao'));
                 }
-                if($this->Auth->user('type') == 4){
+                if ($this->Auth->user('type') == 4) {
                     $this->redirect(array('controller' => 'users', 'action' => 'administrador'));
                 }
                 return $this->redirect($this->Auth->redirectUrl());
             }
             $this->Flash->error('Seu login ou senha estão incorretos.');
-
         }
     }
 
@@ -164,78 +162,73 @@ class UsersController extends AppController {
         return $this->redirect($this->Auth->logout());
     }
 
-    public function aluno(){
+    public function aluno() {
         $this->set('nome', $this->Auth->user('name'));
     }
 
-    public function administrador(){
+    public function administrador() {
         $this->set('nome', $this->Auth->user('name'));
-
         $this->set('users', $this->paginate($this->Users));
         $this->set('_serialize', ['users']);
     }
 
-    public function coordenacao(){}
-
-    public function colegiado(){}
-
-    public function administradorlistar(){
-       $this->set('nome', $this->Auth->user('name'));
-       $user = $this->Auth->identify();
-       $this->paginate = [
-       'contain' => ['Courses']
-       ];
-       $this->set('users', $this->paginate($this->Users));
-       $this->set('_serialize', ['users']);
-   }
-   public function administradordelete($id = null) {
-    $this->request->allowMethod(['post', 'delete']);
-    $user = $this->Users->get($id);
-    if ($this->Users->delete($user)) {
-        $this->Flash->success('O usuário foi deletado .');
-    } else {
-        $this->Flash->error('O usuário não pode ser deletado. Por favor, tente novamente..');
+    public function administradorList() {
+        $this->set('nome', $this->Auth->user('name'));
+        $user = $this->Auth->identify();
+        $this->paginate = [
+            'contain' => ['Courses']
+        ];
+        $this->set('users', $this->paginate($this->Users));
+        $this->set('_serialize', ['users']);
     }
-    return $this->redirect(['action' => 'administradorlistar']);
-}
 
-
-public function alunoedit($id = null) {
- $this->set('nome', $this->Auth->user('name'));
- $user = $this->Users->get($id, [
-    'contain' => []
-    ]);
- if ($this->request->is(['patch', 'post', 'put'])) {
-    $user = $this->Users->patchEntity($user, $this->request->data);
-    if ($this->Users->save($user)) {
-        $this->Flash->success('The user has been saved.');
-        return $this->redirect(['action' => 'administradorlistar']);
-    } else {
-        $this->Flash->error('The user could not be saved. Please, try again.');
+    public function administradorDelete($id = null) {
+        $this->request->allowMethod(['post', 'delete']);
+        $user = $this->Users->get($id);
+        if ($this->Users->delete($user)) {
+            $this->Flash->success('O usuário foi deletado .');
+        } else {
+            $this->Flash->error('O usuário não pode ser deletado. Por favor, tente novamente..');
+        }
+        return $this->redirect(['action' => 'administradorList']);
     }
-}
-$courses = $this->Users->Courses->find('list', ['limit' => 200]);
-$this->set(compact('user', 'courses'));
-$this->set('_serialize', ['user']);
-}
 
-public function administradoradd() {
-   $this->set('nome', $this->Auth->user('name'));
-   $user = $this->Users->newEntity();
-   if ($this->request->is('post')) {
-    $user = $this->Users->patchEntity($user, $this->request->data);
-    if ($this->Users->save($user)) {
-        $this->Flash->success('O usuário foi salvo.');
-        return $this->redirect(['action' => 'administradorlistar']);
-    } else {
-        $this->Flash->error('O usuário não foi salvo! Por favor tente novamente.');
+    public function alunoEdit($id = null) {
+        $this->set('nome', $this->Auth->user('name'));
+        $user = $this->Users->get($id, [
+            'contain' => []
+        ]);
+        if ($this->request->is(['patch', 'post', 'put'])) {
+            $user = $this->Users->patchEntity($user, $this->request->data);
+            if ($this->Users->save($user)) {
+                $this->Flash->success('The user has been saved.');
+                return $this->redirect(['action' => 'administradorList']);
+            } else {
+                $this->Flash->error('The user could not be saved. Please, try again.');
+            }
+        }
+        $courses = $this->Users->Courses->find('list', ['limit' => 200]);
+        $this->set(compact('user', 'courses'));
+        $this->set('_serialize', ['user']);
     }
-}
-$courses = $this->Users->Courses->find('list', ['limit' => 200]);
-$this->set(compact('user', 'courses'));
-$this->set('_serialize', ['user']);
-}
 
-
+    public function administradorAdd() {
+        $this->set('nome', $this->Auth->user('name'));
+        $user = $this->Users->newEntity();
+        if ($this->request->is('post')) {
+            $user = $this->Users->patchEntity($user, $this->request->data);
+//            echo $user->course_id;
+//            echo $user->type;
+            if ($this->Users->save($user)) {
+                $this->Flash->success('O usuário foi salvo.');
+                return $this->redirect(['action' => 'administradorList']);
+            } else {
+                $this->Flash->error('O usuário não foi salvo! Por favor tente novamente.');
+            }
+        }
+        $courses = $this->Users->Courses->find('list', ['limit' => 200]);
+        $this->set(compact('user', 'courses'));
+        $this->set('_serialize', ['user']);
+    }
 
 }

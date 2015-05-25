@@ -104,7 +104,7 @@ class CoursesController extends AppController
         return $this->redirect(['action' => 'administradorlistar']);
     }
 
-     public function administradoradd()
+     public function administradorAdd()
     {
          $this->set('nome', $this->Auth->user('name'));
         $course = $this->Courses->newEntity();
@@ -121,14 +121,14 @@ class CoursesController extends AppController
         $this->set('_serialize', ['course']);
     }
 
-    public function administradorlistar()
+    public function administradorList()
     {
          $this->set('nome', $this->Auth->user('name'));
         $this->set('courses', $this->paginate($this->Courses));
         $this->set('_serialize', ['courses']);
     }
 
- public function administradoredit($id = null)
+ public function administradorEdit($id = null)
     {
         $this->set('nome', $this->Auth->user('name'));
         $course = $this->Courses->get($id, [
@@ -138,7 +138,7 @@ class CoursesController extends AppController
             $course = $this->Courses->patchEntity($course, $this->request->data);
             if ($this->Courses->save($course)) {
                 $this->Flash->success('The course has been saved.');
-                return $this->redirect(['action' => 'administradorlistar']);
+                return $this->redirect(['action' => 'administradorList']);
             } else {
                 $this->Flash->error('The course could not be saved. Please, try again.');
             }

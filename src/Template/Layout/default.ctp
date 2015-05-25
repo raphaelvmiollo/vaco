@@ -41,7 +41,7 @@ $cakeDescription = 'V.A.C.O - Validação de ACG Online';
 	<header>
 		<div class="header-title">
 			<span>
-				<center><h1>Sistema de Validação<br> de ACG</h1></center>
+				<center><h1>Sistema de Validação de ACG<br><br></h1></center>
 			</span>
 		</div>
 	</header>
