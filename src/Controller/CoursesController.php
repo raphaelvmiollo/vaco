@@ -101,10 +101,10 @@ class CoursesController extends AppController
         } else {
             $this->Flash->error('The course could not be deleted. Please, try again.');
         }
-        return $this->redirect(['action' => 'administradorlistar']);
+        return $this->redirect(['action' => 'adminList']);
     }
 
-     public function administradorAdd()
+     public function adminAdd()
     {
          $this->set('nome', $this->Auth->user('name'));
         $course = $this->Courses->newEntity();
@@ -112,7 +112,7 @@ class CoursesController extends AppController
             $course = $this->Courses->patchEntity($course, $this->request->data);
             if ($this->Courses->save($course)) {
                 $this->Flash->success('The course has been saved.');
-                return $this->redirect(['action' => 'administradorlistar']);
+                return $this->redirect(['action' => 'adminlistar']);
             } else {
                 $this->Flash->error('The course could not be saved. Please, try again.');
             }
@@ -121,14 +121,14 @@ class CoursesController extends AppController
         $this->set('_serialize', ['course']);
     }
 
-    public function administradorList()
+    public function adminList()
     {
          $this->set('nome', $this->Auth->user('name'));
         $this->set('courses', $this->paginate($this->Courses));
         $this->set('_serialize', ['courses']);
     }
 
- public function administradorEdit($id = null)
+ public function adminEdit($id = null)
     {
         $this->set('nome', $this->Auth->user('name'));
         $course = $this->Courses->get($id, [
@@ -138,7 +138,7 @@ class CoursesController extends AppController
             $course = $this->Courses->patchEntity($course, $this->request->data);
             if ($this->Courses->save($course)) {
                 $this->Flash->success('The course has been saved.');
-                return $this->redirect(['action' => 'administradorList']);
+                return $this->redirect(['action' => 'adminList']);
             } else {
                 $this->Flash->error('The course could not be saved. Please, try again.');
             }

@@ -62,4 +62,8 @@ class PagesController extends AppController
             throw new NotFoundException();
         }
     }
+    
+    public function index(){
+        $this->set('nome', $this->Auth->user('name'));
+    }
 }

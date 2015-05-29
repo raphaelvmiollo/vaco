@@ -135,18 +135,16 @@ class UsersController extends AppController {
             $user = $this->Auth->identify();
             if ($user) {
                 $this->Auth->setUser($user);
-                if ($this->Auth->user('type') == 1) {
-                    $this->redirect(array('controller' => 'Activities', 'action' => 'AlunoList'));
-                }
-                if ($this->Auth->user('type') == 2) {
-                    $this->redirect(array('controller' => 'users', 'action' => 'colegiado'));
-                }
-                if ($this->Auth->user('type') == 3) {
-                    $this->redirect(array('controller' => 'users', 'action' => 'coordenacao'));
-                }
-                if ($this->Auth->user('type') == 4) {
-                    $this->redirect(array('controller' => 'users', 'action' => 'administrador'));
-                }
+                    $this->redirect(array('controller' => 'Pages', 'action' => 'index'));
+//                if ($this->Auth->user('type') == 2) {
+//                    $this->redirect(array('controller' => 'users', 'action' => 'colegiado'));
+//                }
+//                if ($this->Auth->user('type') == 3) {
+//                    $this->redirect(array('controller' => 'users', 'action' => 'coordenacao'));
+//                }
+//                if ($this->Auth->user('type') == 4) {
+//                    $this->redirect(array('controller' => 'users', 'action' => 'admin'));
+//                }
                 return $this->redirect($this->Auth->redirectUrl());
             }
             $this->Flash->error('Seu login ou senha estão incorretos.');
@@ -166,13 +164,8 @@ class UsersController extends AppController {
         $this->set('nome', $this->Auth->user('name'));
     }
 
-    public function administrador() {
-        $this->set('nome', $this->Auth->user('name'));
-        $this->set('users', $this->paginate($this->Users));
-        $this->set('_serialize', ['users']);
-    }
 
-    public function administradorList() {
+    public function adminList() {
         $this->set('nome', $this->Auth->user('name'));
         $user = $this->Auth->identify();
         $this->paginate = [
@@ -182,7 +175,7 @@ class UsersController extends AppController {
         $this->set('_serialize', ['users']);
     }
 
-    public function administradorDelete($id = null) {
+    public function adminDelete($id = null) {
         $this->request->allowMethod(['post', 'delete']);
         $user = $this->Users->get($id);
         if ($this->Users->delete($user)) {
@@ -190,10 +183,10 @@ class UsersController extends AppController {
         } else {
             $this->Flash->error('O usuário não pode ser deletado. Por favor, tente novamente..');
         }
-        return $this->redirect(['action' => 'administradorList']);
+        return $this->redirect(['action' => 'adminList']);
     }
 
-    public function alunoEdit($id = null) {
+    public function adminEdit($id = null) {
         $this->set('nome', $this->Auth->user('name'));
         $user = $this->Users->get($id, [
             'contain' => []
@@ -201,8 +194,8 @@ class UsersController extends AppController {
         if ($this->request->is(['patch', 'post', 'put'])) {
             $user = $this->Users->patchEntity($user, $this->request->data);
             if ($this->Users->save($user)) {
-                $this->Flash->success('The user has been saved.');
-                return $this->redirect(['action' => 'administradorList']);
+                $this->Flash->success('O Usuário foi salvo.');
+                return $this->redirect(['action' => 'adminList']);
             } else {
                 $this->Flash->error('The user could not be saved. Please, try again.');
             }
@@ -212,7 +205,7 @@ class UsersController extends AppController {
         $this->set('_serialize', ['user']);
     }
 
-    public function administradorAdd() {
+    public function adminAdd() {
         $this->set('nome', $this->Auth->user('name'));
         $user = $this->Users->newEntity();
         if ($this->request->is('post')) {
@@ -221,7 +214,7 @@ class UsersController extends AppController {
 //            echo $user->type;
             if ($this->Users->save($user)) {
                 $this->Flash->success('O usuário foi salvo.');
-                return $this->redirect(['action' => 'administradorList']);
+                return $this->redirect(['action' => 'adminList']);
             } else {
                 $this->Flash->error('O usuário não foi salvo! Por favor tente novamente.');
             }

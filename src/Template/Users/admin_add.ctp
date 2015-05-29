@@ -7,6 +7,7 @@ $this->start('sidebar');?>
                 <div class="users form large-10 medium-9 columns">
                     <h2>Adicionar Usuário</h2>
                     <br>
+                   
                     <?= $this->Form->create($user); ?>
                     <fieldset>
                         <?php
@@ -21,7 +22,7 @@ $this->start('sidebar');?>
                         ?>
                     </fieldset>
                     <br>
-                    <?= $this->Form->button(__('Adicionar')) ?>
+                    <?= $this->Form->button(__('Adicionar'), ['class' => 'btn btn-primary']) ?>
                     <?= $this->Form->end() ?>
                 </div>
             </div>

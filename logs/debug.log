@@ -153,3 +153,21 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2015-05-29 02:42:21 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\StringTemplate.php, line 216]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+vsprintf - [internal], line ??
+Cake\View\StringTemplate::format() - CORE\src\View\StringTemplate.php, line 216
+Cake\View\Helper\HtmlHelper::link() - CORE\src\View\Helper\HtmlHelper.php, line 371
+include - APP/Template\Menus\menu_principal.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_render() - CORE\src\View\View.php, line 786
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
