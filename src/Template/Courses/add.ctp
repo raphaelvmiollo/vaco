@@ -11,8 +11,7 @@
     <fieldset>
         <legend><?= __('Add Course') ?></legend>
         <?php
-            echo $this->Form->input('course_name');
-        ?>
+        echo $this->Form->input('course_name');?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>
     <?= $this->Form->end() ?>

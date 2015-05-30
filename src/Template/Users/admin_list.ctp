@@ -25,6 +25,7 @@ $this->start('sidebar');?>
                     </tr>
                 </thead>
                 <tbody>
+                    
                     <?php foreach ($users as $user): ?>
                         <?php if ((($this->Number->format($user->type)) == 2)
                                || (($this->Number->format($user->type)) == 4)): ?>
@@ -45,6 +46,7 @@ $this->start('sidebar');?>
                             </tr>
                         <?php endif; ?>
                     <?php endforeach; ?>
+                            
                 </tbody>
             </table>
             <div class="paginator">
@@ -57,4 +59,5 @@ $this->start('sidebar');?>
             </div>
         </div>
     </div>
+
 <?php $this->end(); ?>

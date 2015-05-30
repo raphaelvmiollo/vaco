@@ -20,6 +20,7 @@ $this->start('sidebar');?>
                     </tr>
                 </thead>
                 <tbody>
+                    
                 <?php foreach ($courses as $course): ?>
                         <tr>
                             <td><?= $this->Number->format($course->idcourse) ?></td>
@@ -30,7 +31,8 @@ $this->start('sidebar');?>
                             </td>
                         </tr>
 
-                <?php endforeach; ?>
+                <?php endforeach;?> 
+                
                 </tbody>
             </table>
             <div class="paginator">
@@ -43,4 +45,5 @@ $this->start('sidebar');?>
             </div>
         </div>
     </div>
+
 <?php $this->end(); ?>

@@ -1,6 +1,6 @@
 <?php $this->extend('/Menus/menu_principal');
-
 $this->start('sidebar');?>
+
     <div class="container">
         <div class="row">
             <div class="col-sm-5">
@@ -24,4 +24,5 @@ $this->start('sidebar');?>
             <div class="col-sm-7"></div>
         </div>
     </div>
+
 <?php $this->end(); ?>

@@ -7,7 +7,6 @@ $this->start('sidebar');?>
                 <div class="users form large-10 medium-9 columns">
                     <h2>Adicionar Usuário</h2>
                     <br>
-                   
                     <?= $this->Form->create($user); ?>
                     <fieldset>
                         <?php
