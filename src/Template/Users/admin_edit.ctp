@@ -13,7 +13,8 @@ $this->start('sidebar');?>
                     echo $this->Form->input('email', array('class' => 'form-control'));
                     echo $this->Form->input('login', array('class' => 'form-control'));
                     //echo $this->Form->input('password', array('class' => 'form-control'));
-                    echo $this->Form->input('type', array('class' => 'form-control'));
+                    echo '<strong>Tipo: </strong>';
+                    echo $this->Form->select('type' ,[1 => 'Aluno', 2 => 'Membro do Colegiado'], ['class' => 'form-control']); 
                     echo $this->Form->input('course_id', ['options' => $courses], array('class' => 'form-control'));
                     ?>
                 </fieldset>

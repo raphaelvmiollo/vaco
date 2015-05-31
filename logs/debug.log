@@ -171,3 +171,199 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2015-05-31 18:00:26 Notice: Notice (8): Undefined variable: nome in [C:\xampp\htdocs\vaco\src\Template\Menus\menu_principal.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Menus\menu_principal.ctp, line 84
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_render() - CORE\src\View\View.php, line 786
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-05-31 18:05:41 Notice: Notice (8): Undefined variable: nome in [C:\xampp\htdocs\vaco\src\Template\Menus\menu_principal.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Menus\menu_principal.ctp, line 84
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_render() - CORE\src\View\View.php, line 786
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-05-31 18:07:19 Notice: Notice (8): Undefined variable: nome in [C:\xampp\htdocs\vaco\src\Template\Menus\menu_principal.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Menus\menu_principal.ctp, line 84
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_render() - CORE\src\View\View.php, line 786
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-05-31 18:12:22 Notice: Notice (8): Undefined variable: nome in [C:\xampp\htdocs\vaco\src\Template\Menus\menu_principal.ctp, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Menus\menu_principal.ctp, line 84
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::_render() - CORE\src\View\View.php, line 786
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-05-31 18:25:41 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\StringTemplate.php, line 216]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+vsprintf - [internal], line ??
+Cake\View\StringTemplate::format() - CORE\src\View\StringTemplate.php, line 216
+Cake\View\Helper\PaginatorHelper::sort() - CORE\src\View\Helper\PaginatorHelper.php, line 405
+include - APP/Template\Classifications\coord_list.ctp, line 17
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-05-31 18:26:58 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\StringTemplate.php, line 216]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+vsprintf - [internal], line ??
+Cake\View\StringTemplate::format() - CORE\src\View\StringTemplate.php, line 216
+Cake\View\Helper\PaginatorHelper::sort() - CORE\src\View\Helper\PaginatorHelper.php, line 405
+include - APP/Template\Classifications\coord_list.ctp, line 17
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-05-31 18:26:58 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\StringTemplate.php, line 216]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+vsprintf - [internal], line ??
+Cake\View\StringTemplate::format() - CORE\src\View\StringTemplate.php, line 216
+Cake\View\Helper\PaginatorHelper::sort() - CORE\src\View\Helper\PaginatorHelper.php, line 405
+include - APP/Template\Classifications\coord_list.ctp, line 17
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-05-31 18:27:11 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\StringTemplate.php, line 216]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+vsprintf - [internal], line ??
+Cake\View\StringTemplate::format() - CORE\src\View\StringTemplate.php, line 216
+Cake\View\Helper\PaginatorHelper::sort() - CORE\src\View\Helper\PaginatorHelper.php, line 405
+include - APP/Template\Classifications\coord_list.ctp, line 17
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-05-31 18:31:25 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\StringTemplate.php, line 216]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+vsprintf - [internal], line ??
+Cake\View\StringTemplate::format() - CORE\src\View\StringTemplate.php, line 216
+Cake\View\Helper\PaginatorHelper::sort() - CORE\src\View\Helper\PaginatorHelper.php, line 405
+include - APP/Template\Classifications\coord_list.ctp, line 17
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-05-31 18:33:07 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\StringTemplate.php, line 216]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+vsprintf - [internal], line ??
+Cake\View\StringTemplate::format() - CORE\src\View\StringTemplate.php, line 216
+Cake\View\Helper\PaginatorHelper::sort() - CORE\src\View\Helper\PaginatorHelper.php, line 405
+include - APP/Template\Classifications\coord_list.ctp, line 17
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-05-31 18:33:18 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\StringTemplate.php, line 216]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+vsprintf - [internal], line ??
+Cake\View\StringTemplate::format() - CORE\src\View\StringTemplate.php, line 216
+Cake\View\Helper\PaginatorHelper::sort() - CORE\src\View\Helper\PaginatorHelper.php, line 405
+include - APP/Template\Classifications\coord_list.ctp, line 17
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-05-31 18:48:52 Notice: Notice (8): Array to string conversion in [C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\StringTemplate.php, line 216]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+vsprintf - [internal], line ??
+Cake\View\StringTemplate::format() - CORE\src\View\StringTemplate.php, line 216
+Cake\View\Helper\PaginatorHelper::sort() - CORE\src\View\Helper\PaginatorHelper.php, line 405
+include - APP/Template\Classifications\coord_list.ctp, line 17
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 583
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+

@@ -72,10 +72,10 @@
                         <?= $this->Html->link(__('Página Inicial'), array('controller' => 'Pages', 'action' => 'index')); ?>
                     </li>
                     <li class="button-bar">
-                        <?= $this->Html->link(__('Usuários'), ['controller' => 'Users', 'action' => 'adminList']) ?>
+                        <?= $this->Html->link(__('Usuários'), ['controller' => 'Users', 'action' => 'coordList']) ?>
                     </li>
                     <li class="button-bar">
-                        <?= $this->Html->link(__('Cursos'), ['controller' => 'Courses', 'action' => 'adminList']) ?>
+                        <?= $this->Html->link(__('Categorias de ACG'), ['controller' => 'Classifications', 'action' => 'coordList']) ?>
                     </li>
                 </ul>
 

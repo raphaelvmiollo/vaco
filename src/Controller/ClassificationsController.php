@@ -16,26 +16,10 @@ class ClassificationsController extends AppController
      *
      * @return void
      */
-    public function index()
-    {
+    public function coordList(){
+        $this->set('nome', $this->Auth->user('name'));
         $this->set('classifications', $this->paginate($this->Classifications));
         $this->set('_serialize', ['classifications']);
-    }
-
-    /**
-     * View method
-     *
-     * @param string|null $id Classification id.
-     * @return void
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
-    public function view($id = null)
-    {
-        $classification = $this->Classifications->get($id, [
-            'contain' => ['Activities']
-        ]);
-        $this->set('classification', $classification);
-        $this->set('_serialize', ['classification']);
     }
 
     /**
@@ -43,14 +27,14 @@ class ClassificationsController extends AppController
      *
      * @return void Redirects on successful add, renders view otherwise.
      */
-    public function add()
-    {
+    public function coordAdd(){
+        $this->set('nome', $this->Auth->user('name'));
         $classification = $this->Classifications->newEntity();
         if ($this->request->is('post')) {
             $classification = $this->Classifications->patchEntity($classification, $this->request->data);
             if ($this->Classifications->save($classification)) {
                 $this->Flash->success('The classification has been saved.');
-                return $this->redirect(['action' => 'index']);
+                return $this->redirect(['action' => 'coordList']);
             } else {
                 $this->Flash->error('The classification could not be saved. Please, try again.');
             }
@@ -66,8 +50,8 @@ class ClassificationsController extends AppController
      * @return void Redirects on successful edit, renders view otherwise.
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
-    public function edit($id = null)
-    {
+    public function coordEdit($id = null){
+        $this->set('nome', $this->Auth->user('name'));
         $classification = $this->Classifications->get($id, [
             'contain' => []
         ]);
@@ -75,7 +59,7 @@ class ClassificationsController extends AppController
             $classification = $this->Classifications->patchEntity($classification, $this->request->data);
             if ($this->Classifications->save($classification)) {
                 $this->Flash->success('The classification has been saved.');
-                return $this->redirect(['action' => 'index']);
+                return $this->redirect(['action' => 'coordList']);
             } else {
                 $this->Flash->error('The classification could not be saved. Please, try again.');
             }
@@ -91,8 +75,7 @@ class ClassificationsController extends AppController
      * @return void Redirects to index.
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
-    public function delete($id = null)
-    {
+    public function coordDelete($id = null){
         $this->request->allowMethod(['post', 'delete']);
         $classification = $this->Classifications->get($id);
         if ($this->Classifications->delete($classification)) {
@@ -100,6 +83,6 @@ class ClassificationsController extends AppController
         } else {
             $this->Flash->error('The classification could not be deleted. Please, try again.');
         }
-        return $this->redirect(['action' => 'index']);
+        return $this->redirect(['action' => 'coordList']);
     }
 }

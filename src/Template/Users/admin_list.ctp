@@ -41,7 +41,7 @@ $this->start('sidebar');?>
                                 </td>
                                 <td class="actions">
                                     <?= $this->Html->link(__('Editar'), ['controller'=>'users', 'action' => 'adminEdit', $user->iduser], ['class' => 'btn btn-default']) ?>
-                                    <?= $this->Form->postLink(__('Deletar'), ['action' => 'administradorDelete', $user->iduser], ['confirm' => __('Você tem certeza que quer deletar # {0}?', $user->iduser), 'class' => 'btn btn-default']) ?>
+                                    <?= $this->Form->postLink(__('Deletar'), ['action' => 'adminDelete', $user->iduser], ['confirm' => __('Você tem certeza que quer deletar # {0}?', $user->iduser), 'class' => 'btn btn-default']) ?>
                                 </td>
                             </tr>
                         <?php endif; ?>
@@ -52,7 +52,7 @@ $this->start('sidebar');?>
             <div class="paginator">
                 <ul class="pagination">
                     <?= $this->Paginator->prev('< ' . __('anterir')) ?>
-                    <?= $this->Paginator->numbers() ?>o
+                    <?= $this->Paginator->numbers() ?>
                     <?= $this->Paginator->next(__('próximo') . ' >') ?>
                 </ul>
                 <p><?= $this->Paginator->counter() ?></p>
