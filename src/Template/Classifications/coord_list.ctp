@@ -14,15 +14,15 @@ $this->start('sidebar');?>
         <table cellpadding="0" cellspacing="0" class="table">
             <thead>
                 <tr>
-                    <th><?= $this->Paginator->sort('idclassification') ?></th>
-                    <th><?= $this->Paginator->sort('classification_name') ?></th>
+                    <!--<th><?= $this->Paginator->sort('idclassification', 'ID') ?></th>-->
+                    <th><?= $this->Paginator->sort('classification_name', 'Nome da Categoria') ?></th>
                     <th class="actions"><?= __('Actions') ?></th>
                 </tr>
             </thead>
             <tbody>
                 <?php foreach ($classifications as $classification): ?>
                     <tr>
-                        <td><?= $this->Number->format($classification->idclassification) ?></td>
+                        <!--<td><?= $this->Number->format($classification->idclassification) ?></td>-->
                         <td><?= h($classification->classification_name) ?></td>
                         <td class="actions">
                             <?= $this->Html->link(__('Editar'), ['action' => 'coordEdit', $classification->idclassification], ['class' => 'btn btn-default']) ?>
@@ -34,9 +34,9 @@ $this->start('sidebar');?>
         </table>
         <div class="paginator">
             <ul class="pagination">
-                <?= $this->Paginator->prev('< ' . __('previous')) ?>
+                <?= $this->Paginator->prev('< ' . __('Anterior')) ?>
                 <?= $this->Paginator->numbers() ?>
-                <?= $this->Paginator->next(__('next') . ' >') ?>
+                <?= $this->Paginator->next(__('Próximo') . ' >') ?>
             </ul>
             <p><?= $this->Paginator->counter() ?></p>
         </div>

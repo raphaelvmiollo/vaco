@@ -618,8 +618,7 @@ class Controller implements EventListenerInterface
      * @link http://book.cakephp.org/3.0/en/controllers.html#Controller::paginate
      * @throws \RuntimeException When no compatible table object can be found.
      */
-    public function paginate($object = null)
-    {
+    public function paginate($object = null){
         if (is_object($object)) {
             $table = $object;
         }

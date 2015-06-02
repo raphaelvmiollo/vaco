@@ -9,9 +9,10 @@ $this->start('sidebar');?>
                 <br>
                     <?= $this->Form->create($course); ?>
                 <fieldset>
-                    <?php echo $this->Form->input('course_name', array('class' => 'form-control'));?>
+                    <?php echo $this->Form->input('course_name', ['class' => 'form-control', 'type' => 'text', 'label' => 'Nome do curso:']);?>
                 </fieldset>
-                <?= $this->Form->button(__('Submit')) ?>
+                <br>
+                <?= $this->Form->button(__('Editar'), ['class' => 'btn btn-primary']) ?>
                 <?= $this->Form->end() ?>
             </div>
         </div>

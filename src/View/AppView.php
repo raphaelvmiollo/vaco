@@ -29,7 +29,24 @@ class AppView extends View
      *
      * @return void
      */
-    public function initialize()
-    {
+    public function initialize(){
+    }
+    
+     public function typeOfUser($type = null) {
+        if($type == 1){
+            return "Aluno";
+        }
+        else if($type == 2){
+           return "Membro do Colegiado";
+        }
+        else if($type == 3) {
+           return "Coordenação";
+        }
+        else if($type == 4) {
+            return "Administrador";
+        }
+        else {
+            return "Não Especificado";
+        }
     }
 }

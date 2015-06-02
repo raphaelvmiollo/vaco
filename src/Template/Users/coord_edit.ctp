@@ -9,11 +9,12 @@ $this->start('sidebar');?>
                     <?= $this->Form->create($user); ?>
                 <fieldset>
                     <?php
-                    echo $this->Form->input('name', ['class' => 'form-control', 'type' => 'text', 'label' => 'Nome:']);                        echo $this->Form->input('email', ['class' => 'form-control', 'type' => 'text', 'label' => 'Email:', 'value'  => '']);
-                    echo $this->Form->input('login', ['class' => 'form-control', 'type' => 'text', 'label' => 'Login:']);                        
+                    echo $this->Form->input('name', ['class' => 'form-control', 'type' => 'text', 'label' => 'Nome:']);
+                    echo $this->Form->input('login',['class' => 'form-control', 'type' => 'text', 'label' => 'Login:']);  
+                    echo $this->Form->input('email',['class' => 'form-control', 'type' => 'text', 'label' => 'Email:']);  
                     //echo $this->Form->input('password', array('class' => 'form-control'));
                     echo '<strong>Tipo: </strong>';
-                    echo $this->Form->select('type' ,[1 => 'Aluno', 2 => 'Membro do Colegiado'], ['class' => 'form-control']); 
+                    echo $this->Form->select('type' ,[1 => 'Aluno', 2 => 'Membro do Colegiado'],['class' => 'form-control']);  
                     echo $this->Form->input('course_id', ['type' => 'hidden', 'value' =>  $this->request->session()->read('Auth.User.course_id')]);
                     ?>
                 </fieldset>

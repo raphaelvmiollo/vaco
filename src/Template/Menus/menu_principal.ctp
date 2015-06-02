@@ -18,10 +18,10 @@
                         <?= $this->Html->link(__('Página Inicial'), array('controller' => 'Pages', 'action' => 'index')); ?>
                     </li>
                     <li class="button-bar">
-                        <?= $this->Html->link(__('Usuários'), ['controller' => 'Users', 'action' => 'adminList']) ?>
+                        <?= $this->Html->link(__('Enviar ACG'), ['controller' => 'Activities', 'action' => 'add']) ?>
                     </li>
                     <li class="button-bar">
-                        <?= $this->Html->link(__('Cursos'), ['controller' => 'Courses', 'action' => 'adminList']) ?>
+                        <?= $this->Html->link(__('Visualisar ACG'), ['controller' => 'Activities', 'action' => 'index']) ?>
                     </li>
                 </ul>
 
@@ -45,10 +45,7 @@
                         <?= $this->Html->link(__('Página Inicial'), array('controller' => 'Pages', 'action' => 'index')); ?>
                     </li>
                     <li class="button-bar">
-                        <?= $this->Html->link(__('Usuários'), ['controller' => 'Users', 'action' => 'adminList']) ?>
-                    </li>
-                    <li class="button-bar">
-                        <?= $this->Html->link(__('Cursos'), ['controller' => 'Courses', 'action' => 'adminList']) ?>
+                        <?= $this->Html->link(__('Avaliar ACGs'), ['controller' => 'Activities', 'action' => 'index']) ?>
                     </li>
                 </ul>
 
@@ -70,6 +67,13 @@
                 <ul class="nav navbar-nav">
                     <li class="button"> 
                         <?= $this->Html->link(__('Página Inicial'), array('controller' => 'Pages', 'action' => 'index')); ?>
+                    </li>
+                    <li class="button">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">ACGs<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li> <?= $this->Html->link(__('Listar'),  ['controller' => 'Activities', 'action' => 'coordList']) ?></li>
+                            <li><?= $this->Html->link(__('Avaliar'), ['controller' => 'Activities', 'action' => 'coordAvalia']) ?></li>
+                        </ul>
                     </li>
                     <li class="button-bar">
                         <?= $this->Html->link(__('Usuários'), ['controller' => 'Users', 'action' => 'coordList']) ?>

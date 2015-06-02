@@ -14,8 +14,8 @@ $this->start('sidebar');?>
             <table cellpadding="0" cellspacing="0" class="table">
                 <thead>
                     <tr>
-                        <th><?= $this->Paginator->sort('ID Curso') ?></th>
-                        <th><?= $this->Paginator->sort('Nome') ?></th>
+                        <th><?= $this->Paginator->sort('idcourse', 'Id') ?></th>
+                        <th><?= $this->Paginator->sort('couse_name', 'Nome do Curso') ?></th>
                         <th class="actions"><?= __('Ações') ?></th>
                     </tr>
                 </thead>

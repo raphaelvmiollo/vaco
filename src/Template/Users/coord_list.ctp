@@ -10,17 +10,17 @@ $this->start('sidebar');?>
                     <?= $this->Html->Link(__('Adicionar Usuário'), array('controller' => 'Users', 'action' => 'coordAdd') , ['class' => 'btn btn-primary', 'style' => 'margin-top:15px']) ?> </li>
             </div>
         </div>
+        
         <div class="users index large-10 medium-9 columns">
             <table cellpadding="0" cellspacing="0" class="table">
                 <thead>
                     <tr>
-                        <th><?= $this->Paginator->sort('Id') ?></th>
-                        <th><?= $this->Paginator->sort('Nome') ?></th>
-                        <th><?= $this->Paginator->sort('e-mail') ?></th>
-                        <th><?= $this->Paginator->sort('login') ?></th>
-                    <!--<th><?= $this->Paginator->sort('Senha') ?></th>-->
-                        <th><?= $this->Paginator->sort('Tipo') ?></th>
-                        <th><?= $this->Paginator->sort('Curso') ?></th>
+                        <th><?= $this->Paginator->sort('login', 'Login') ?></th>
+                        <th><?= $this->Paginator->sort('name', 'Nome') ?></th>
+                        <th><?= $this->Paginator->sort('email', 'E-mail') ?></th>
+                    <!--<th><?= $this->Paginator->sort('password') ?></th>-->
+                        <th><?= $this->Paginator->sort('type', 'Tipo') ?></th>
+                        <th><?= $this->Paginator->sort('course_id', 'Curso') ?></th>
                         <th class="actions"><?= __('Ações') ?></th>
                     </tr>
                 </thead>
@@ -31,12 +31,11 @@ $this->start('sidebar');?>
                                && (($this->Number->format($user->course_id)) 
                                == ($this->request->session()->read('Auth.User.course_id')))): ?>
                             <tr>
-                                <td><?= $this->Number->format($user->iduser) ?></td>
+                                <td><?= h($user->login) ?></td>
                                 <td><?= h($user->name) ?></td>
                                 <td><?= h($user->email) ?></td>
-                                <td><?= h($user->login) ?></td>
                            <!-- <td><?= h($user->password) ?></td>  -->
-                                <td><?= $this->Number->format($user->type) ?></td>
+                                <td><?= $this->typeOfUser($this->Number->format($user->type)) ?></td>
                                 <td>
                                 <?= $user->has('course') ? $user->course->course_name : '' ?>
                                 </td>
@@ -51,9 +50,9 @@ $this->start('sidebar');?>
             </table>
             <div class="paginator">
                 <ul class="pagination">
-                    <?= $this->Paginator->prev('< ' . __('anterir')) ?>
+                    <?= $this->Paginator->prev('< ' . __('Anterior')) ?>
                     <?= $this->Paginator->numbers() ?>
-                    <?= $this->Paginator->next(__('próximo') . ' >') ?>
+                    <?= $this->Paginator->next(__('Próximo') . ' >') ?>
                 </ul>
                 <p><?= $this->Paginator->counter() ?></p>
             </div>

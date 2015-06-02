@@ -15650,3 +15650,4152 @@ Stack Trace:
 #1 {main}
 
 
+2015-06-01 19:03:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:05:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:05:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:05:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:05:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:05:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:05:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:06:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:06:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:06:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:07:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:07:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:07:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:07:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:07:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:07:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:07:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-01 19:08:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:22:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:22:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:22:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:22:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:22:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:22:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:22:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:22:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:24:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:24:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:24:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:24:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:25:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:25:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:25:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:25:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:26:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:26:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:27:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:27:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:27:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:27:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:27:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:27:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:28:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:28:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:28:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:28:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:29:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:29:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:29:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:29:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:30:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:30:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:30:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:30:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:31:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:31:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:31:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:31:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:34:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:34:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:35:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:36:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:36:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:36:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:36:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:36:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:36:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:36:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:36:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:37:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:37:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:37:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:37:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:37:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:37:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:37:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:37:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:37:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:37:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:37:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:37:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:39:56 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\vaco\src\Template\Courses\admin_add.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 01:39:56 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<'
+Request URL: /courses/adminAdd
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-02 01:40:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:40:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:40:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:40:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:41:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:41:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:41:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:41:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:41:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:41:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:41:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:41:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:41:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:41:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:41:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:42:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:42:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:48:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:48:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:48:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:48:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:49:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:49:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:49:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:50:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:50:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:53:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:53:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:53:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:53:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:55:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:55:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:56:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:56:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:57:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:57:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 01:58:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:00:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:00:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:00:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:00:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:00:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:01:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:01:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:02:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:02:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:02:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:02:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:04:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:04:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:04:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:04:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:04:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:04:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:04:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:04:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:04:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:04:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:06:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:07:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:07:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:08:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:08:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:10:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:10:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:10:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:10:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:10:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:10:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:10:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:10:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:10:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:10:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:10:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:10:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:12:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:12:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:12:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:12:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:12:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:13:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:13:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:13:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:13:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:15:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:15:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:15:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:15:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:15:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:15:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:16:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:16:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:16:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:16:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:16:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:16:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:22:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:22:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:22:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:22:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:25:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:25:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:28:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:28:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:29:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:29:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:29:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:29:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:40:51 Error: Fatal Error (1): Call to undefined function typeOfUser() in [C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 02:40:51 Error: Fatal Error (1): Call to undefined function typeOfUser() in [C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 02:40:52 Error: [Cake\Error\FatalErrorException] Call to undefined function typeOfUser()
+Request URL: /users/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-02 02:41:00 Error: Fatal Error (1): Call to undefined function typeOfUser() in [C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 02:41:00 Error: [Cake\Error\FatalErrorException] Call to undefined function typeOfUser()
+Request URL: /users/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-02 02:43:32 Error: Fatal Error (1): Call to undefined method App\View\AppView::typeOfUser() in [C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 02:43:33 Error: [Cake\Error\FatalErrorException] Call to undefined method App\View\AppView::typeOfUser()
+Request URL: /users/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-02 02:43:36 Error: Fatal Error (1): Call to undefined method App\View\AppView::typeOfUser() in [C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 02:43:37 Error: [Cake\Error\FatalErrorException] Call to undefined method App\View\AppView::typeOfUser()
+Request URL: /users/coordList?sort=login&direction=asc
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-02 02:43:40 Error: Fatal Error (1): Call to undefined method App\View\AppView::typeOfUser() in [C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 02:43:41 Error: [Cake\Error\FatalErrorException] Call to undefined method App\View\AppView::typeOfUser()
+Request URL: /users/coordList?sort=login&direction=asc
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-02 02:43:44 Error: Fatal Error (1): Call to undefined method App\View\AppView::typeOfUser() in [C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 02:43:45 Error: Fatal Error (1): Call to undefined method App\View\AppView::typeOfUser() in [C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 02:43:45 Error: [Cake\Error\FatalErrorException] Call to undefined method App\View\AppView::typeOfUser()
+Request URL: /users/coordList?sort=name&direction=asc
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-02 02:43:46 Error: Fatal Error (1): Call to undefined method App\View\AppView::typeOfUser() in [C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 02:43:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:43:55 Error: Fatal Error (1): Call to undefined method App\View\AppView::typeOfUser() in [C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 02:43:55 Error: [Cake\Error\FatalErrorException] Call to undefined method App\View\AppView::typeOfUser()
+Request URL: /users/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-02 02:45:14 Error: Fatal Error (1): Call to undefined method App\View\AppView::typeOfUser() in [C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 02:45:15 Error: [Cake\Error\FatalErrorException] Call to undefined method App\View\AppView::typeOfUser()
+Request URL: /users/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-02 02:45:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:45:20 Error: Fatal Error (1): Call to undefined method App\View\AppView::typeOfUser() in [C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 02:45:21 Error: [Cake\Error\FatalErrorException] Call to undefined method App\View\AppView::typeOfUser()
+Request URL: /users/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-02 02:46:50 Error: Fatal Error (1): Call to undefined method App\View\AppView::typeOfUser() in [C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 02:46:51 Error: [Cake\Error\FatalErrorException] Call to undefined method App\View\AppView::typeOfUser()
+Request URL: /users/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-02 02:46:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:47:53 Error: Fatal Error (1): Call to undefined method App\View\AppView::typeOfUser() in [C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 02:47:53 Error: [Cake\Error\FatalErrorException] Call to undefined method App\View\AppView::typeOfUser()
+Request URL: /users/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-02 02:48:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:48:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:49:28 Error: Fatal Error (1): Call to a member function typeOfUser() on a non-object in [C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-02 02:49:29 Error: [Cake\Error\FatalErrorException] Call to a member function typeOfUser() on a non-object
+Request URL: /users/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-02 02:49:46 Error: [Cake\View\Exception\MissingHelperException] Helper class controllerHelper could not be found.
+Exception Attributes: array (
+  'class' => 'controllerHelper',
+  'plugin' => NULL,
+)
+Request URL: /users/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(86): Cake\View\HelperRegistry->_throwMissingClassError('controller', NULL)
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('controller')
+#2 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(732): Cake\View\HelperRegistry->__isset('controller')
+#3 C:\xampp\htdocs\vaco\src\Template\Users\coord_list.ctp(40): Cake\View\View->__get('controller')
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render(NULL, NULL)
+#8 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#10 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-06-02 02:50:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:50:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:51:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:51:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:51:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:51:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:51:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:51:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:51:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:52:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:52:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:52:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:52:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:52:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:52:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:52:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:52:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:52:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:52:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:52:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:52:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:52:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:52:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:53:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:53:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:53:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:53:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:53:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:53:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:53:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:53:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:53:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:53:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:53:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:54:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:54:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:54:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:54:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:55:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:55:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:56:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:56:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:56:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:56:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:56:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:56:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:57:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:57:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:58:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:58:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 02:58:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:06:51 Error: [Cake\View\Exception\MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => NULL,
+)
+Request URL: /activities/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(86): Cake\View\HelperRegistry->_throwMissingClassError('User', NULL)
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\HelperRegistry.php(66): Cake\Core\ObjectRegistry->load('User')
+#2 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(732): Cake\View\HelperRegistry->__isset('User')
+#3 C:\xampp\htdocs\vaco\src\Template\Activities\coord_list.ctp(26): Cake\View\View->__get('User')
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render(NULL, NULL)
+#8 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#9 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#10 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-06-02 03:10:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:10:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:19:01 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `Activities__*`, user.nome AS nome_user AS `user__nome` AS `nome_user` FROM a' at line 1
+Request URL: /activities/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(132): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\vaco\src\Template\Activities\coord_list.ctp(24): Cake\ORM\Query->getIterator()
+#10 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#12 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render(NULL, NULL)
+#14 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#15 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#16 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
+2015-06-02 03:19:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:19:47 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `Activities__*`, user.name AS name_user AS `user__name` AS `name_user` FROM a' at line 1
+Request URL: /activities/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(132): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\vaco\src\Template\Activities\coord_list.ctp(24): Cake\ORM\Query->getIterator()
+#10 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#12 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render(NULL, NULL)
+#14 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#15 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#16 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
+2015-06-02 03:20:37 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `Activity__*`, user.name AS name_user AS `user__name` AS `name_user` FROM act' at line 1
+Request URL: /activities/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(132): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\vaco\src\Template\Activities\coord_list.ctp(24): Cake\ORM\Query->getIterator()
+#10 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#12 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render(NULL, NULL)
+#14 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#15 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#16 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
+2015-06-02 03:20:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `Activities__*`, user.name AS name_user AS `user__name` AS `name_user` FROM a' at line 1
+Request URL: /activities/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#8 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(132): Cake\ORM\Query->all()
+#9 C:\xampp\htdocs\vaco\src\Template\Activities\coord_list.ctp(24): Cake\ORM\Query->getIterator()
+#10 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(815): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(775): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#12 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\View\View.php(463): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(583): Cake\View\View->render(NULL, NULL)
+#14 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#15 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#16 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#17 {main}
+
+
+2015-06-02 03:21:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:21:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:26:39 Error: [InvalidArgumentException] Activities is not associated with Users
+Request URL: /activities/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\ActivitiesTable), 'Users', Array, Array)
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\ActivitiesTable))
+#2 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\ActivitiesTable))
+#3 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\ActivitiesTable), true)
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(641): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\ActivitiesTable), Array)
+#14 C:\xampp\htdocs\vaco\src\Controller\ActivitiesController.php(177): Cake\Controller\Controller->paginate(Object(App\Model\Table\ActivitiesTable))
+#15 [internal function]: App\Controller\ActivitiesController->coordlist()
+#16 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#19 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-06-02 03:27:23 Error: [InvalidArgumentException] Activities is not associated with Users
+Request URL: /activities/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\ActivitiesTable), 'Users', Array, Array)
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\ActivitiesTable))
+#2 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\ActivitiesTable))
+#3 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\ActivitiesTable), true)
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(641): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\ActivitiesTable), Array)
+#14 C:\xampp\htdocs\vaco\src\Controller\ActivitiesController.php(177): Cake\Controller\Controller->paginate(Object(App\Model\Table\ActivitiesTable))
+#15 [internal function]: App\Controller\ActivitiesController->coordlist()
+#16 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#19 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-06-02 03:28:57 Error: [InvalidArgumentException] Activities is not associated with Users
+Request URL: /activities/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\ActivitiesTable), 'Users', Array, Array)
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\ActivitiesTable))
+#2 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\ActivitiesTable))
+#3 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\ActivitiesTable), true)
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(641): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\ActivitiesTable), Array)
+#14 C:\xampp\htdocs\vaco\src\Controller\ActivitiesController.php(177): Cake\Controller\Controller->paginate(Object(App\Model\Table\ActivitiesTable))
+#15 [internal function]: App\Controller\ActivitiesController->coordlist()
+#16 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#19 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-06-02 03:29:29 Error: [InvalidArgumentException] Activities is not associated with Users
+Request URL: /activities/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\ActivitiesTable), 'Users', Array, Array)
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\ActivitiesTable))
+#2 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\ActivitiesTable))
+#3 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\ActivitiesTable), true)
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(641): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\ActivitiesTable), Array)
+#14 C:\xampp\htdocs\vaco\src\Controller\ActivitiesController.php(177): Cake\Controller\Controller->paginate(Object(App\Model\Table\ActivitiesTable))
+#15 [internal function]: App\Controller\ActivitiesController->coordlist()
+#16 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#19 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-06-02 03:29:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:29:44 Error: [InvalidArgumentException] Activities is not associated with Users
+Request URL: /activities/coordList
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(233): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\ActivitiesTable), 'Users', Array, Array)
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(338): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\ActivitiesTable))
+#2 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(317): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\ActivitiesTable))
+#3 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(670): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\ActivitiesTable), true)
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(626): Cake\ORM\Query->_transformQuery()
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(120): Cake\ORM\Query->sql()
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#11 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#12 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(169): Cake\ORM\Query->all()
+#13 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(641): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\ActivitiesTable), Array)
+#14 C:\xampp\htdocs\vaco\src\Controller\ActivitiesController.php(177): Cake\Controller\Controller->paginate(Object(App\Model\Table\ActivitiesTable))
+#15 [internal function]: App\Controller\ActivitiesController->coordlist()
+#16 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#19 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2015-06-02 03:30:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:30:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:31:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:31:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:32:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:32:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:33:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:33:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:33:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:33:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:37:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-02 03:37:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
