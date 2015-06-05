@@ -13,6 +13,7 @@ $this->start('sidebar');?>
                     ?>
                 </fieldset>
                 <br>
+                 <?= $this->Html->Link(__('Cancela'), array('controller' => 'Classifications', 'action' => 'coordList'), ['class' => 'btn btn-danger']);?>
                 <?= $this->Form->button(__('Adcionar'), ['class' => 'btn btn-primary']) ?>  
                 <?= $this->Form->end() ?>
             </div>

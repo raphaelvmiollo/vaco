@@ -26,10 +26,6 @@ $this->start('sidebar');?>
                 </thead>
                 <tbody>   
                     <?php foreach ($users as $user): ?>
-                        <?php if ((($this->Number->format($user->type)) == 1)
-                               || (($this->Number->format($user->type)) == 2)
-                               && (($this->Number->format($user->course_id)) 
-                               == ($this->request->session()->read('Auth.User.course_id')))): ?>
                             <tr>
                                 <td><?= h($user->login) ?></td>
                                 <td><?= h($user->name) ?></td>
@@ -44,7 +40,6 @@ $this->start('sidebar');?>
                                     <?= $this->Form->postLink(__('Deletar'), ['action' => 'coordDelete', $user->iduser], ['confirm' => __('Você tem certeza que quer deletar # {0}?', $user->iduser), 'class' => 'btn btn-default']) ?>
                                 </td>
                             </tr>
-                        <?php endif; ?>
                     <?php endforeach; ?>            
                 </tbody>
             </table>

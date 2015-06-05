@@ -494,18 +494,18 @@ class DateTimeWidget implements WidgetInterface
     protected function _getMonthNames($leadingZero = false)
     {
         $months = [
-            '01' => __d('cake', 'January'),
-            '02' => __d('cake', 'February'),
-            '03' => __d('cake', 'March'),
-            '04' => __d('cake', 'April'),
-            '05' => __d('cake', 'May'),
-            '06' => __d('cake', 'June'),
-            '07' => __d('cake', 'July'),
-            '08' => __d('cake', 'August'),
-            '09' => __d('cake', 'September'),
-            '10' => __d('cake', 'October'),
-            '11' => __d('cake', 'November'),
-            '12' => __d('cake', 'December'),
+            '01' => __d('cake', 'Janeiro'),
+            '02' => __d('cake', 'Fevereiro'),
+            '03' => __d('cake', 'Março'),
+            '04' => __d('cake', 'Abril'),
+            '05' => __d('cake', 'Maio'),
+            '06' => __d('cake', 'Junho'),
+            '07' => __d('cake', 'Julho'),
+            '08' => __d('cake', 'Agosto'),
+            '09' => __d('cake', 'Setembro'),
+            '10' => __d('cake', 'Outubro'),
+            '11' => __d('cake', 'Novembro'),
+            '12' => __d('cake', 'Dezembro'),
         ];
 
         if ($leadingZero === false) {

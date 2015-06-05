@@ -10,9 +10,8 @@ use App\Controller\AppController;
  * @property \App\Model\Table\UsersTable $Users
  */
 class UsersController extends AppController {
-   
     //MÉTODOS GERAIS
-    
+
     /**
      * Index method
      *
@@ -37,7 +36,7 @@ class UsersController extends AppController {
                 $this->redirect(array('controller' => 'Pages', 'action' => 'index'));
                 return $this->redirect($this->Auth->redirectUrl());
             }
-            $this->Flash->error('Seu login ou senha estão incorretos.');
+            $this->Flash->error("Login ou Senha estão incorretos.");
         }
     }
 
@@ -50,19 +49,27 @@ class UsersController extends AppController {
         return $this->redirect($this->Auth->logout());
     }
 
-    public function alterPass($id = null) {
+    /**
+     * Change Password Method
+     * @param type $id
+     */
+    public function changePass($id = null) {
         $id = $this->Auth->user('iduser');
         $this->set('nome', $this->Auth->user('name'));
-        $user = $this->Users->get($id, [
-            'contain' => []
-        ]);
+        $user = $this->Users->get($id, [ 'contain' => []]);
+        $verify = 1;
+
         if ($this->request->is(['patch', 'post', 'put'])) {
-            if ($this->request->data['oldpassword'] == '123') {
-                $user = $this->Users->patchEntity($user, $this->request->data);
-                if ($this->Users->save($user)) {
-                    $this->Flash->success('Senha alterada com sucesso!');
+            if ($verify) {
+                if ($this->request->data['newPassword1'] === $this->request->data['newPassword2']) {
+                    $user = $this->Users->patchEntity($user, $this->request->data);
+                    if ($this->Users->save($user)) {
+                        $this->Flash->success('Senha alterada com sucesso!');
+                    } else {
+                        $this->Flash->error('A senha não pode ser salva. Por favor tente mais tarde.');
+                    }
                 } else {
-                    $this->Flash->error('A senha não pode ser salva. Por favor tente mais tarde.');
+                    $this->Flash->error('As novas senhas não são iguais');
                 }
             } else {
                 $this->Flash->error('A sua senha atual está incorreta. Por favor tente novamente.');
@@ -72,9 +79,9 @@ class UsersController extends AppController {
         $this->set(compact('user', 'courses'));
         $this->set('_serialize', ['user']);
     }
-    
+
     //MÉTODOS DO ADMINISTRADOR
-    
+
     /**
      * 
      */
@@ -84,9 +91,11 @@ class UsersController extends AppController {
         $this->paginate = [
             'contain' => ['Courses']
         ];
-        $this->set('users', $this->paginate($this->Users));
+        $this->set('users', $this->paginate($this->Users->find('all',
+                ['conditions' => ['OR' => [['Users.type' => 3], ['Users.type' => 4]]]])));
         $this->set('_serialize', ['users']);
     }
+
     /**
      * 
      * @return type
@@ -107,6 +116,7 @@ class UsersController extends AppController {
         $this->set(compact('user', 'courses'));
         $this->set('_serialize', ['user']);
     }
+
     /**
      * 
      * @param type $id
@@ -130,6 +140,7 @@ class UsersController extends AppController {
         $this->set(compact('user', 'courses'));
         $this->set('_serialize', ['user']);
     }
+
     /**
      * 
      * @param type $id
@@ -145,9 +156,9 @@ class UsersController extends AppController {
         }
         return $this->redirect(['action' => 'adminList']);
     }
-    
+
     //MÉTODOS DA COORDENAÇÃO
-    
+
     /**
      * 
      */
@@ -157,9 +168,11 @@ class UsersController extends AppController {
         $this->paginate = [
             'contain' => ['Courses']
         ];
-        $this->set('users', $this->paginate($this->Users));
+        $this->set('users', $this->paginate($this->Users->find('all', ['conditions' => ['Users.course_id' => $this->Auth->user('course_id'),
+                                'OR' => [['Users.type' => 1], ['Users.type' => 2]]]])));
         $this->set('_serialize', ['users']);
     }
+
     /**
      * 
      * @return type
@@ -170,7 +183,7 @@ class UsersController extends AppController {
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->data);
             if ($this->Users->save($user)) {
-                $this->Flash->success('O usuário foi salvo.');
+                $this->Flash->success('O usuário foi adicionado com sucesso.');
                 return $this->redirect(['action' => 'coordList']);
             } else {
                 $this->Flash->error('O usuário não foi salvo! Por favor tente novamente.');
@@ -180,6 +193,7 @@ class UsersController extends AppController {
         $this->set(compact('user', 'courses'));
         $this->set('_serialize', ['user']);
     }
+
     /**
      * 
      * @param type $id
@@ -203,6 +217,7 @@ class UsersController extends AppController {
         $this->set(compact('user', 'courses'));
         $this->set('_serialize', ['user']);
     }
+
     /**
      * 
      * @param type $id
@@ -218,5 +233,5 @@ class UsersController extends AppController {
         }
         return $this->redirect(['action' => 'coordList']);
     }
-    
+
 }

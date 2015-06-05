@@ -1,69 +1,38 @@
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header ">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" ><?php echo $nome?></a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li>
-
-
-
-
-                </li>
-                <li><?= $this->Html->link(__('Listar Atividades'), ['controller' => 'Activities' ,'action' => 'alunolistar']) ?></li>
-                <li class="active"><a href="#">Adicionar Atividades</a></li>
-
-            </ul>
-
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Configurações <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><?= $this->Html->link(__('Alterar a senha'), ['controller' => 'Users' ,'action' => 'alunoeditsenha']) ?></li>
-                    
-                </ul>
-            </li>
-
-
-            <li> <?= $this->Html->link(__('Sair'), ['controller' => 'Users' ,'action' => 'logout']) ?></li>
-
-        </ul>
-    </div><!-- /.navbar-collapse -->
-</div><!-- /.container-fluid -->
-</nav>
+<?php $this->extend('/Menus/menu_principal');
+$this->start('sidebar');?>
 
 <div class="container">
-<div class="row">
-<div class="col-sm-5">
-    <div class="actions columns large-2 medium-3">
-        <h2>Adicionar Atividade</h2>
-        <div class="activities form large-10 medium-9 columns">
-            <?= $this->Form->create($activity); ?>
-            <fieldset>
-               <?php
-               echo $this->Form->input('activity_local' , array('class' => 'form-control'));
-               echo $this->Form->input('activity_hours' , array('class' => 'form-control'));
-               echo $this->Form->input('semester' , array('class' => 'form-control'));
-               echo $this->Form->input('abstract' , array('class' => 'form-control'));
-               echo $this->Form->input('date');
-               echo $this->Form->input('path' , array('class' => 'form-control'));
-               echo $this->Form->input('users_iduser');
-               echo $this->Form->input('classification_id', ['options' => $classifications]);
-               echo $this->Form->input('avaliation_id', ['options' => $avaliations]);
-               ?>
-           </fieldset>
-           <?= $this->Form->button(__('Adicionar')) ?>
-           <?= $this->Form->end() ?>
-           </div>
-           <div class="col-sm-7"></div>
-       </div>
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="actions columns large-1 medium-3">
+                <h2>Envio de ACGs</h2>
+                <div class="activities form large-10 medium-9 columns">
+                        <?= $this->Form->create($activity); ?>
+                    <fieldset>
+                        <br>
+                        <?php
+                        echo $this->Form->label('Categoria:');
+                            echo $this->Form->select('classification_id', ['options' => $classifications],['class' => 'form-control', 'required' => true]) . '<br>'; 
+                        echo $this->Form->input('activity_local', ['class' => 'form-control', 'type' => 'text', 'label' => 'Local:', 'required' => true]) . '<br>';
+                        echo $this->Form->input('activity_hours', ['class' => 'form-control', 'type' => 'text', 'label' => 'Horas Totais:', 'required' => true]) . '<br>'; 
+                        echo $this->Form->input('semester', ['class' => 'form-control', 'type' => 'text', 'label' => 'Semestre da Atividade:', 'required' => true]) . '<br>';
+                        echo $this->Form->label('Resumo:');
+                            echo $this->Form->textarea('abstract', ['class' => 'form-control', 'type' => 'text', 'required' => true]) . '<br>';
+                        echo $this->Form->label('Data:');
+                            echo $this->Form->input('date', ['type' => 'date', 'label' => '']) . '<br>';
+                        echo $this->Form->input('path', ['class' => 'form-control', 'type' => 'text', 'label' => 'Documento de comprovação:', 'required' => true]) . '<br>'; 
+                        echo $this->Form->input('users_iduser', ['type' => 'hidden', 'value' =>  $this->request->session()->read('Auth.User.iduser')]);
+                        echo $this->Form->input('avaliation_id', ['type' => 'hidden', 'value' => 0 ]);
+                        ?>
+                    </fieldset>
+                    <?= $this->Html->Link(__('Cancela'), array('controller' => 'Activities', 'action' => 'alunoList'), ['class' => 'btn btn-danger']);?>
+                    <?= $this->Form->button(__('Adicionar'), ['class' => 'btn btn-primary']);?>
+                    <?= $this->Form->end() ?>
+                </div>
+                <div class="col-sm-7"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php $this->end(); ?>

@@ -9,9 +9,9 @@ $this->start('sidebar');?>
                     <?= $this->Form->create($user); ?>
                 <fieldset>
                     <?php
-                    echo $this->Form->input('name', ['class' => 'form-control', 'type' => 'text', 'label' => 'Nome:']);
-                    echo $this->Form->input('login',['class' => 'form-control', 'type' => 'text', 'label' => 'Login:']);  
-                    echo $this->Form->input('email',['class' => 'form-control', 'type' => 'text', 'label' => 'Email:']);  
+                    echo $this->Form->input('name', ['class' => 'form-control', 'type' => 'text', 'label' => 'Nome:', 'required' => true]);
+                    echo $this->Form->input('login',['class' => 'form-control', 'type' => 'text', 'label' => 'Login:', 'required' => true]);  
+                    echo $this->Form->input('email',['class' => 'form-control', 'type' => 'text', 'label' => 'Email:', 'required' => true]);  
                     //echo $this->Form->input('password', array('class' => 'form-control'));
                     echo '<strong>Tipo: </strong>';
                     echo $this->Form->select('type' ,[1 => 'Aluno', 2 => 'Membro do Colegiado'],['class' => 'form-control']);  
@@ -19,6 +19,7 @@ $this->start('sidebar');?>
                     ?>
                 </fieldset>
                 <br>
+                 <?= $this->Html->Link(__('Cancela'), array('controller' => 'Users', 'action' => 'coordList'), ['class' => 'btn btn-danger']);?>
                 <?= $this->Form->button(__('Editar'), ['class' => 'btn btn-primary']) ?>
                 <?= $this->Form->end() ?>
             </div>

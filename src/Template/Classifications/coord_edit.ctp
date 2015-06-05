@@ -12,6 +12,7 @@ $this->start('sidebar');
                     <?php echo $this->Form->input('classification_name', ['class' => 'form-control', 'type' => 'text', 'label' => 'Categoria de ACG:']) ?>
                 </fieldset>
                 <br>
+                 <?= $this->Html->Link(__('Cancela'), array('controller' => 'Classifications', 'action' => 'coordList'), ['class' => 'btn btn-danger']);?>
                 <?= $this->Form->button(__('Editar'), ['class' => 'btn btn-primary']) ?>
                 <?= $this->Form->end() ?>
             </div>
