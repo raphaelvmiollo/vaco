@@ -1,4 +1,5 @@
 <?php
+
 /**
  * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
  * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
@@ -12,6 +13,7 @@
  * @since         3.0.0
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+
 namespace Cake\ORM;
 
 use Cake\Core\App;
@@ -51,8 +53,7 @@ use RuntimeException;
  * ```
  *
  */
-class TableRegistry
-{
+class TableRegistry {
 
     /**
      * Configuration for aliases.
@@ -99,8 +100,7 @@ class TableRegistry
      * @return array The config data.
      * @throws \RuntimeException When you attempt to configure an existing table instance.
      */
-    public static function config($alias = null, $options = null)
-    {
+    public static function config($alias = null, $options = null) {
         if ($alias === null) {
             return static::$_config;
         }
@@ -112,8 +112,7 @@ class TableRegistry
         }
         if (isset(static::$_instances[$alias])) {
             throw new RuntimeException(sprintf(
-                'You cannot configure "%s", it has already been constructed.',
-                $alias
+                    'You cannot configure "%s", it has already been constructed.', $alias
             ));
         }
         return static::$_config[$alias] = $options;
@@ -153,13 +152,11 @@ class TableRegistry
      * @return \Cake\ORM\Table
      * @throws \RuntimeException When you try to configure an alias that already exists.
      */
-    public static function get($alias, array $options = [])
-    {
+    public static function get($alias, array $options = []) {
         if (isset(static::$_instances[$alias])) {
             if (!empty($options) && static::$_options[$alias] !== $options) {
                 throw new RuntimeException(sprintf(
-                    'You cannot configure "%s", it already exists in the registry.',
-                    $alias
+                        'You cannot configure "%s", it already exists in the registry.', $alias
                 ));
             }
             return static::$_instances[$alias];
@@ -207,8 +204,7 @@ class TableRegistry
      * @param string $alias The alias to check for.
      * @return bool
      */
-    public static function exists($alias)
-    {
+    public static function exists($alias) {
         return isset(static::$_instances[$alias]);
     }
 
@@ -219,8 +215,7 @@ class TableRegistry
      * @param \Cake\ORM\Table $object The table to set.
      * @return \Cake\ORM\Table
      */
-    public static function set($alias, Table $object)
-    {
+    public static function set($alias, Table $object) {
         return static::$_instances[$alias] = $object;
     }
 
@@ -229,8 +224,7 @@ class TableRegistry
      *
      * @return void
      */
-    public static function clear()
-    {
+    public static function clear() {
         static::$_instances = [];
         static::$_config = [];
         static::$_fallbacked = [];
@@ -244,8 +238,7 @@ class TableRegistry
      *
      * @return array
      */
-    public static function genericInstances()
-    {
+    public static function genericInstances() {
         return static::$_fallbacked;
     }
 
@@ -255,12 +248,10 @@ class TableRegistry
      * @param string $alias The alias to remove.
      * @return void
      */
-    public static function remove($alias)
-    {
+    public static function remove($alias) {
         unset(
-            static::$_instances[$alias],
-            static::$_config[$alias],
-            static::$_fallbacked[$alias]
+                static::$_instances[$alias], static::$_config[$alias], static::$_fallbacked[$alias]
         );
     }
+
 }

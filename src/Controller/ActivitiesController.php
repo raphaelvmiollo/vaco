@@ -12,102 +12,79 @@ use App\Controller\AppController;
 class ActivitiesController extends AppController {
 
     /**
-     * Index method
-     *
-     * @return void
+     * 
      */
-    public function index() {
-        $this->paginate = [
-            'contain' => ['Classifications', 'Avaliations']
-        ];
-        $this->set('activities', $this->paginate($this->Activities));
-        $this->set('_serialize', ['activities']);
-    }
-    
     public function alunoList() {
+        $Class = new ClassificationsController();
+        $classif = $Class->getClassifications();
+
         $this->set('nome', $this->Auth->user('name'));
         $this->paginate = [
             'contain' => ['Classifications', 'Avaliations']
         ];
-        $this->set('activities', $this->paginate($this->Activities->find('all', 
-                ['conditions' => ['Activities.users_iduser' => $this->Auth->user('iduser')]])));
+        $this->set('activities', $this->paginate($this->Activities->find("all",
+                ['conditions' => ['Activities.user_id' => $this->Auth->user('iduser')]])));
+        $this->set(compact('activities', 'classif'));
         $this->set('_serialize', ['activities']);
-        $this->set('msg', ['123']);
     }
-    
+
+    /**
+     * 
+     * @return type
+     */
     public function alunoAdd() {
+        $Class = new ClassificationsController();
         $this->set('nome', $this->Auth->user('name'));
         $activity = $this->Activities->newEntity();
         if ($this->request->is('post')) {
             $activity = $this->Activities->patchEntity($activity, $this->request->data);
             if ($this->Activities->save($activity)) {
-                $this->Flash->success('The activity has been saved.');
-                return $this->redirect(['action' => 'alunolistar']);
+                $this->Flash->success('A atividade foi enviada com sucesso.');
+                return $this->redirect(['action' => 'alunoList']);
             } else {
-                $this->Flash->error('The activity could not be saved. Please, try again.');
+                $this->Flash->error('A Atividade não pode ser enviada. Por favor tente mais tarde.');
             }
         }
-        $classifications = $this->Activities->Classifications;
+        $classifications = $Class->getClassifications();
+
         $this->set(compact('activity', 'classifications'));
         $this->set('_serialize', ['activity']);
     }
-    
-    public function editcolegiado() {
-        $activity = $this->Activities->get($id, [
-            'contain' => []
-        ]);
-        if ($this->request->is(['patch', 'post', 'put'])) {
-            $activity = $this->Activities->patchEntity($activity, $this->request->data);
-            if ($this->Activities->save($activity)) {
-                $this->Flash->success('The activity has been saved.');
-                return $this->redirect(['action' => 'index']);
-            } else {
-                $this->Flash->error('The activity could not be saved. Please, try again.');
-            }
-        }
-        $classifications = $this->Activities->Classifications->find('list', ['limit' => 200]);
-        $avaliations = $this->Activities->Avaliations->find('list', ['limit' => 200]);
-        $this->set(compact('activity', 'classifications', 'avaliations'));
-        $this->set('_serialize', ['activity']);
-    }
 
-    public function coordlist() {
+    /**
+     * 
+     */
+    public function coordList() {
+        $Class = new ClassificationsController();
+        $classif = $Class->getClassifications();
+
         $this->set('nome', $this->Auth->user('name'));
         $this->paginate = [
             'contain' => ['Classifications', 'Avaliations']
         ];
-        $this->set('activities', $this->paginate($this->Activities)); //put a condition
+        $this->set('activities', $this->paginate($this->Activities->find("all")));
+               // ['conditions' => ['Activities.user_id' => $this->Auth->user('course_id')]])));
+        $this->set(compact('activities', 'classif'));
         $this->set('_serialize', ['activities']);
     }
-    
-    public function coordAvalia() {
+
+    /**
+     * 
+     */
+    public function colList() {
+        $Class = new ClassificationsController();
+        $User = new UsersController();
+        $classif = $Class->getClassifications();
+        $user = $User->getUsers();
+        
         $this->set('nome', $this->Auth->user('name'));
+        
         $this->paginate = [
             'contain' => ['Classifications', 'Avaliations']
         ];
-        $this->set('activities', $this->paginate($this->Activities));
+        $this->set('activities', $this->paginate($this->Activities->find("all")));
+               // ['conditions' => ['Activities.user_id' => $this->Auth->user('course_id')]])));
+        $this->set(compact('activities', 'classif', 'user'));
         $this->set('_serialize', ['activities']);
-        $this->set('msg', ['123']);
     }
-    
-    public function coordedit($id = null) {
-        $this->set('nome', $this->Auth->user('name'));
-        $activity = $this->Activities->get($id, [
-            'contain' => []
-        ]);
-        if ($this->request->is(['patch', 'post', 'put'])) {
-            $activity = $this->Activities->patchEntity($activity, $this->request->data);
-            if ($this->Activities->save($activity)) {
-                $this->Flash->success('The activity has been saved.');
-                return $this->redirect(['action' => 'administradorlistar']);
-            } else {
-                $this->Flash->error('The activity could not be saved. Please, try again.');
-            }
-        }
-        $classifications = $this->Activities->Classifications->find('list', ['limit' => 200]);
-        $avaliations = $this->Activities->Avaliations->find('list', ['limit' => 200]);
-        $this->set(compact('activity', 'classifications', 'avaliations'));
-        $this->set('_serialize', ['activity']);
-    }
-
 }

@@ -1,8 +1,7 @@
 <?php
+
 namespace App\Model\Table;
 
-use App\Model\Entity\Activity;
-use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
@@ -10,8 +9,7 @@ use Cake\Validation\Validator;
 /**
  * Activities Model
  */
-class ActivitiesTable extends Table
-{
+class ActivitiesTable extends Table {
 
     /**
      * Initialize method
@@ -19,8 +17,7 @@ class ActivitiesTable extends Table
      * @param array $config The configuration for the Table.
      * @return void
      */
-    public function initialize(array $config)
-    {
+    public function initialize(array $config) {
         $this->table('activities');
         $this->displayField('idactivity');
         $this->primaryKey('idactivity');
@@ -40,27 +37,31 @@ class ActivitiesTable extends Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
-    public function validationDefault(Validator $validator)
-    {
+    public function validationDefault(Validator $validator) {
         $validator
-            ->add('idactivity', 'valid', ['rule' => 'numeric'])
-            ->allowEmpty('idactivity', 'create')
-            ->requirePresence('activity_local', 'create')
-            ->notEmpty('activity_local')
-            ->requirePresence('activity_hours', 'create')
-            ->notEmpty('activity_hours')
-            ->requirePresence('semester', 'create')
-            ->notEmpty('semester')
-            ->requirePresence('abstract', 'create')
-            ->notEmpty('abstract')
-            ->add('date', 'valid', ['rule' => 'date'])
-            ->requirePresence('date', 'create')
-            ->notEmpty('date')
-            ->requirePresence('path', 'create')
-            ->notEmpty('path')
-            ->add('users_iduser', 'valid', ['rule' => 'numeric'])
-            ->requirePresence('users_iduser', 'create')
-            ->notEmpty('users_iduser');
+                ->add('idactivity', 'valid', ['rule' => 'numeric'])
+                ->allowEmpty('idactivity', 'create')
+                ->requirePresence('activity_local', 'create')
+                ->notEmpty('activity_local')
+                ->requirePresence('activity_hours', 'create')
+                ->notEmpty('activity_hours')
+                ->requirePresence('semester', 'create')
+                ->notEmpty('semester')
+                ->requirePresence('abstract', 'create')
+                ->notEmpty('abstract')
+                ->add('date', 'valid', ['rule' => 'date'])
+                ->requirePresence('date', 'create')
+                ->notEmpty('date')
+                ->add('submition_date', 'valid', ['rule' => 'date'])
+                ->requirePresence('submition_date', 'create')
+                ->notEmpty('submition_date')
+
+                ->requirePresence('path', 'create')
+                ->notEmpty('path')
+               
+                ->add('user_id', 'valid', ['rule' => 'numeric'])
+                ->requirePresence('user_id', 'create')
+                ->notEmpty('user_id');
 
         return $validator;
     }
@@ -72,8 +73,7 @@ class ActivitiesTable extends Table
      * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
      * @return \Cake\ORM\RulesChecker
      */
-    public function buildRules(RulesChecker $rules)
-    {
+    public function buildRules(RulesChecker $rules) {
         $rules->add($rules->existsIn(['classification_id'], 'Classifications'));
         $rules->add($rules->existsIn(['avaliation_id'], 'Avaliations'));
         return $rules;

@@ -14,19 +14,24 @@ $this->start('sidebar');?>
         <table cellpadding="0" cellspacing="0" class="table">
             <thead>
                 <tr>
-                    <!--<th><?= $this->Paginator->sort('idclassification', 'ID') ?></th>-->
+                <!--<th><?= $this->Paginator->sort('idclassification', 'ID') ?></th>-->
                     <th><?= $this->Paginator->sort('classification_name', 'Nome da Categoria') ?></th>
+                    <th><?= $this->Paginator->sort('avaliator_type', 'Avaliador') ?></th>
+                    <th><?= $this->Paginator->sort('max_hours', 'Limite de horas') ?></th>
                     <th class="actions"><?= __('Actions') ?></th>
                 </tr>
             </thead>
             <tbody>
                 <?php foreach ($classifications as $classification): ?>
                     <tr>
-                        <!--<td><?= $this->Number->format($classification->idclassification) ?></td>-->
+                    <!--<td><?= $this->Number->format($classification->idclassification) ?></td>-->
                         <td><?= h($classification->classification_name) ?></td>
+                        <td><?= h($this->typeOfUser($this->Number->format($classification->avaliator_type))) ?></td>
+                        <td><?= $this->Number->format($classification->max_hours) . " h" ?></td>
                         <td class="actions">
+                            <?= $this->Html->link(__('Visualizar'), ['action' => 'coordView', $classification->idclassification], ['class' => 'btn btn-default']) ?>
                             <?= $this->Html->link(__('Editar'), ['action' => 'coordEdit', $classification->idclassification], ['class' => 'btn btn-default']) ?>
-                            <?= $this->Form->postLink(__('Deletar'), ['action' => 'coordDelete', $classification->idclassification], ['confirm' => __('Are you sure you want to delete # {0}?', $classification->idclassification), 'class' => 'btn btn-default']) ?>
+                            <?= $this->Form->postLink(__('Deletar'), ['action' => 'coordDelete', $classification->idclassification], ['confirm' => __('Tem certeza que deseja deletar a categoria {0}?', $classification->classification_name), 'class' => 'btn btn-default']) ?>
                         </td>
                     </tr>
                 <?php endforeach; ?>

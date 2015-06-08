@@ -3,28 +3,15 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
-
+use Cake\ORM\TableRegistry;
 /**
  * Users Controller
  *
  * @property \App\Model\Table\UsersTable $Users
  */
 class UsersController extends AppController {
+
     //MÉTODOS GERAIS
-
-    /**
-     * Index method
-     *
-     * @return void
-     */
-    public function index() {
-        $this->paginate = [
-            'contain' => ['Courses']
-        ];
-        $this->set('users', $this->paginate($this->Users));
-        $this->set('_serialize', ['users']);
-    }
-
     /**
      * Login method
      */
@@ -60,7 +47,7 @@ class UsersController extends AppController {
         $verify = 1;
 
         if ($this->request->is(['patch', 'post', 'put'])) {
-            if ($verify) {
+            if ($verify) {                                  //Falta verificar a senha antiga
                 if ($this->request->data['newPassword1'] === $this->request->data['newPassword2']) {
                     $user = $this->Users->patchEntity($user, $this->request->data);
                     if ($this->Users->save($user)) {
@@ -91,8 +78,7 @@ class UsersController extends AppController {
         $this->paginate = [
             'contain' => ['Courses']
         ];
-        $this->set('users', $this->paginate($this->Users->find('all',
-                ['conditions' => ['OR' => [['Users.type' => 3], ['Users.type' => 4]]]])));
+        $this->set('users', $this->paginate($this->Users->find('all', ['conditions' => ['OR' => [['Users.type' => 3], ['Users.type' => 4]]]])));
         $this->set('_serialize', ['users']);
     }
 
@@ -101,6 +87,7 @@ class UsersController extends AppController {
      * @return type
      */
     public function adminAdd() {
+        $CourseList = new CoursesController();
         $this->set('nome', $this->Auth->user('name'));
         $user = $this->Users->newEntity();
         if ($this->request->is('post')) {
@@ -112,7 +99,7 @@ class UsersController extends AppController {
                 $this->Flash->error('O usuário não foi salvo! Por favor tente novamente.');
             }
         }
-        $courses = $this->Users->Courses->find('list', ['limit' => 200]);
+        $courses = $CourseList->getCourses();
         $this->set(compact('user', 'courses'));
         $this->set('_serialize', ['user']);
     }
@@ -123,6 +110,7 @@ class UsersController extends AppController {
      * @return type
      */
     public function adminEdit($id = null) {
+        $CourseList = new CoursesController();
         $this->set('nome', $this->Auth->user('name'));
         $user = $this->Users->get($id, [
             'contain' => []
@@ -136,7 +124,7 @@ class UsersController extends AppController {
                 $this->Flash->error('The user could not be saved. Please, try again.');
             }
         }
-        $courses = $this->Users->Courses->find('list', ['limit' => 200]);
+        $courses = $CourseList->getCourses();
         $this->set(compact('user', 'courses'));
         $this->set('_serialize', ['user']);
     }
@@ -189,7 +177,6 @@ class UsersController extends AppController {
                 $this->Flash->error('O usuário não foi salvo! Por favor tente novamente.');
             }
         }
-        $courses = $this->Users->Courses->find('list', ['limit' => 200]);
         $this->set(compact('user', 'courses'));
         $this->set('_serialize', ['user']);
     }
@@ -208,12 +195,11 @@ class UsersController extends AppController {
             $user = $this->Users->patchEntity($user, $this->request->data);
             if ($this->Users->save($user)) {
                 $this->Flash->success('O Usuário foi salvo.');
-                return $this->redirect(['action' => 'adminList']);
+                return $this->redirect(['action' => 'coordList']);
             } else {
-                $this->Flash->error('The user could not be saved. Please, try again.');
+                $this->Flash->error('O usuário não pode ser salvo. Por favor, tente novamente mais tarde.');
             }
         }
-        $courses = $this->Users->Courses->find('list', ['limit' => 200]);
         $this->set(compact('user', 'courses'));
         $this->set('_serialize', ['user']);
     }
@@ -232,6 +218,20 @@ class UsersController extends AppController {
             $this->Flash->error('O usuário não pode ser deletado. Por favor, tente novamente..');
         }
         return $this->redirect(['action' => 'coordList']);
+    }
+
+    /**
+     * 
+     * @return type
+     */
+    public function getUsers() {
+        $classifications = array();
+        $users = TableRegistry::get('Users');
+        $query = $users->find('all');
+        foreach ($query as $row) {
+            $list[$row->iduser] = $row->name;
+        }
+        return $list;
     }
 
 }

@@ -12,7 +12,7 @@ $this->start('sidebar');?>
              <table cellpadding="0" cellspacing="0" class="table">
                 <thead>
                     <tr>
-                        <th><?= $this->Paginator->sort('users_iduser', 'Usuário') ?></th>
+                        <th><?= $this->Paginator->sort('user_id', 'Usuário') ?></th>
                         <th><?= $this->Paginator->sort('activity_local', 'Local da Atividade') ?></th>
                         <th><?= $this->Paginator->sort('activity_hours', 'Horas') ?></th>
                         <th><?= $this->Paginator->sort('semester', 'Semestre') ?></th>
@@ -23,7 +23,7 @@ $this->start('sidebar');?>
                 <tbody>
                     <?php foreach ($activities as $activity): ?>
                         <tr>
-                            <td><?= $this->Number->format($activity->users_iduser) ?></td>
+                            <td><?= $this->Number->format($activity->user_id) ?></td>
                             <td><?= h($activity->activity_local) ?></td>
                             <td><?= h($activity->activity_hours) ?></td>
                             <td><?= h($activity->semester) ?></td>

@@ -9,9 +9,11 @@ $this->start('sidebar');?>
                 <br>
                     <?= $this->Form->create($course); ?>
                 <fieldset>
-                    <?php echo $this->Form->input('course_name', ['class' => 'form-control', 'type' => 'text', 'label' => 'Nome do curso:']);?>
+                    <?php echo $this->Form->input('course_code', ['class' => 'form-control', 'type' => 'text', 'label' => 'Código:', 'required' => true]); ?>
+                    <?php echo $this->Form->input('course_name', ['class' => 'form-control', 'type' => 'text', 'label' => 'Nome do curso:', 'required' => true]);;?>
                 </fieldset>
                 <br>
+                <?= $this->Html->Link(__('Cancela'), array('controller' => 'Courses', 'action' => 'adminList'), ['class' => 'btn btn-danger']);?>
                 <?= $this->Form->button(__('Editar'), ['class' => 'btn btn-primary']) ?>
                 <?= $this->Form->end() ?>
             </div>

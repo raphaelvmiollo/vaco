@@ -32,7 +32,7 @@
             <h6 class="subheader"><?= __('Idactivity') ?></h6>
             <p><?= $this->Number->format($activity->idactivity) ?></p>
             <h6 class="subheader"><?= __('Users Iduser') ?></h6>
-            <p><?= $this->Number->format($activity->users_iduser) ?></p>
+            <p><?= $this->Number->format($activity->user_id) ?></p>
         </div>
         <div class="large-2 columns dates end">
             <h6 class="subheader"><?= __('Date') ?></h6>

@@ -25,7 +25,7 @@
             echo $this->Form->input('abstract');
             echo $this->Form->input('date');
             echo $this->Form->input('path');
-            echo $this->Form->input('users_iduser');
+            echo $this->Form->input('user_id');
             echo $this->Form->input('classification_id', ['options' => $classifications]);
             echo $this->Form->input('avaliation_id', ['options' => $avaliations]);
         ?>

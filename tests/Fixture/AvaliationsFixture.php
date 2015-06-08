@@ -20,12 +20,17 @@ class AvaliationsFixture extends TestFixture
         'idavalation' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'autoIncrement' => true, 'precision' => null],
         'situation' => ['type' => 'integer', 'length' => 1, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
         'observation' => ['type' => 'text', 'length' => null, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null],
+        'user_id' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
         'date' => ['type' => 'date', 'length' => null, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null],
+        '_indexes' => [
+            'fk_activities_users_idx' => ['type' => 'index', 'columns' => ['user_id'], 'length' => []],
+        ],
         '_constraints' => [
+            'fk_activities_users1' => ['type' => 'foreign', 'columns' => ['user_id'], 'references' => ['users', 'iduser'], 'update' => 'noAction', 'delete' => 'noAction', 'length' => []],
             'primary' => ['type' => 'primary', 'columns' => ['idavalation'], 'length' => []],
         ],
         '_options' => [
-'engine' => 'InnoDB', 'collation' => 'utf8_general_ci'
+            'engine' => 'InnoDB', 'collation' => 'utf8_general_ci'
         ],
     ];
     // @codingStandardsIgnoreEnd

@@ -18,6 +18,7 @@ class Avaliation extends Entity
         'situation' => true,
         'observation' => true,
         'date' => true,
+        'avaliator_id' => true,
         'activities' => true,
     ];
 }

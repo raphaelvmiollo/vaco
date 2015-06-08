@@ -1,4 +1,5 @@
 <?php
+
 /**
  * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
  * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
@@ -12,6 +13,7 @@
  * @since         0.10.0
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+
 namespace Cake\View\Helper;
 
 use Cake\I18n\Time;
@@ -26,8 +28,7 @@ use Cake\View\StringTemplateTrait;
  * @link http://book.cakephp.org/3.0/en/views/helpers/time.html
  * @see \Cake\I18n\Time
  */
-class TimeHelper extends Helper
-{
+class TimeHelper extends Helper {
 
     use StringTemplateTrait;
 
@@ -38,8 +39,7 @@ class TimeHelper extends Helper
      * @param string|\DateTimeZone|null $timezone User's timezone string or DateTimeZone object
      * @return \Cake\I18n\Time
      */
-    public function fromString($dateString, $timezone = null)
-    {
+    public function fromString($dateString, $timezone = null) {
         return (new Time($dateString))->timezone($timezone);
     }
 
@@ -51,8 +51,7 @@ class TimeHelper extends Helper
      * @param string|null $locale Locale string.
      * @return string Formatted date string
      */
-    public function nice($dateString = null, $timezone = null, $locale = null)
-    {
+    public function nice($dateString = null, $timezone = null, $locale = null) {
         return (new Time($dateString))->nice($timezone, $locale);
     }
 
@@ -63,8 +62,7 @@ class TimeHelper extends Helper
      * @param string|\DateTimeZone|null $timezone User's timezone string or DateTimeZone object
      * @return bool True if datetime string is today
      */
-    public function isToday($dateString, $timezone = null)
-    {
+    public function isToday($dateString, $timezone = null) {
         return (new Time($dateString, $timezone))->isToday();
     }
 
@@ -75,8 +73,7 @@ class TimeHelper extends Helper
      * @param string|\DateTimeZone|null $timezone User's timezone string or DateTimeZone object
      * @return bool True if datetime string is today
      */
-    public function isFuture($dateString, $timezone = null)
-    {
+    public function isFuture($dateString, $timezone = null) {
         return (new Time($dateString, $timezone))->isFuture();
     }
 
@@ -87,8 +84,7 @@ class TimeHelper extends Helper
      * @param string|\DateTimeZone|null $timezone User's timezone string or DateTimeZone object
      * @return bool True if datetime string is today
      */
-    public function isPast($dateString, $timezone = null)
-    {
+    public function isPast($dateString, $timezone = null) {
         return (new Time($dateString, $timezone))->isPast();
     }
 
@@ -99,8 +95,7 @@ class TimeHelper extends Helper
      * @param string|\DateTimeZone|null $timezone User's timezone string or DateTimeZone object
      * @return bool True if datetime string is within current week
      */
-    public function isThisWeek($dateString, $timezone = null)
-    {
+    public function isThisWeek($dateString, $timezone = null) {
         return (new Time($dateString, $timezone))->isThisWeek();
     }
 
@@ -111,8 +106,7 @@ class TimeHelper extends Helper
      * @param string|\DateTimeZone|null $timezone User's timezone string or DateTimeZone object
      * @return bool True if datetime string is within the current month
      */
-    public function isThisMonth($dateString, $timezone = null)
-    {
+    public function isThisMonth($dateString, $timezone = null) {
         return (new Time($dateString, $timezone))->isThisMonth();
     }
 
@@ -123,8 +117,7 @@ class TimeHelper extends Helper
      * @param string|\DateTimeZone|null $timezone User's timezone string or DateTimeZone object
      * @return bool True if datetime string is within current year
      */
-    public function isThisYear($dateString, $timezone = null)
-    {
+    public function isThisYear($dateString, $timezone = null) {
         return (new Time($dateString, $timezone))->isThisYear();
     }
 
@@ -136,8 +129,7 @@ class TimeHelper extends Helper
      * @return bool True if datetime string was yesterday
      *
      */
-    public function wasYesterday($dateString, $timezone = null)
-    {
+    public function wasYesterday($dateString, $timezone = null) {
         return (new Time($dateString, $timezone))->isYesterday();
     }
 
@@ -148,8 +140,7 @@ class TimeHelper extends Helper
      * @param string|\DateTimeZone|null $timezone User's timezone string or DateTimeZone object
      * @return bool True if datetime string was yesterday
      */
-    public function isTomorrow($dateString, $timezone = null)
-    {
+    public function isTomorrow($dateString, $timezone = null) {
         return (new Time($dateString, $timezone))->isTomorrow();
     }
 
@@ -161,8 +152,7 @@ class TimeHelper extends Helper
      * @return mixed 1, 2, 3, or 4 quarter of year or array if $range true
      * @see \Cake\I18n\Time::toQuarter()
      */
-    public function toQuarter($dateString, $range = false)
-    {
+    public function toQuarter($dateString, $range = false) {
         return (new Time($dateString))->toQuarter($range);
     }
 
@@ -174,8 +164,7 @@ class TimeHelper extends Helper
      * @return int Unix timestamp
      * @see \Cake\I18n\Time::toUnix()
      */
-    public function toUnix($dateString, $timezone = null)
-    {
+    public function toUnix($dateString, $timezone = null) {
         return (new Time($dateString, $timezone))->toUnixString();
     }
 
@@ -187,9 +176,8 @@ class TimeHelper extends Helper
      * @return string Formatted date string
      * @see \Cake\I18n\Time::toAtom()
      */
-    public function toAtom($dateString, $timezone = null)
-    {
-        $timezone = $timezone ?: date_default_timezone_get();
+    public function toAtom($dateString, $timezone = null) {
+        $timezone = $timezone ? : date_default_timezone_get();
         return (new Time($dateString))->timezone($timezone)->toAtomString();
     }
 
@@ -200,9 +188,8 @@ class TimeHelper extends Helper
      * @param string|\DateTimeZone|null $timezone User's timezone string or DateTimeZone object
      * @return string Formatted date string
      */
-    public function toRss($dateString, $timezone = null)
-    {
-        $timezone = $timezone ?: date_default_timezone_get();
+    public function toRss($dateString, $timezone = null) {
+        $timezone = $timezone ? : date_default_timezone_get();
         return (new Time($dateString))->timezone($timezone)->toRssString();
     }
 
@@ -222,8 +209,7 @@ class TimeHelper extends Helper
      * @return string Relative time string.
      * @see \Cake\I18n\Time::timeAgoInWords()
      */
-    public function timeAgoInWords($dateTime, array $options = [])
-    {
+    public function timeAgoInWords($dateTime, array $options = []) {
         $element = null;
 
         if (!empty($options['element'])) {
@@ -244,11 +230,7 @@ class TimeHelper extends Helper
 
         if ($element) {
             $relativeDate = sprintf(
-                '<%s%s>%s</%s>',
-                $element['tag'],
-                $this->templater()->formatAttributes($element, ['tag']),
-                $relativeDate,
-                $element['tag']
+                    '<%s%s>%s</%s>', $element['tag'], $this->templater()->formatAttributes($element, ['tag']), $relativeDate, $element['tag']
             );
         }
         return $relativeDate;
@@ -264,8 +246,7 @@ class TimeHelper extends Helper
      * @return bool
      * @see \Cake\I18n\Time::wasWithinLast()
      */
-    public function wasWithinLast($timeInterval, $dateString, $timezone = null)
-    {
+    public function wasWithinLast($timeInterval, $dateString, $timezone = null) {
         return (new Time($dateString, $timezone))->wasWithinLast($timeInterval);
     }
 
@@ -279,8 +260,7 @@ class TimeHelper extends Helper
      * @return bool
      * @see \Cake\I18n\Time::wasWithinLast()
      */
-    public function isWithinNext($timeInterval, $dateString, $timezone = null)
-    {
+    public function isWithinNext($timeInterval, $dateString, $timezone = null) {
         return (new Time($dateString, $timezone))->isWithinNext($timeInterval);
     }
 
@@ -291,8 +271,7 @@ class TimeHelper extends Helper
      * @return int UNIX timestamp
      * @see \Cake\I18n\Time::gmt()
      */
-    public function gmt($string = null)
-    {
+    public function gmt($string = null) {
         return (new Time($string))->toUnixString();
     }
 
@@ -309,8 +288,7 @@ class TimeHelper extends Helper
      * @return string Formatted and translated date string
      * @see \Cake\I18n\Time::i18nFormat()
      */
-    public function format($date, $format = null, $invalid = false, $timezone = null)
-    {
+    public function format($date, $format = null, $invalid = false, $timezone = null) {
         return $this->i18nFormat($date, $format, $invalid, $timezone);
     }
 
@@ -326,8 +304,7 @@ class TimeHelper extends Helper
      * @throws \InvalidArgumentException When the date cannot be parsed
      * @see \Cake\I18n\Time::i18nFormat()
      */
-    public function i18nFormat($date, $format = null, $invalid = false, $timezone = null)
-    {
+    public function i18nFormat($date, $format = null, $invalid = false, $timezone = null) {
         if (!isset($date)) {
             return $invalid;
         }
@@ -348,8 +325,18 @@ class TimeHelper extends Helper
      *
      * @return array
      */
-    public function implementedEvents()
-    {
+    public function implementedEvents() {
         return [];
     }
+
+    public function dateTimeToServer($date, $user_timezone) {
+        $DateTime = new DateTime($date, $user_timezone);
+        $dst = $DateTime->format('I');
+        $toServerDateTime = CakeTime::toServer($date, $user_timezone, 'Y-m-d H:i');
+        if ($dst) {
+            $toServerDateTime = date('Y-m-d H:i', strtotime($toServerDateTime . ' + 1 Hours'));
+        }
+        return $toServerDateTime;
+    }
+
 }

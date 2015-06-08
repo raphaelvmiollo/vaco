@@ -9,16 +9,16 @@ $this->start('sidebar');?>
                     <?= $this->Form->create($user); ?>
                 <fieldset>
                     <?php
-                    echo $this->Form->input('name',  ['class' => 'form-control', 'type' => 'text', 'label' => 'Nome:', 'required' => true]);
-                    echo $this->Form->input('login',  ['class' => 'form-control', 'type' => 'text', 'label' => 'login:', 'required' => true]);
-                    echo $this->Form->input('email',  ['class' => 'form-control', 'type' => 'text', 'label' => 'Email:', 'required' => true]);
-                    //echo $this->Form->input('password', array('class' => 'form-control'));
+                    asort($courses);
+                    echo $this->Form->input('name',  ['class' => 'form-control', 'type' => 'text', 'label' => 'Nome:', 'required' => true]). "<br>";
+                    echo $this->Form->input('login',  ['class' => 'form-control', 'type' => 'text', 'label' => 'Login:', 'required' => true]). "<br>";
+                    echo $this->Form->input('email',  ['class' => 'form-control', 'type' => 'text', 'label' => 'Email:', 'required' => true]). "<br>";
                     echo '<strong>Tipo: </strong>';
-                    echo $this->Form->select('type' ,[1 => 'Aluno', 2 => 'Membro do Colegiado'], ['class' => 'form-control']); 
-                    echo $this->Form->input('course_id', ['options' => $courses], array('class' => 'form-control'));
+                    echo $this->Form->select('type' ,[3 => 'Coordenação', 4 => 'Administrador'], ['class' => 'form-control', 'required' => true]). "<br>";
+                    echo '<strong>Curso: </strong>';
+                    echo $this->Form->select('course_id', $courses, ['class' => 'form-control', 'required' => true]). "<br>";
                     ?>
                 </fieldset>
-                <br>
                  <?= $this->Html->Link(__('Cancela'), array('controller' => 'Users', 'action' => 'adminList'), ['class' => 'btn btn-danger']);?>
                 <?= $this->Form->button(__('Editar'), ['class' => 'btn btn-primary']) ?>
                 <?= $this->Form->end() ?>

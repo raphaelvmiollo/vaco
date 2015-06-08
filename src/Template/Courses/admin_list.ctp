@@ -14,8 +14,8 @@ $this->start('sidebar');?>
             <table cellpadding="0" cellspacing="0" class="table">
                 <thead>
                     <tr>
-                        <th><?= $this->Paginator->sort('idcourse', 'Id') ?></th>
-                        <th><?= $this->Paginator->sort('couse_name', 'Nome do Curso') ?></th>
+                        <th><?= $this->Paginator->sort('course_code', 'Código') ?></th>
+                        <th><?= $this->Paginator->sort('course_name', 'Nome do Curso') ?></th>
                         <th class="actions"><?= __('Ações') ?></th>
                     </tr>
                 </thead>
@@ -23,7 +23,7 @@ $this->start('sidebar');?>
                     
                 <?php foreach ($courses as $course): ?>
                         <tr>
-                            <td><?= $this->Number->format($course->idcourse) ?></td>
+                            <td><?= $this->Number->format($course->course_code) ?></td>
                             <td><?= h($course->course_name) ?></td>
                             <td class="actions">
                                 <?= $this->Html->link(__('Editar'), ['action' => 'adminEdit', $course->idcourse], ['class' => 'btn btn-default']) ?>

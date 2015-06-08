@@ -34,7 +34,7 @@
                         <?= $this->Html->link(__('Página Inicial'), array('controller' => 'Pages', 'action' => 'index')); ?>
                     </li>
                     <li class="button-bar">
-                        <?= $this->Html->link(__('Avaliar ACGs'), ['controller' => 'Activities', 'action' => 'index']) ?>
+                        <?= $this->Html->link(__('Avaliar ACGs'), ['controller' => 'Activities', 'action' => 'colList']) ?>
                     </li>
                 </ul>
             <? endif; ?>

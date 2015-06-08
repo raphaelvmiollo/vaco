@@ -16,6 +16,11 @@ class Classification extends Entity
      */
     protected $_accessible = [
         'classification_name' => true,
+        'description' => true,
+        'avaliator_type'=> true,
+        'max_hours' => true,
+        'course_id' => true,
+        'course' => true,
         'activities' => true,
     ];
 }

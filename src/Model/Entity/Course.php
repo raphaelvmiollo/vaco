@@ -16,6 +16,7 @@ class Course extends Entity
      */
     protected $_accessible = [
         'course_name' => true,
+        'course_code' => true,
         'users' => true,
     ];
 }

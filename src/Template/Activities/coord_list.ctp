@@ -12,23 +12,26 @@ $this->start('sidebar');?>
              <table cellpadding="0" cellspacing="0" class="table">
                 <thead>
                    <tr>
-                        <th><?= $this->Paginator->sort('users_iduser', 'Usuário') ?></th>
+                        <th><?= $this->Paginator->sort('user_id', 'Usuário') ?></th>
                         <th><?= $this->Paginator->sort('activity_local', 'Local da Atividade') ?></th>
                         <th><?= $this->Paginator->sort('activity_hours', 'Horas') ?></th>
                         <th><?= $this->Paginator->sort('semester', 'Semestre') ?></th>
                         <th><?= $this->Paginator->sort('date', 'Data') ?></th>
-                        <th><?= $this->Paginator->sort('path', 'Arquivo') ?></th>    
+                        <th><?= $this->Paginator->sort('path', 'Arquivo') ?></th>
+                        <th><?= $this->Paginator->sort('situation','Situação') ?></th>
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach ($activities as $activity): ?>
-                        <tr>
-                            <td><?= $this->Number->format($activity->users_iduser) ?></td>
+                    <?php foreach ($activities as $activity): 
+                        $verify = $this->statusOfAcg($activity->avaliation->situation); ?>
+                        <tr <?php echo $verify["classe"]; ?> >
+                            <td><?= $this->Number->format($activity->user_id) ?></td>
                             <td><?= h($activity->activity_local) ?></td>
                             <td><?= h($activity->activity_hours) ?></td>
                             <td><?= h($activity->semester) ?></td>
                             <td><?= h($activity->date) ?></td>
-                            <td><?= h($activity->path) ?></td>    
+                            <td><?= h($activity->path) ?></td>
+                            <td><?= h($verify["situacao"]) ?></td>
                         </tr>
                     <?php endforeach; ?>
                 </tbody>

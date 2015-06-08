@@ -58,7 +58,7 @@
             <td><?= h($activities->abstract) ?></td>
             <td><?= h($activities->date) ?></td>
             <td><?= h($activities->path) ?></td>
-            <td><?= h($activities->users_iduser) ?></td>
+            <td><?= h($activities->user_id) ?></td>
             <td><?= h($activities->classification_id) ?></td>
             <td><?= h($activities->avaliation_id) ?></td>
 

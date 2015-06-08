@@ -32,7 +32,7 @@ class UsersFixture extends TestFixture
             'fk_users_courses' => ['type' => 'foreign', 'columns' => ['course_id'], 'references' => ['courses', 'idcourse'], 'update' => 'noAction', 'delete' => 'noAction', 'length' => []],
         ],
         '_options' => [
-'engine' => 'InnoDB', 'collation' => 'utf8_general_ci'
+            'engine' => 'InnoDB', 'collation' => 'utf8_general_ci'
         ],
     ];
     // @codingStandardsIgnoreEnd

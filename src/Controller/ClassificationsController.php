@@ -1,24 +1,25 @@
 <?php
+
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\ORM\TableRegistry;
 
 /**
  * Classifications Controller
  *
  * @property \App\Model\Table\ClassificationsTable $Classifications
  */
-class ClassificationsController extends AppController
-{
+class ClassificationsController extends AppController {
 
     /**
      * Index method
      *
      * @return void
      */
-    public function coordList(){
+    public function coordList() {
         $this->set('nome', $this->Auth->user('name'));
-        $this->set('classifications', $this->paginate($this->Classifications));
+        $this->set('classifications', $this->paginate($this->Classifications->find('all', ['conditions' => ['Classifications.course_id' => $this->Auth->user('course_id')]])));
         $this->set('_serialize', ['classifications']);
     }
 
@@ -27,19 +28,27 @@ class ClassificationsController extends AppController
      *
      * @return void Redirects on successful add, renders view otherwise.
      */
-    public function coordAdd(){
+    public function coordAdd() {
         $this->set('nome', $this->Auth->user('name'));
         $classification = $this->Classifications->newEntity();
         if ($this->request->is('post')) {
             $classification = $this->Classifications->patchEntity($classification, $this->request->data);
             if ($this->Classifications->save($classification)) {
-                $this->Flash->success('The classification has been saved.');
+                $this->Flash->success('A categoria foi adicionada com sucesso.');
                 return $this->redirect(['action' => 'coordList']);
             } else {
-                $this->Flash->error('The classification could not be saved. Please, try again.');
+                $this->Flash->error('A categoria não pode ser adicionada. Por favor, tente mais tarde.');
             }
         }
         $this->set(compact('classification'));
+        $this->set('_serialize', ['classification']);
+    }
+
+    public function coordView($id = null) {
+        $this->set('nome', $this->Auth->user('name'));
+
+        $class = $this->Classifications->get($id);
+        $this->set('classification', $class);
         $this->set('_serialize', ['classification']);
     }
 
@@ -50,7 +59,7 @@ class ClassificationsController extends AppController
      * @return void Redirects on successful edit, renders view otherwise.
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
-    public function coordEdit($id = null){
+    public function coordEdit($id = null) {
         $this->set('nome', $this->Auth->user('name'));
         $classification = $this->Classifications->get($id, [
             'contain' => []
@@ -58,10 +67,10 @@ class ClassificationsController extends AppController
         if ($this->request->is(['patch', 'post', 'put'])) {
             $classification = $this->Classifications->patchEntity($classification, $this->request->data);
             if ($this->Classifications->save($classification)) {
-                $this->Flash->success('The classification has been saved.');
+                $this->Flash->success('A categoria foi editada com sucesso.');
                 return $this->redirect(['action' => 'coordList']);
             } else {
-                $this->Flash->error('The classification could not be saved. Please, try again.');
+                $this->Flash->error('A categoria não pode ser editada. Por favor, tente mais tarde.');
             }
         }
         $this->set(compact('classification'));
@@ -75,14 +84,29 @@ class ClassificationsController extends AppController
      * @return void Redirects to index.
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
-    public function coordDelete($id = null){
+    public function coordDelete($id = null) {
         $this->request->allowMethod(['post', 'delete']);
         $classification = $this->Classifications->get($id);
         if ($this->Classifications->delete($classification)) {
-            $this->Flash->success('The classification has been deleted.');
+            $this->Flash->success('A categoria foi deletada com sucesso.');
         } else {
-            $this->Flash->error('The classification could not be deleted. Please, try again.');
+            $this->Flash->error('A categoria não pode ser deletada. Por favor, tente mais tarde');
         }
         return $this->redirect(['action' => 'coordList']);
     }
+
+    /**
+     * 
+     * @return type
+     */
+    public function getClassifications() {
+        $classifications = array();
+        $class = TableRegistry::get('Classifications');
+        $query = $class->find('all', ['conditions' => ['Classifications.course_id' => $this->Auth->user('course_id')]]);
+        foreach ($query as $row) {
+            $classifications[$row->idclassification] = $row->classification_name;
+        }
+        return $classifications;
+    }
+
 }
