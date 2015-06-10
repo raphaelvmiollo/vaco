@@ -18,7 +18,7 @@ $this->start('sidebar');?>
                     echo $this->Form->input('course_id', ['type' => 'hidden', 'value' =>  $this->request->session()->read('Auth.User.course_id')]);
                     ?>
                 </fieldset>
-                 <?= $this->Html->Link(__('Cancela'), array('controller' => 'Classifications', 'action' => 'coordList'), ['class' => 'btn btn-danger']);?>
+                <?= $this->Html->Link(__('Cancela'), array('controller' => 'Classifications', 'action' => 'coordList'), ['class' => 'btn btn-danger']);?>
                 <?= $this->Form->button(__('Adcionar'), ['class' => 'btn btn-primary']) ?>  
                 <?= $this->Form->end() ?>
             </div>

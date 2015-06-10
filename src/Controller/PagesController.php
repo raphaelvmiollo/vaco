@@ -64,6 +64,10 @@ class PagesController extends AppController
     }
     
     public function index(){
+        $course = new CoursesController();
+        $list = $course->getCourses();
+        $this->set('user', $this->Auth->user('login'));
         $this->set('nome', $this->Auth->user('name'));
+        $this->set('course', $list[$this->Auth->user('course_id')]);
     }
 }
