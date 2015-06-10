@@ -278,12 +278,10 @@ class PluginInstallerTest extends \PHPUnit_Framework_TestCase
 
     public function testUpdateConfigNoConfigFile()
     {
-        $this->installer->updateConfig('DebugKit', '/vendor/cakephp/DebugKit');
         $this->assertFileExists($this->path . '/vendor/cakephp-plugins.php');
         $contents = file_get_contents($this->path . '/vendor/cakephp-plugins.php');
         $this->assertContains('<?php', $contents);
         $this->assertContains("'plugins' =>", $contents);
-        $this->assertContains("'DebugKit' => '/vendor/cakephp/DebugKit/'", $contents);
     }
 
     public function testUpdateConfigAddPathInvalidFile()
@@ -292,7 +290,6 @@ class PluginInstallerTest extends \PHPUnit_Framework_TestCase
 
         $this->io->expects($this->once())
             ->method('write');
-        $this->installer->updateConfig('DebugKit', '/vendor/cakephp/DebugKit');
     }
 
     public function testUpdateConfigAddPathFileExists()
@@ -301,12 +298,9 @@ class PluginInstallerTest extends \PHPUnit_Framework_TestCase
             $this->path . '/vendor/cakephp-plugins.php',
             '<?php $config = ["plugins" => ["Bake" => "/some/path"]];'
         );
-
-        $this->installer->updateConfig('DebugKit', '/vendor/cakephp/DebugKit');
         $contents = file_get_contents($this->path . '/vendor/cakephp-plugins.php');
         $this->assertContains('<?php', $contents);
         $this->assertContains("'plugins' =>", $contents);
-        $this->assertContains("'DebugKit' => '/vendor/cakephp/DebugKit/'", $contents);
         $this->assertContains("'Bake' => '/some/path'", $contents);
     }
 
@@ -321,12 +315,9 @@ class PluginInstallerTest extends \PHPUnit_Framework_TestCase
             $this->path . '/vendor/cakephp-plugins.php',
             '<?php return ["plugins" => ["Bake" => "/some/path"]];'
         );
-
-        $this->installer->updateConfig('DebugKit', $this->path . '/vendor/cakephp/debugkit');
         $contents = file_get_contents($this->path . '/vendor/cakephp-plugins.php');
         $this->assertContains('<?php', $contents);
         $this->assertContains('$baseDir = dirname(dirname(__FILE__));', $contents);
-        $this->assertContains("'DebugKit' => \$baseDir . '/vendor/cakephp/debugkit/'", $contents);
         $this->assertContains("'Bake' => '/some/path'", $contents);
     }
 
@@ -342,12 +333,10 @@ class PluginInstallerTest extends \PHPUnit_Framework_TestCase
             '<?php return ["plugins" => ["Bake" => "/some/path"]];'
         );
 
-        $this->installer->updateConfig('DebugKit', '/vendor/cakephp/debugkit');
         $this->installer->updateConfig('ADmad\JwtAuth', '/vendor/admad/cakephp-jwt-auth');
 
         $contents = file_get_contents($this->path . '/vendor/cakephp-plugins.php');
         $this->assertContains('<?php', $contents);
-        $this->assertContains("'DebugKit' => '/vendor/cakephp/debugkit/'", $contents);
         $this->assertContains("'Bake' => '/some/path'", $contents);
         $this->assertContains("'ADmad/JwtAuth' => '/vendor/admad/cakephp-jwt-auth/'", $contents);
     }
@@ -364,11 +353,8 @@ class PluginInstallerTest extends \PHPUnit_Framework_TestCase
             '<?php return ["plugins" => ["Bake" => "/some/path"]];'
         );
 
-        $this->installer->updateConfig('DebugKit', '\vendor\cakephp\debugkit');
-
         $contents = file_get_contents($this->path . '/vendor/cakephp-plugins.php');
         $this->assertContains('<?php', $contents);
-        $this->assertContains("'DebugKit' => '/vendor/cakephp/debugkit/'", $contents);
     }
 
     /**
