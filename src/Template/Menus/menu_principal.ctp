@@ -1,6 +1,28 @@
 <?php $TipoUsuario = $this->request->session()->read('Auth.User.type'); ?>
-
-<nav class="navbar navbar-inverse">
+<nav class="band navbar ufsm gradient">    
+ <div class="container"> 
+     <ul class="nav"> 
+         <li><a class="uppercase humanist-font" href="/aluno/index.html"><span class="bold">UFSM</span> | Portal das ACGS</a>
+         </li> 
+     </ul> 
+     <ul class="nav pull-right">
+      <li> <div class="btn-group">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
+              <i class="icon-user"></i><span class="glyphicon glyphicon-user"></span><?php echo " " . $nome . " " ?><span class="caret"></span> </a>
+              <ul class="dropdown-menu" role="menu"> 
+               <li><?= $this->Html->link(__('Alterar Senha'), ['controller' => 'Users', 'action' => 'changePass']) ?></li>
+                    
+                     <li role="menuitem" class="divider">
+                     </li> 
+                       <li><?= $this->Html->link(__('Sair'), ['controller' => 'Users', 'action' => 'logout']) ?></li>
+                     </ul> 
+                 </div> 
+             </li> 
+         </ul> 
+     </div> 
+ </nav>
+<!----------------MENU_USUÁRIO---------------->
+ <nav class="navbar ">
     <div class="container-fluid">
         <div class="navbar-header ">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -14,21 +36,21 @@
 
             <!-- Menu do ALUNO -->
             <? if ($TipoUsuario == 1): ?> 
-                <ul class="nav navbar-nav">
-                    <li class="button"> 
-                        <?= $this->Html->link(__('Página Inicial'), array('controller' => 'Pages', 'action' => 'index')); ?>
-                    </li>
-                    <li class="button-bar">
-                        <?= $this->Html->link(__('Enviar ACG'), ['controller' => 'Activities', 'action' => 'alunoAdd']) ?>
-                    </li>
-                    <li class="button-bar">
-                        <?= $this->Html->link(__('Visualisar ACGs'), ['controller' => 'Activities', 'action' => 'alunoList']) ?>
-                    </li>
-                </ul>
-            <? endif; ?>
+            <ul class="nav navbar-nav">
+                <li class="button"> 
+                    <?= $this->Html->link(__('Página Inicial'), array('controller' => 'Pages', 'action' => 'index')); ?>
+                </li>
+                <li class="button-bar">
+                    <?= $this->Html->link(__('Enviar ACG'), ['controller' => 'Activities', 'action' => 'alunoAdd']) ?>
+                </li>
+                <li class="button-bar">
+                    <?= $this->Html->link(__('Visualisar ACGs'), ['controller' => 'Activities', 'action' => 'alunoList']) ?>
+                </li>
+            </ul>
+        <? endif; ?>
 
-            <!-- Menu do COLEGIADO -->
-            <? if ($TipoUsuario == 2): ?> 
+        <!-- Menu do COLEGIADO -->
+<!--            <? if ($TipoUsuario == 2): ?> 
                 <ul class="nav navbar-nav">
                     <li class="button"> 
                         <?= $this->Html->link(__('Página Inicial'), array('controller' => 'Pages', 'action' => 'index')); ?>
@@ -40,7 +62,7 @@
             <? endif; ?>
 
             <!-- Menu da COORDENAÇÃO  -->
-            <? if ($TipoUsuario == 3): ?> 
+    <!--        <? if ($TipoUsuario == 3): ?> 
                 <ul class="nav navbar-nav">
                     <li class="button"> 
                         <?= $this->Html->link(__('Página Inicial'), array('controller' => 'Pages', 'action' => 'index')); ?>
@@ -62,7 +84,7 @@
             <? endif; ?>
 
             <!-- Menu do ADMINISTRADOR -->
-            <? if ($TipoUsuario == 4): ?> 
+     <!--       <? if ($TipoUsuario == 4): ?> 
                 <ul class="nav navbar-nav">
                     <li class="button"> 
                         <?= $this->Html->link(__('Página Inicial'), array('controller' => 'Pages', 'action' => 'index')); ?>
@@ -77,17 +99,7 @@
 
             <? endif; ?>
 
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle navbar-brand" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-user"></span><?php echo " " . $nome . " " ?><span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><?= $this->Html->link(__('Alterar Senha'), ['controller' => 'Users', 'action' => 'changePass']) ?></li>
-                        <li><?= $this->Html->link(__('Sair'), ['controller' => 'Users', 'action' => 'logout']) ?></li>
-                    </ul>
-                </li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+               </div><!-- /.container-fluid -->
 </nav>
 <?php echo $this->fetch('sidebar'); ?>
 

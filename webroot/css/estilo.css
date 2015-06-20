@@ -1,0 +1,63 @@
+.themed-band {
+	 background-color: #12416B;
+	 background: url('/visual/mocca/assets/img/UFSM-banner-bg.jpg') top left repeat-x;
+ }
+
+.conteudo_fundo {
+  background-image: url("../img/UFSM-banner-bg.jpg" );
+  height: 500px;
+}
+
+.img_logo{
+	margin-left: 50px;
+}
+
+.formulario_login{
+	background-color: white;
+	margin: auto;
+padding:10px;
+
+
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+ border-radius:7px;
+
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .btn {
+    font-family: "zapfhumnst","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.navbar.ufsm.gradient {
+    color: #FFF;
+    background: #014877 linear-gradient(to bottom, #01548B, #013659) repeat-x scroll 0% 0%;
+}
+
+.band.navbar > .container, .band.navbar > .container-fluid {
+    padding-bottom: 0.15rem;
+    padding-top: 0.15rem;
+}
+
+.navbar.ufsm ul.nav > li > a:not(.btn), .navbar.ufsm ul.nav > li > .btn-group > a.dropdown-toggle:not(.btn) {
+    background: transparent none repeat scroll 0% 0%;
+    color: #FFF;
+    text-decoration: none;
+    text-shadow: 0px 0.065em 0px #000;
+    border-radius: 0.25rem;
+    transition: all 0.35s ease-in-out 0s;
+}
+
+.navbar ul.nav > li {
+    display: inline-block;
+}
+
+.navbar ul.nav {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0px;
+    padding: 0px;
+ }
+
+
+.humanist-font{font-family:"zapfhumnst","Helvetica Neue",Helvetica,Arial,sans-serif !important}

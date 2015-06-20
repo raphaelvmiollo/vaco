@@ -18,3 +18,2323 @@ Stack Trace:
 #13 {main}
 
 
+2015-06-11 14:35:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoAdd
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(48): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoAdd()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-11 15:20:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(19): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:00:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(19): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:01:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(19): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:01:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoAdd
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(48): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoAdd()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:04:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(19): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:04:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoAdd
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(48): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoAdd()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:04:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/colList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(77): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->colList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:05:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:05:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /classifications/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php(169): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(641): Cake\Controller\Component\PaginatorComponent->paginate(Object(Cake\ORM\Query), Array)
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(22): Cake\Controller\Controller->paginate(Object(Cake\ORM\Query))
+#9 [internal function]: App\Controller\ClassificationsController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ClassificationsController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:05:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /classifications/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php(169): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(641): Cake\Controller\Component\PaginatorComponent->paginate(Object(Cake\ORM\Query), Array)
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(22): Cake\Controller\Controller->paginate(Object(Cake\ORM\Query))
+#9 [internal function]: App\Controller\ClassificationsController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ClassificationsController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:06:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Courses.course_code' in 'where clause'
+Request URL: /courses/adminAdd
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(234): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Table.php(1259): Cake\ORM\Query->toArray()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Rule/IsUnique.php(66): Cake\ORM\Table->exists(Array)
+#9 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/RulesChecker.php(378): Cake\ORM\Rule\IsUnique->__invoke(Object(App\Model\Entity\Course), Array)
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/RulesChecker.php(378): Cake\ORM\RulesChecker->Cake\ORM\{closure}(Object(App\Model\Entity\Course), Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/RulesChecker.php(258): Cake\ORM\RulesChecker->Cake\ORM\{closure}(Object(App\Model\Entity\Course), Array)
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/RulesChecker.php(231): Cake\ORM\RulesChecker->checkCreate(Object(App\Model\Entity\Course), Array)
+#13 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Table.php(2148): Cake\ORM\RulesChecker->check(Object(App\Model\Entity\Course), 'create', Array)
+#14 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Table.php(1410): Cake\ORM\Table->checkRules(Object(App\Model\Entity\Course), 'create', Object(ArrayObject))
+#15 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Table.php(1367): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Course), Object(ArrayObject))
+#16 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(561): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#17 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Table.php(1368): Cake\Database\Connection->transactional(Object(Closure))
+#18 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/CoursesController.php(24): Cake\ORM\Table->save(Object(App\Model\Entity\Course))
+#19 [internal function]: App\Controller\CoursesController->adminAdd()
+#20 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#21 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#22 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\CoursesController))
+#23 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#24 {main}
+
+
+2015-06-12 01:30:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:35:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:35:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /classifications/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php(169): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(641): Cake\Controller\Component\PaginatorComponent->paginate(Object(Cake\ORM\Query), Array)
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(22): Cake\Controller\Controller->paginate(Object(Cake\ORM\Query))
+#9 [internal function]: App\Controller\ClassificationsController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ClassificationsController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:38:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /classifications/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php(169): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(641): Cake\Controller\Component\PaginatorComponent->paginate(Object(Cake\ORM\Query), Array)
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(22): Cake\Controller\Controller->paginate(Object(Cake\ORM\Query))
+#9 [internal function]: App\Controller\ClassificationsController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ClassificationsController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:38:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /classifications/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php(169): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(641): Cake\Controller\Component\PaginatorComponent->paginate(Object(Cake\ORM\Query), Array)
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(22): Cake\Controller\Controller->paginate(Object(Cake\ORM\Query))
+#9 [internal function]: App\Controller\ClassificationsController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ClassificationsController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:38:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:39:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:39:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:39:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:39:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:40:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:40:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:40:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:40:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:40:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:40:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:40:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:40:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:40:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-12 01:40:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/coordList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(59): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->coordList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-15 00:05:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(19): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-15 00:13:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(19): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-15 00:44:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Visual could not be found.
+Exception Attributes: array (
+  'class' => 'Visual',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /visual/mocca/assets/img/UFSM-banner-logo.png
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 00:45:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/upload/aswq.png
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 00:45:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/upload/aswq.png
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 14:59:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/%3C
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 14:59:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/%3C
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 15:00:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/%3C
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 15:00:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/%3C
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 15:01:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/%3C
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 15:01:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/url(%22img/UFSM-banner-bg.jpg%22)
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 15:01:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/url(%22img/UFSM-banner-bg.jpg%22)
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 15:02:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/img/UFSM-banner-bg.jpg
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 15:02:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/img/UFSM-banner-bg.jpg
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-15 15:06:44 Error: Fatal Error (4): syntax error, unexpected '<' in [/home/raphaelvmiollo/vacoFinal/vaco/src/Template/Layout/default.ctp, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-15 15:06:44 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<'
+Request URL: /
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/home/raphaelvm...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-15 15:07:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/img/UFSM-banner-bg.jpg
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 14:15:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoAdd
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(48): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoAdd()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-16 14:15:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(19): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-16 14:21:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Usuario could not be found.
+Exception Attributes: array (
+  'class' => 'Usuario',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /usuario/restrita/alterarSenha.html
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 14:27:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Aluno could not be found.
+Exception Attributes: array (
+  'class' => 'Aluno',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /aluno/index.html
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 14:34:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(19): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-16 14:35:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(19): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-16 16:27:04 Warning: Warning (2): session_start(): open(/var/lib/php5/sess_49bra2suoqm2s62bpduei549o1, O_RDWR) failed: Permission denied (13) in [/home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Network/Session.php, line 324]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_start - [internal], line ??
+Cake\Network\Session::start() - CORE/src/Network/Session.php, line 324
+Cake\Network\Session::check() - CORE/src/Network/Session.php, line 361
+Cake\Controller\Component\AuthComponent::user() - CORE/src/Controller/Component/AuthComponent.php, line 639
+Cake\Controller\Component\AuthComponent::_getUser() - CORE/src/Controller/Component/AuthComponent.php, line 657
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 271
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 478
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-16 16:27:05 Warning: Warning (2): Unknown: open(/var/lib/php5/sess_49bra2suoqm2s62bpduei549o1, O_RDWR) failed: Permission denied (13) in [Unknown, line 0]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_write_close - [internal], line ??
+[main] - [internal], line ??
+
+
+
+2015-06-16 16:27:05 Warning: Warning (2): Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php5) in [Unknown, line 0]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_write_close - [internal], line ??
+[main] - [internal], line ??
+
+
+
+2015-06-16 16:29:16 Warning: Warning (2): session_start(): open(/var/lib/php5/sess_49bra2suoqm2s62bpduei549o1, O_RDWR) failed: Permission denied (13) in [/home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Network/Session.php, line 324]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_start - [internal], line ??
+Cake\Network\Session::start() - CORE/src/Network/Session.php, line 324
+Cake\Network\Session::check() - CORE/src/Network/Session.php, line 361
+Cake\Controller\Component\AuthComponent::user() - CORE/src/Controller/Component/AuthComponent.php, line 639
+Cake\Controller\Component\AuthComponent::_getUser() - CORE/src/Controller/Component/AuthComponent.php, line 657
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 271
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 478
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-16 16:29:16 Warning: Warning (2): Unknown: open(/var/lib/php5/sess_49bra2suoqm2s62bpduei549o1, O_RDWR) failed: Permission denied (13) in [Unknown, line 0]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_write_close - [internal], line ??
+[main] - [internal], line ??
+
+
+
+2015-06-16 16:29:16 Warning: Warning (2): Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php5) in [Unknown, line 0]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_write_close - [internal], line ??
+[main] - [internal], line ??
+
+
+
+2015-06-16 16:29:35 Warning: Warning (2): session_start(): open(/var/lib/php5/sess_49bra2suoqm2s62bpduei549o1, O_RDWR) failed: Permission denied (13) in [/home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Network/Session.php, line 324]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_start - [internal], line ??
+Cake\Network\Session::start() - CORE/src/Network/Session.php, line 324
+Cake\Network\Session::check() - CORE/src/Network/Session.php, line 361
+Cake\Controller\Component\AuthComponent::user() - CORE/src/Controller/Component/AuthComponent.php, line 639
+Cake\Controller\Component\AuthComponent::_getUser() - CORE/src/Controller/Component/AuthComponent.php, line 657
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 271
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 478
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-16 16:29:36 Warning: Warning (2): Unknown: open(/var/lib/php5/sess_49bra2suoqm2s62bpduei549o1, O_RDWR) failed: Permission denied (13) in [Unknown, line 0]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_write_close - [internal], line ??
+[main] - [internal], line ??
+
+
+
+2015-06-16 16:29:36 Warning: Warning (2): Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php5) in [Unknown, line 0]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_write_close - [internal], line ??
+[main] - [internal], line ??
+
+
+
+2015-06-16 16:29:40 Warning: Warning (2): session_start(): open(/var/lib/php5/sess_49bra2suoqm2s62bpduei549o1, O_RDWR) failed: Permission denied (13) in [/home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Network/Session.php, line 324]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_start - [internal], line ??
+Cake\Network\Session::start() - CORE/src/Network/Session.php, line 324
+Cake\Network\Session::check() - CORE/src/Network/Session.php, line 361
+Cake\Controller\Component\AuthComponent::user() - CORE/src/Controller/Component/AuthComponent.php, line 639
+Cake\Controller\Component\AuthComponent::_getUser() - CORE/src/Controller/Component/AuthComponent.php, line 657
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 271
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 478
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-16 17:10:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Aluno could not be found.
+Exception Attributes: array (
+  'class' => 'Aluno',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /aluno/logout.html
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 17:11:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Aluno could not be found.
+Exception Attributes: array (
+  'class' => 'Aluno',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /aluno/logout
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 17:11:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Aluno could not be found.
+Exception Attributes: array (
+  'class' => 'Aluno',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /aluno/index.html
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 17:17:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Aluno could not be found.
+Exception Attributes: array (
+  'class' => 'Aluno',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /aluno/index.html
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-16 17:22:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoAdd
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(48): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoAdd()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-16 17:22:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(19): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-16 17:22:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(19): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-16 17:35:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Classifications.course_id' in 'where clause'
+Request URL: /activities/alunoList
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Connection.php(274): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(645): Cake\Database\Query->execute()
+#4 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#5 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/ORM/Query.php(596): Cake\ORM\Query->_all()
+#6 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(132): Cake\ORM\Query->all()
+#7 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ClassificationsController.php(106): Cake\ORM\Query->getIterator()
+#8 /home/raphaelvmiollo/vacoFinal/vaco/src/Controller/ActivitiesController.php(19): App\Controller\ClassificationsController->getClassifications()
+#9 [internal function]: App\Controller\ActivitiesController->alunoList()
+#10 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Controller/Controller.php(412): call_user_func_array(Array, Array)
+#11 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#12 /home/raphaelvmiollo/vacoFinal/vaco/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ActivitiesController))
+#13 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2015-06-16 17:45:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Aluno could not be found.
+Exception Attributes: array (
+  'class' => 'Aluno',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /aluno/index.html
+Stack Trace:
+#0 /home/raphaelvmiollo/vacoFinal/vaco/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 18:41:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 18:42:03 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+Request URL: /vaco/
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '123123', Array)
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Table.php(424): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(141): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UsersTable))
+#10 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Table.php(1147): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UsersTable))
+#11 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Table.php(882): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Auth\BaseAuthenticate.php(116): Cake\ORM\Table->find('all')
+#13 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Auth\FormAuthenticate.php(77): Cake\Auth\BaseAuthenticate->_findUser('001', '123')
+#14 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(733): Cake\Auth\FormAuthenticate->authenticate(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 C:\xampp\htdocs\vaco\src\Controller\UsersController.php(20): Cake\Controller\Component\AuthComponent->identify()
+#16 [internal function]: App\Controller\UsersController->login()
+#17 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#18 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#19 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#20 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#21 {main}
+
+
+2015-06-18 18:42:05 Error: [PDOException] SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+Request URL: /vaco/
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '123123', Array)
+#1 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Database\Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Table.php(424): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(141): Cake\ORM\Table->schema()
+#9 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UsersTable))
+#10 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Table.php(1147): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UsersTable))
+#11 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\ORM\Table.php(882): Cake\ORM\Table->query()
+#12 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Auth\BaseAuthenticate.php(116): Cake\ORM\Table->find('all')
+#13 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Auth\FormAuthenticate.php(77): Cake\Auth\BaseAuthenticate->_findUser('001', '123')
+#14 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(733): Cake\Auth\FormAuthenticate->authenticate(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 C:\xampp\htdocs\vaco\src\Controller\UsersController.php(20): Cake\Controller\Component\AuthComponent->identify()
+#16 [internal function]: App\Controller\UsersController->login()
+#17 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Controller\Controller.php(412): call_user_func_array(Array, Array)
+#18 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#19 C:\xampp\htdocs\vaco\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#20 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#21 {main}
+
+
+2015-06-18 18:51:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 18:52:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 18:53:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 18:53:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 18:54:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 18:55:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 18:59:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 18:59:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:01:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:02:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:03:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:04:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:04:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:05:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:05:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:08:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:08:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:15:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:15:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:15:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:15:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:19:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:19:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:19:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:20:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:20:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:20:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:21:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:22:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:22:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:40:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:40:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:40:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:40:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:49:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:52:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:52:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:52:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:55:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:55:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:55:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:59:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:59:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:59:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 19:59:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:01:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:02:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:02:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:04:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:04:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:05:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:05:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:12:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:12:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:12:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:13:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:13:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:13:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:13:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:13:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:13:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:13:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:13:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:13:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:13:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:13:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:14:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-18 20:14:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-20 16:04:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-20 16:04:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-20 16:04:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-20 16:04:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-20 16:04:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-20 16:05:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-20 16:05:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-20 16:05:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-20 16:05:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /vaco/js/jQuery-1.7.js
+Stack Trace:
+#0 C:\xampp\htdocs\vaco\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

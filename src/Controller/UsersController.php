@@ -48,6 +48,7 @@ class UsersController extends AppController {
 
         if ($this->request->is(['patch', 'post', 'put'])) {
             if ($verify) {                                  //Falta verificar a senha antiga
+                if($this->request->data['password'] = 123){
                 if ($this->request->data['newPassword1'] === $this->request->data['newPassword2']) {
                     $user = $this->Users->patchEntity($user, $this->request->data);
                     if ($this->Users->save($user)) {
@@ -57,7 +58,7 @@ class UsersController extends AppController {
                     }
                 } else {
                     $this->Flash->error('As novas senhas não são iguais');
-                }
+                }}
             } else {
                 $this->Flash->error('A sua senha atual está incorreta. Por favor tente novamente.');
             }
