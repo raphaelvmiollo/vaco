@@ -50,4 +50,12 @@ class AppController extends Controller {
         $this->Auth->allow(['display']);
     }
 
+    public function verifyAcess($acess) {
+        $type = $this->Auth->user('type');
+        if ($type !== $acess) {
+            header("Location: /vaco/pages/index");
+            die();
+        }
+    }
+
 }

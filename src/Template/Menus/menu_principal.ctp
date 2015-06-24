@@ -1,29 +1,27 @@
 <?php $TipoUsuario = $this->request->session()->read('Auth.User.type'); ?>
 <nav class="band navbar ufsm gradient">    
- <div class="container"> 
-     <ul class="nav"> 
-         <li><a class="uppercase humanist-font" href="/aluno/index.html"><span class="bold">UFSM</span> | Portal das ACGS</a>
-         </li> 
-     </ul> 
-     <ul class="nav pull-right">
-      <li> <div class="btn-group">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
-              <i class="icon-user"></i><span class="glyphicon glyphicon-user"></span><?php echo " " . $nome . " " ?><span class="caret"></span> </a>
-              <ul class="dropdown-menu" role="menu"> 
-               <li><?= $this->Html->link(__('Alterar Senha'), ['controller' => 'Users', 'action' => 'changePass']) ?></li>
-                    
-                     <li role="menuitem" class="divider">
-                     </li> 
-                       <li><?= $this->Html->link(__('Sair'), ['controller' => 'Users', 'action' => 'logout']) ?></li>
-                     </ul> 
-                 </div> 
-             </li> 
-         </ul> 
-     </div> 
- </nav>
+    <div class="container"> 
+        <ul class="nav"> 
+            <li>
+                <a class="humanist-font" href="http://site.ufsm.br/"><strong>UFSM</strong> &nbsp;|&nbsp;Portal de ACGs</a>
+            </li> 
+        </ul> 
+        <ul class="nav pull-right">
+            <li> <div class="btn-group">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
+                        <span class="glyphicon glyphicon-cog"></span><?php echo " " . $nome . " " ?><span class="caret"></span> </a>
+                    <ul class="dropdown-menu" role="menu"> 
+                        <li><a href="/vaco/users/changePass"><span class="glyphicon glyphicon-pencil"></span>&nbsp; Alterar Senha</a><li>      
+                        <li><a href="/vaco/users/logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp; Sair</a><li>      
+                    </ul> 
+                </div> 
+            </li> 
+        </ul> 
+    </div> 
+</nav>
 <!----------------MENU_USUÁRIO---------------->
- <nav class="navbar ">
-    <div class="container-fluid">
+<nav class="navbar menuTop">
+    <div class="container">
         <div class="navbar-header ">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -32,28 +30,27 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
+        <div class="navbar-collapse">
             <!-- Menu do ALUNO -->
             <? if ($TipoUsuario == 1): ?> 
-            <ul class="nav navbar-nav">
-                <li class="button"> 
-                    <?= $this->Html->link(__('Página Inicial'), array('controller' => 'Pages', 'action' => 'index')); ?>
-                </li>
-                <li class="button-bar">
-                    <?= $this->Html->link(__('Enviar ACG'), ['controller' => 'Activities', 'action' => 'alunoAdd']) ?>
-                </li>
-                <li class="button-bar">
-                    <?= $this->Html->link(__('Visualisar ACGs'), ['controller' => 'Activities', 'action' => 'alunoList']) ?>
-                </li>
-            </ul>
-        <? endif; ?>
-
-        <!-- Menu do COLEGIADO -->
-<!--            <? if ($TipoUsuario == 2): ?> 
                 <ul class="nav navbar-nav">
-                    <li class="button"> 
-                        <?= $this->Html->link(__('Página Inicial'), array('controller' => 'Pages', 'action' => 'index')); ?>
+                    <li class="button-bar"> 
+                       <a href="/vaco/pages"><span class="glyphicon glyphicon-home"></span>&nbsp;Página Inicial</a>
+                    </li>
+                    <li class="button-bar">
+                        <a href="/vaco/activities/alunoAdd"><span class="glyphicon glyphicon-open-file"></span>&nbsp;Enviar ACG</a>
+                    </li>
+                    <li class="button-bar">
+                        <a href="/vaco/activities/alunoList"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Visualisar ACGs</a>
+                    </li>
+                </ul>
+            <? endif; ?>
+
+            <!-- Menu do COLEGIADO -->
+            <? if ($TipoUsuario == 2): ?> 
+                <ul class="nav navbar-nav">
+                    <li class="button-bar"> 
+                       <a href="/vaco/pages"><span class="glyphicon glyphicon-home"></span> Página Inicial</a>
                     </li>
                     <li class="button-bar">
                         <?= $this->Html->link(__('Avaliar ACGs'), ['controller' => 'Activities', 'action' => 'colList']) ?>
@@ -62,44 +59,44 @@
             <? endif; ?>
 
             <!-- Menu da COORDENAÇÃO  -->
-    <!--        <? if ($TipoUsuario == 3): ?> 
+            <? if ($TipoUsuario == 3): ?> 
                 <ul class="nav navbar-nav">
-                    <li class="button"> 
-                        <?= $this->Html->link(__('Página Inicial'), array('controller' => 'Pages', 'action' => 'index')); ?>
+                    <li class="button-bar"> 
+                        <a href="/vaco/pages"><span class="glyphicon glyphicon-home"></span> Página Inicial</a>
                     </li>
-                    <li class="button">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">ACGs<span class="caret"></span></a>
+                    <li class="button-bar">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;ACGs&nbsp;<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li> <?= $this->Html->link(__('Listar'), ['controller' => 'Activities', 'action' => 'coordList']) ?></li>
-                            <li><?= $this->Html->link(__('Avaliar'), ['controller' => 'Activities', 'action' => 'coordAvalia']) ?></li>
+                            <li><a href="/vaco/activities/coordList"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Listar</a></li>
+                            <li><a href="/vaco/activities/coordAvalia"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Avaliar</a></li>
                         </ul>
                     </li>
                     <li class="button-bar">
-                        <?= $this->Html->link(__('Usuários'), ['controller' => 'Users', 'action' => 'coordList']) ?>
+                        <a href="/vaco/users/coordList"><span class="glyphicon glyphicon-user"></span>&nbsp;Usuários</a>
                     </li>
                     <li class="button-bar">
-                        <?= $this->Html->link(__('Categorias de ACG'), ['controller' => 'Classifications', 'action' => 'coordList']) ?>
+                        <a href="/vaco/classifications/coordList"><span class="glyphicon glyphicon-th-list"></span>&nbsp;Categorias de ACG</a>
                     </li>
                 </ul>
             <? endif; ?>
 
             <!-- Menu do ADMINISTRADOR -->
-     <!--       <? if ($TipoUsuario == 4): ?> 
+            <? if ($TipoUsuario == 4): ?> 
                 <ul class="nav navbar-nav">
-                    <li class="button"> 
-                        <?= $this->Html->link(__('Página Inicial'), array('controller' => 'Pages', 'action' => 'index')); ?>
+                    <li class="button-bar">
+                        <a href="/vaco/pages"><span class="glyphicon glyphicon-home"></span> Página Inicial</a>
+                    <!--</li>-->
+                    <li class="button-bar">
+                        <a href="/vaco/users/adminList"><span class="glyphicon glyphicon-user"></span> Usuários</a>
                     </li>
                     <li class="button-bar">
-                        <?= $this->Html->link(__('Usuários'), ['controller' => 'Users', 'action' => 'adminList']) ?>
-                    </li>
-                    <li class="button-bar">
-                        <?= $this->Html->link(__('Cursos'), ['controller' => 'Courses', 'action' => 'adminList']) ?>
+                        <a href="/vaco/courses/adminList"><span class="glyphicon glyphicon-education"></span> Cursos</a>
                     </li>
                 </ul>
 
             <? endif; ?>
 
-               </div><!-- /.container-fluid -->
+        </div>
 </nav>
 <?php echo $this->fetch('sidebar'); ?>
 

@@ -1,7 +1,7 @@
 <div class="band transparent-subband" style="background-color: rgb(240, 242, 241);">
  <div class="container"> 
      <a class="no-link h1 pull-right no-margin-top uppercase humanist-font" href="#">
-         <b>UFSM</b> | Portal das ACGS</a>
+         <b>UFSM</b> | Portal de ACGs</a>
      </div>
  </div>
 

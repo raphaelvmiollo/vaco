@@ -34,9 +34,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .btn {
     background: #014877 linear-gradient(to bottom, #01548B, #013659) repeat-x scroll 0% 0%;
 }
 
+.navbar.menuTop {
+    color: #FFF;
+    background: #e6e6e6 linear-gradient(to bottom, #FEFEFE, #E9E9E9) repeat-x scroll 0% 0%;
+}
+
 .band.navbar > .container, .band.navbar > .container-fluid {
-    padding-bottom: 0.15rem;
-    padding-top: 0.15rem;
+    vertical-align: middle;
+    font-size: 19px;
 }
 
 .navbar.ufsm ul.nav > li > a:not(.btn), .navbar.ufsm ul.nav > li > .btn-group > a.dropdown-toggle:not(.btn) {
@@ -59,5 +64,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .btn {
     padding: 0px;
  }
 
+ .superiorNav{
+     font-size: 20px;
+ }
 
-.humanist-font{font-family:"zapfhumnst","Helvetica Neue",Helvetica,Arial,sans-serif !important}
+.humanist-font{
+    font-size: 21px;
+    font-family:"zapfhumnst","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.button-bar a{
+    font-size: 16px;
+    color: #282828 ;
+}

@@ -18,6 +18,7 @@ class ClassificationsController extends AppController {
      * @return void
      */
     public function coordList() {
+        $this->verifyAcess(3);
         $this->set('nome', $this->Auth->user('name'));
         $this->set('classifications', $this->paginate($this->Classifications->find('all', ['conditions' => ['Classifications.course_id' => $this->Auth->user('course_id')]])));
         $this->set('_serialize', ['classifications']);
@@ -29,6 +30,7 @@ class ClassificationsController extends AppController {
      * @return void Redirects on successful add, renders view otherwise.
      */
     public function coordAdd() {
+        $this->verifyAcess(3);
         $this->set('nome', $this->Auth->user('name'));
         $classification = $this->Classifications->newEntity();
         if ($this->request->is('post')) {
@@ -45,6 +47,7 @@ class ClassificationsController extends AppController {
     }
 
     public function coordView($id = null) {
+        $this->verifyAcess(3);
         $this->set('nome', $this->Auth->user('name'));
 
         $class = $this->Classifications->get($id);
@@ -60,6 +63,7 @@ class ClassificationsController extends AppController {
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
     public function coordEdit($id = null) {
+        $this->verifyAcess(3);
         $this->set('nome', $this->Auth->user('name'));
         $classification = $this->Classifications->get($id, [
             'contain' => []
@@ -85,6 +89,7 @@ class ClassificationsController extends AppController {
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
     public function coordDelete($id = null) {
+        $this->verifyAcess(3);
         $this->request->allowMethod(['post', 'delete']);
         $classification = $this->Classifications->get($id);
         if ($this->Classifications->delete($classification)) {

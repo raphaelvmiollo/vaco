@@ -4,19 +4,19 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 use Cake\ORM\TableRegistry;
-
 /**
  * Courses Controller
  *
  * @property \App\Model\Table\CoursesTable $Courses
  */
 class CoursesController extends AppController {
-    
+
     /**
      * 
      * @return type
      */
     public function adminAdd() {
+        $this->verifyAcess(4);
         $this->set('nome', $this->Auth->user('name'));
         $course = $this->Courses->newEntity();
         if ($this->request->is('post')) {
@@ -31,22 +31,24 @@ class CoursesController extends AppController {
         $this->set(compact('course'));
         $this->set('_serialize', ['course']);
     }
-    
+
     /**
      * 
      */
     public function adminList() {
+        $this->verifyAcess(4);
         $this->set('nome', $this->Auth->user('name'));
         $this->set('courses', $this->paginate($this->Courses));
         $this->set('_serialize', ['courses']);
     }
-    
+
     /**
      * 
      * @param type $id
      * @return type
      */
     public function adminEdit($id = null) {
+        $this->verifyAcess(4);
         $this->set('nome', $this->Auth->user('name'));
         $course = $this->Courses->get($id, [
             'contain' => []
@@ -72,18 +74,27 @@ class CoursesController extends AppController {
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
     public function delete($id = null) {
+        $this->verifyAcess(4);
         $this->set('nome', $this->Auth->user('name'));
         $this->request->allowMethod(['post', 'delete']);
         $course = $this->Courses->get($id);
-        if ($this->Courses->delete($course)) {
-            $this->Flash->success('O curso foi deletado com sucesso.');
-        } else {
-            $this->Flash->error('O curso não pode ser deletado. Por favor, tente novamente mais tarde.');
+        
+        $users = TableRegistry::get('Users');
+        $tam = $users->find()->where(['course_id' => $course->idcourse])->count();
+
+        if ($tam == 0) {
+            if ($this->Courses->delete($course)) {
+                $this->Flash->success('O curso foi deletado com sucesso.');
+            } else {
+                $this->Flash->error('O curso não pode ser deletado. Por favor, tente novamente mais tarde.');
+            }
+        } else{
+             $this->Flash->error('O curso não pode ser deletado. Este curso possui usuários.');
         }
         return $this->redirect(['action' => 'adminList']);
     }
-    
-     /**
+
+    /**
      * 
      * @return type
      */
@@ -96,5 +107,5 @@ class CoursesController extends AppController {
         }
         return $classifications;
     }
-    
+
 }

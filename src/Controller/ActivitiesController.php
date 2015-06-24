@@ -3,18 +3,19 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
-
 /**
  * Activities Controller
  *
  * @property \App\Model\Table\ActivitiesTable $Activities
  */
 class ActivitiesController extends AppController {
-
+    
+    private $user;
     /**
      * 
      */
     public function alunoList() {
+        $this->verifyAcess(1);
         $Class = new ClassificationsController();
         $classif = $Class->getClassifications();
 
@@ -33,6 +34,7 @@ class ActivitiesController extends AppController {
      * @return type
      */
     public function alunoAdd() {
+        $this->verifyAcess(1);
         $Class = new ClassificationsController();
         $this->set('nome', $this->Auth->user('name'));
         $activity = $this->Activities->newEntity();
@@ -40,6 +42,7 @@ class ActivitiesController extends AppController {
             $activity = $this->Activities->patchEntity($activity, $this->request->data);
             if ($this->Activities->save($activity)) {
                 $this->Flash->success('A atividade foi enviada com sucesso.');
+                //generateAvaliation();
                 return $this->redirect(['action' => 'alunoList']);
             } else {
                 $this->Flash->error('A Atividade não pode ser enviada. Por favor tente mais tarde.');
@@ -55,6 +58,7 @@ class ActivitiesController extends AppController {
      * 
      */
     public function coordList() {
+        $this->verifyAcess(3);
         $Class = new ClassificationsController();
         $classif = $Class->getClassifications();
 
@@ -72,6 +76,7 @@ class ActivitiesController extends AppController {
      * 
      */
     public function colList() {
+        $this->verifyAcess(2);
         $Class = new ClassificationsController();
         $User = new UsersController();
         $classif = $Class->getClassifications();

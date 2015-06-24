@@ -72,11 +72,11 @@ class AppView extends View {
                 break;
             case '2':
                 $classe = "class='success'";
-                $situacao = "Aprovada";
+                $situacao = "Deferida";
                 break;
             case '3':
                 $classe = "class='danger'";
-                $situacao = "Reprovada";
+                $situacao = "Indeferida";
                 break;
             default:
                 $classe = "class='danger'";

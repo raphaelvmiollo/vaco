@@ -35,6 +35,7 @@ $this->start('sidebar');?>
                 
                 </tbody>
             </table>
+            <?= $this->Flash->render() ?>
             <div class="paginator">
                 <ul class="pagination">
                     <?= $this->Paginator->prev('< ' . __('previous')) ?>

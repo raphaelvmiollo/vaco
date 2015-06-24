@@ -10,7 +10,6 @@ $this->start('sidebar');?>
                     <?= $this->Form->create($user); ?>
                     <fieldset>
                         <?php
-                        echo $this->Form->input('password', array('class' => 'form-control', 'type' => 'password', 'label' => 'Insira senha atual:', 'value'   => '', 'required' => true)) . "<br>";
                         echo $this->Form->input('newPassword1', array('class' => 'form-control', 'type' => 'password', 'label' => 'Insira a nova senha:', 'value'  => '', 'required' => true)) . "<br>";
                         echo $this->Form->input('newPassword2', array('class' => 'form-control', 'type' => 'password', 'label' => 'Confirme a nova senha:', 'value'=> '', 'required' => true)) . "<br>";
                         ?>

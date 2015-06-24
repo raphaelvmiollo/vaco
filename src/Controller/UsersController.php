@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 use Cake\ORM\TableRegistry;
+
 /**
  * Users Controller
  *
@@ -38,32 +39,25 @@ class UsersController extends AppController {
 
     /**
      * Change Password Method
-     * @param type $id
+     * @param type $id $2y$10$XaUn6KT7Fm7rrrS/GzvKneKqxfv4d7IexdL8P73DUhrutYF6SXh6a
      */
     public function changePass($id = null) {
         $id = $this->Auth->user('iduser');
         $this->set('nome', $this->Auth->user('name'));
         $user = $this->Users->get($id, [ 'contain' => []]);
-        $verify = 1;
-
         if ($this->request->is(['patch', 'post', 'put'])) {
-            if ($verify) {                                  //Falta verificar a senha antiga
-                if($this->request->data['password'] = 123){
-                if ($this->request->data['newPassword1'] === $this->request->data['newPassword2']) {
-                    $user = $this->Users->patchEntity($user, $this->request->data);
-                    if ($this->Users->save($user)) {
-                        $this->Flash->success('Senha alterada com sucesso!');
-                    } else {
-                        $this->Flash->error('A senha não pode ser salva. Por favor tente mais tarde.');
-                    }
+            if ($this->request->data['newPassword1'] === $this->request->data['newPassword2']) {
+                $user = $this->Users->patchEntity($user, $this->request->data);
+                $user["password"] =  $this->request->data['newPassword1'];
+                if ($this->Users->save($user)) {
+                    $this->Flash->success('Senha alterada com sucesso!');
                 } else {
-                    $this->Flash->error('As novas senhas não são iguais');
-                }}
+                    $this->Flash->error('A senha não pode ser salva. Por favor tente mais tarde.');
+                }
             } else {
-                $this->Flash->error('A sua senha atual está incorreta. Por favor tente novamente.');
+                $this->Flash->error('As novas senhas não são iguais');
             }
         }
-        $courses = $this->Users->Courses->find('list', ['limit' => 200]);
         $this->set(compact('user', 'courses'));
         $this->set('_serialize', ['user']);
     }
@@ -74,6 +68,7 @@ class UsersController extends AppController {
      * 
      */
     public function adminList() {
+        $this->verifyAcess(4);
         $this->set('nome', $this->Auth->user('name'));
         $user = $this->Auth->identify();
         $this->paginate = [
@@ -88,6 +83,7 @@ class UsersController extends AppController {
      * @return type
      */
     public function adminAdd() {
+        $this->verifyAcess(4);
         $CourseList = new CoursesController();
         $this->set('nome', $this->Auth->user('name'));
         $user = $this->Users->newEntity();
@@ -111,6 +107,7 @@ class UsersController extends AppController {
      * @return type
      */
     public function adminEdit($id = null) {
+        $this->verifyAcess(4);
         $CourseList = new CoursesController();
         $this->set('nome', $this->Auth->user('name'));
         $user = $this->Users->get($id, [
@@ -136,6 +133,7 @@ class UsersController extends AppController {
      * @return type
      */
     public function adminDelete($id = null) {
+        $this->verifyAcess(4);
         $this->request->allowMethod(['post', 'delete']);
         $user = $this->Users->get($id);
         if ($this->Users->delete($user)) {
@@ -152,6 +150,7 @@ class UsersController extends AppController {
      * 
      */
     public function coordList() {
+        $this->verifyAcess(3);
         $this->set('nome', $this->Auth->user('name'));
         $user = $this->Auth->identify();
         $this->paginate = [
@@ -167,6 +166,7 @@ class UsersController extends AppController {
      * @return type
      */
     public function coordAdd() {
+        $this->verifyAcess(3);
         $this->set('nome', $this->Auth->user('name'));
         $user = $this->Users->newEntity();
         if ($this->request->is('post')) {
@@ -188,6 +188,7 @@ class UsersController extends AppController {
      * @return type
      */
     public function coordEdit($id = null) {
+        $this->verifyAcess(3);
         $this->set('nome', $this->Auth->user('name'));
         $user = $this->Users->get($id, [
             'contain' => []
@@ -211,6 +212,7 @@ class UsersController extends AppController {
      * @return type
      */
     public function coordDelete($id = null) {
+        $this->verifyAcess(3);
         $this->request->allowMethod(['post', 'delete']);
         $user = $this->Users->get($id);
         if ($this->Users->delete($user)) {

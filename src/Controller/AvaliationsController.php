@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Controller;
 
 use App\Controller\AppController;
@@ -8,16 +9,15 @@ use App\Controller\AppController;
  *
  * @property \App\Model\Table\AvaliationsTable $Avaliations
  */
-class AvaliationsController extends AppController
-{
+class AvaliationsController extends AppController {
 
     /**
      * Index method
      *
      * @return void
      */
-    public function index()
-    {
+    public function index() {
+        $this->verifyAcess(2);
         $this->set('avaliations', $this->paginate($this->Avaliations));
         $this->set('_serialize', ['avaliations']);
     }
@@ -29,8 +29,8 @@ class AvaliationsController extends AppController
      * @return void
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
-    public function view($id = null)
-    {
+    public function view($id = null) {
+        $this->verifyAcess(2);
         $avaliation = $this->Avaliations->get($id, [
             'contain' => ['Activities']
         ]);
@@ -43,8 +43,8 @@ class AvaliationsController extends AppController
      *
      * @return void Redirects on successful add, renders view otherwise.
      */
-    public function add()
-    {
+    public function add() {
+        $this->verifyAcess(2);
         $avaliation = $this->Avaliations->newEntity();
         if ($this->request->is('post')) {
             $avaliation = $this->Avaliations->patchEntity($avaliation, $this->request->data);
@@ -66,8 +66,8 @@ class AvaliationsController extends AppController
      * @return void Redirects on successful edit, renders view otherwise.
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
-    public function edit($id = null)
-    {
+    public function edit($id = null) {
+        $this->verifyAcess(2);
         $avaliation = $this->Avaliations->get($id, [
             'contain' => []
         ]);
@@ -91,8 +91,8 @@ class AvaliationsController extends AppController
      * @return void Redirects to index.
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
-    public function delete($id = null)
-    {
+    public function delete($id = null) {
+        $this->verifyAcess(2);
         $this->request->allowMethod(['post', 'delete']);
         $avaliation = $this->Avaliations->get($id);
         if ($this->Avaliations->delete($avaliation)) {
@@ -102,8 +102,9 @@ class AvaliationsController extends AppController
         }
         return $this->redirect(['action' => 'index']);
     }
-    
-    public function generateAvaliation(){
+
+    public function generateAvaliation() {
         
     }
+
 }
