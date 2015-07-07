@@ -7,7 +7,7 @@ $this->start('sidebar'); ?>
             <div class="actions columns large-1 medium-3">
                 <h2>Envio de ACGs</h2>
                 <div class="activities form large-10 medium-9 columns">
-                     <?= $this->Form->create($activity); ?>
+                    <?= $this->Form->create($activity); ?>
                     <fieldset>
                         <br>
                         <?php

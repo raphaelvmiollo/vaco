@@ -76,19 +76,23 @@ class ActivitiesController extends AppController {
      */
     public function coordList() {
         $this->verifyAcess(3);
+        $search = "";
+        if (isset($_POST['userSearch'])){
+            $search = $_POST['userSearch'];
+        }
         $this->set('nome', $this->Auth->user('name'));
         $this->paginate = [
             'contain' => ['Classifications', 'Avaliations', 'Users']
         ];
         $this->set('activities', $this->paginate(
                         $this->Activities->find("all", ['join' =>
-                            ['table' => 'Users',
+                            ['table' => 'users',
                                 'alias' => 'user',
                                 'type' => 'INNER',
                                 'foreignKey' => 'user_id',
                                 'conditions' =>
                                 ['user.iduser = activities.user_id']],
-                            'conditions' => ['user.course_id' => $this->Auth->user('course_id')]
+                            'conditions' => ['user.course_id' => $this->Auth->user('course_id'), 'user.name LIKE' => '%'.$search.'%']
         ])));
         $this->set(compact('activities', 'classif', 'user'));
         $this->set('_serialize', ['activities']);

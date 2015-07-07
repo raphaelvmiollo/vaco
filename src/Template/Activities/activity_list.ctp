@@ -22,7 +22,7 @@ $this->start('sidebar');
                     <th><?= $this->Paginator->sort('date', 'Data') ?></th>
                     <th><?= $this->Paginator->sort('path', 'Arquivo') ?></th>
                     <th><?= $this->Paginator->sort('situation', 'Situação') ?></th>
-                     <th class="actions"><?= __('Ações') ?></th>
+                    <th class="actions"><?= __('Ações') ?></th>
                 </tr>
             </thead>
             <tbody>
