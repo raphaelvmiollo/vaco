@@ -9,6 +9,7 @@ $this->start('sidebar');?>
         <div class = "col-md-2">
             <?= $this->Html->Link(__('Adicionar Categoria'), array('controller' => 'Classifications', 'action' => 'coordAdd'), ['class' => 'btn btn-primary', 'style' => 'margin-top:15px']) ?> </li>
         </div>
+        <?= $this->Flash->render() ?>
     </div>
     <div class="users index large-10 medium-9 columns">
         <table cellpadding="0" cellspacing="0" class="table">

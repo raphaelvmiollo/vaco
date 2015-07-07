@@ -66,7 +66,7 @@ class ActivitiesController extends AppController {
         ];
         $this->set('activities', $this->paginate(
                         $this->Activities->find("all", ['conditions' =>
-                            ['Activities.user_id' => $this->Auth->user('iduser')]])));
+                            ['activities.user_id' => $this->Auth->user('iduser')]])));
         $this->set(compact('activities', 'classif'));
         $this->set('_serialize', ['activities']);
     }
@@ -87,7 +87,7 @@ class ActivitiesController extends AppController {
                                 'type' => 'INNER',
                                 'foreignKey' => 'user_id',
                                 'conditions' =>
-                                ['user.iduser = Activities.user_id']],
+                                ['user.iduser = activities.user_id']],
                             'conditions' => ['user.course_id' => $this->Auth->user('course_id')]
         ])));
         $this->set(compact('activities', 'classif', 'user'));
@@ -102,21 +102,21 @@ class ActivitiesController extends AppController {
             'contain' => ['Classifications', 'Avaliations', 'Users']
         ];
        
-        $conditions = ['aval.situation' => '1', 'Users.course_id =' . $this->Auth->user('course_id')];
+        $conditions = ['aval.situation' => '1', 'users.course_id =' . $this->Auth->user('course_id')];
         
         $this->set('activities', $this->paginate(
                         $this->Activities->find("all", ['join' =>
-                            ['table' => 'Avaliations',
+                            ['table' => 'avaliations',
                                 'alias' => 'aval',
                                 'type' => 'INNER',
                                 'foreignKey' => 'user_id',
                                 'conditions' =>
-                                ['aval.idavaliation = Activities.avaliation_id']],
+                                ['aval.idavaliation = activities.avaliation_id']],
                             ['table' => 'Users',
                                 'type' => 'INNER',
                                 'foreignKey' => 'user_id',
                                 'conditions' =>
-                                ['Users.iduser = Activities.user_id']],
+                                ['Users.iduser = activities.user_id']],
                             'conditions' => $conditions])));
 
         $this->set(compact('activities', 'classif', 'user'));
@@ -134,23 +134,22 @@ class ActivitiesController extends AppController {
         ];
         $conditions = ['aval.avaliator_id' => $this->Auth->user('iduser'), 'aval.situation' => 0];
         if ($this->Auth->user('type') === 3) {
-            $conditions = ['aval.situation' => '-1', 'Users.course_id =' . $this->Auth->user('course_id')];
+            $conditions = ['aval.situation' => '-1', 'users.course_id =' . $this->Auth->user('course_id')];
         }
         $this->set('activities', $this->paginate(
                         $this->Activities->find("all", ['join' =>
-                            ['table' => 'Avaliations',
+                            ['table' => 'avaliations',
                                 'alias' => 'aval',
                                 'type' => 'INNER',
                                 'foreignKey' => 'user_id',
                                 'conditions' =>
-                                ['aval.idavaliation = Activities.avaliation_id']],
-                            ['table' => 'Users',
+                                ['aval.idavaliation = activities.avaliation_id']],
+                            ['table' => 'users',
                                 'type' => 'INNER',
                                 'foreignKey' => 'user_id',
                                 'conditions' =>
-                                ['Users.iduser = Activities.user_id']],
+                                ['Users.iduser = activities.user_id']],
                             'conditions' => $conditions])));
-
         $this->set(compact('activities', 'classif', 'user'));
         $this->set('_serialize', ['activities']);
     }
@@ -158,7 +157,7 @@ class ActivitiesController extends AppController {
     public function edit($idAvaliation, $hours){
         $this->verifyAcess(2);
         $activity = $this->Activities->find("all", ['conditions' =>
-                                       ['Activities.avaliation_id' => $idAvaliation]])->first();
+                                       ['activities.avaliation_id' => $idAvaliation]])->first();
         $activity = $this->Activities->patchEntity($activity, ['activity_hours' => $hours]);
         $this->Activities->save($activity);
     }
@@ -177,8 +176,8 @@ class ActivitiesController extends AppController {
         $activity = $this->Activities->find("all", ['join' => ['table' => 'Avaliations',
                         'type' => 'INNER',
                         'foreignKey' => 'user_id',
-                        'conditions' => ['Avaliations.idavaliation = Activities.avaliation_id']],
-                    'conditions' => ['Activities.idactivity' => $id, 'Avaliations.situation' => 0]])->first();
+                        'conditions' => ['avaliations.idavaliation = activities.avaliation_id']],
+                    'conditions' => ['activities.idactivity' => $id, 'avaliations.situation' => 0]])->first();
         if (count($activity) > 0) {
             if ($this->Activities->delete($activity)) {
                 $avaliation->delete($activity->avaliation_id);

@@ -9,6 +9,7 @@ $this->start('sidebar');?>
         <div class = "col-md-2">
         <?= $this->Html->Link(__('Adicionar Usuário'), array('controller' => 'Users', 'action' => 'adminAdd'), ['class' => 'btn btn-primary', 'style' => 'margin-top:15px']) ?> </li>
         </div>
+        <?= $this->Flash->render() ?>
     </div>
     <div class="users index large-10 medium-9 columns">
         <?= $this->Flash->render() ?>

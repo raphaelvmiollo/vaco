@@ -75,7 +75,7 @@ class UsersController extends AppController {
         $this->paginate = [
             'contain' => ['Courses']
         ];
-        $this->set('users', $this->paginate($this->Users->find('all', ['conditions' => ['OR' => [['Users.type' => 3], ['Users.type' => 4]]]])));
+        $this->set('users', $this->paginate($this->Users->find('all', ['conditions' => ['OR' => [['users.type' => 3], ['users.type' => 4]]]])));
         $this->set('_serialize', ['users']);
     }
 
@@ -158,8 +158,8 @@ class UsersController extends AppController {
             'contain' => ['Courses']
         ];
         $this->set('users', $this->paginate($this->Users->find('all', ['conditions' => 
-                                        ['Users.course_id' => $this->Auth->user('course_id'),
-                                        'OR' => [['Users.type' => 1], ['Users.type' => 2]]]])));
+                                        ['users.course_id' => $this->Auth->user('course_id'),
+                                        'OR' => [['users.type' => 1], ['users.type' => 2]]]])));
         $this->set('_serialize', ['users']);
     }
 
