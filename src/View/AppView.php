@@ -40,7 +40,6 @@ class AppView extends View {
      * @return string
      */
     public function typeOfUser($type = null) {
-//switch $type:
         if ($type == 1) {
             return "Aluno";
         } else if ($type == 2) {
@@ -53,6 +52,23 @@ class AppView extends View {
             return "Não Especificado";
         }
     }
+    
+    /**
+     * 
+     * @return string
+     */
+    public function dropSemestres(){
+        $anoAtual = date('Y');
+        $anoLimite = date('Y')-6;
+        $semestres = array();
+        for($ano = $anoAtual ; $ano >= $anoLimite; $ano--){
+            $sem = $ano . "/02";
+            $semestres[$sem] = $sem;
+            $sem = $ano . "/01";
+            $semestres[$sem] = $sem;
+        }
+        return $semestres;
+    }
 
     /**
      * 
@@ -61,25 +77,29 @@ class AppView extends View {
      */
     public function statusOfAcg($type = null) {
         $list = array();
-        switch ($type) {
+        switch ($type){ 
+            case '-1':
+                $classe = "danger";
+                $situacao = "Aguardando";
+                break;
             case '0':
-                $classe = "class='danger'";
+                $classe = "danger";
                 $situacao = "Aguardando";
                 break;
             case '1':
-                $classe = "class='danger'";
+                $classe = "danger";
                 $situacao = "Em análise";
                 break;
             case '2':
-                $classe = "class='success'";
+                $classe = "success";
                 $situacao = "Deferida";
                 break;
             case '3':
-                $classe = "class='danger'";
+                $classe = "danger";
                 $situacao = "Indeferida";
                 break;
             default:
-                $classe = "class='danger'";
+                $classe = "danger";
                 $situacao = "Erro no Status";
                 break;
         }

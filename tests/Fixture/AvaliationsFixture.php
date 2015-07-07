@@ -17,7 +17,7 @@ class AvaliationsFixture extends TestFixture
      */
     // @codingStandardsIgnoreStart
     public $fields = [
-        'idavalation' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'autoIncrement' => true, 'precision' => null],
+        'idavaliation' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'autoIncrement' => true, 'precision' => null],
         'situation' => ['type' => 'integer', 'length' => 1, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
         'observation' => ['type' => 'text', 'length' => null, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null],
         'user_id' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
@@ -27,7 +27,7 @@ class AvaliationsFixture extends TestFixture
         ],
         '_constraints' => [
             'fk_activities_users1' => ['type' => 'foreign', 'columns' => ['user_id'], 'references' => ['users', 'iduser'], 'update' => 'noAction', 'delete' => 'noAction', 'length' => []],
-            'primary' => ['type' => 'primary', 'columns' => ['idavalation'], 'length' => []],
+            'primary' => ['type' => 'primary', 'columns' => ['idavaliation'], 'length' => []],
         ],
         '_options' => [
             'engine' => 'InnoDB', 'collation' => 'utf8_general_ci'
@@ -42,7 +42,7 @@ class AvaliationsFixture extends TestFixture
      */
     public $records = [
         [
-            'idavalation' => 1,
+            'idavaliation' => 1,
             'situation' => 1,
             'observation' => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida, phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam, vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit, feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
             'date' => '2015-04-25'

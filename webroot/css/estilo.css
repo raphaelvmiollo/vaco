@@ -1,26 +1,23 @@
 .themed-band {
-	 background-color: #12416B;
-	 background: url('/visual/mocca/assets/img/UFSM-banner-bg.jpg') top left repeat-x;
- }
+    background-color: #12416B;
+    background: url('/visual/mocca/assets/img/UFSM-banner-bg.jpg') top left repeat-x;
+}
 
 .conteudo_fundo {
-  background-image: url("../img/UFSM-banner-bg.jpg" );
-  height: 500px;
+    background-image: url("../img/UFSM-banner-bg.jpg" );
 }
 
 .img_logo{
-	margin-left: 50px;
+    margin-left: 50px;
 }
 
 .formulario_login{
-	background-color: white;
-	margin: auto;
-padding:10px;
-
-
--moz-border-radius:7px;
--webkit-border-radius:7px;
- border-radius:7px;
+    background-color: white;
+    margin: auto;
+    padding:10px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:7px;
 
 }
 
@@ -62,11 +59,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .btn {
     list-style: outside none none;
     margin: 0px;
     padding: 0px;
- }
+}
 
- .superiorNav{
-     font-size: 20px;
- }
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.superiorNav{
+    font-size: 20px;
+}
 
 .humanist-font{
     font-size: 21px;

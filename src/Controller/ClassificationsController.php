@@ -104,14 +104,32 @@ class ClassificationsController extends AppController {
      * 
      * @return type
      */
-    public function getClassifications() {
-        $classifications = array();
+    public function getClassifications($id = null) {
         $class = TableRegistry::get('Classifications');
-        $query = $class->find('all', ['conditions' => ['Classifications.course_id' => $this->Auth->user('course_id')]]);
-        foreach ($query as $row) {
-            $classifications[$row->idclassification] = $row->classification_name;
+        if ($id === null) {
+            $result = $class->find('all', 
+                        ['conditions' => 
+                        ['Classifications.course_id' => $this->Auth->user('course_id')]]);
+        } else {
+            $query = $class->find('all', 
+                        ['conditions' => 
+                        ['Classifications.idclassification' => $id]]);
+            $result = $query->first();
         }
-        return $classifications;
+        return $result;
+    }
+
+    /**
+     * 
+     * @return type
+     */
+    public function getDropClassifications() {
+        $classificationDropDown = array();
+        $query = $this->getClassifications();
+        foreach ($query as $row) {
+            $classificationDropDown[$row->idclassification] = $row->classification_name;
+        }
+        return $classificationDropDown;
     }
 
 }

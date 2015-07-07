@@ -1,6 +1,5 @@
 <?php $this->extend('/Menus/menu_principal');
-$this->start('sidebar');
-?>
+$this->start('sidebar');?>
 
 <div class="container">
     <div class="row">
@@ -12,6 +11,7 @@ $this->start('sidebar');
         </div>
     </div>
     <div class="users index large-10 medium-9 columns">
+        <?= $this->Flash->render() ?>
         <table cellpadding="0" cellspacing="0" class="table">
             <thead>
                 <tr>
@@ -34,7 +34,7 @@ $this->start('sidebar');
                        <!-- <td><?= h($user->password) ?></td>  -->
                             <td><?= $this->typeOfUser($this->Number->format($user->type)) ?></td>
                             <td>
-                            <?= $user->has('course') ? $user->course->course_name : '' ?>
+                            <?= $user->course->course_code. " - " . $user->course->course_name  ?>
                             </td>
                             <td class="actions">
                                 <?= $this->Html->link(__('Editar'), ['controller' => 'users', 'action' => 'adminEdit', $user->iduser], ['class' => 'btn btn-default']) ?>

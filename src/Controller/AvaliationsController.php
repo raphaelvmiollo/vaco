@@ -12,51 +12,49 @@ use App\Controller\AppController;
 class AvaliationsController extends AppController {
 
     /**
-     * Index method
-     *
-     * @return void
-     */
-    public function index() {
-        $this->verifyAcess(2);
-        $this->set('avaliations', $this->paginate($this->Avaliations));
-        $this->set('_serialize', ['avaliations']);
-    }
-
-    /**
-     * View method
-     *
-     * @param string|null $id Avaliation id.
-     * @return void
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
-    public function view($id = null) {
-        $this->verifyAcess(2);
-        $avaliation = $this->Avaliations->get($id, [
-            'contain' => ['Activities']
-        ]);
-        $this->set('avaliation', $avaliation);
-        $this->set('_serialize', ['avaliation']);
-    }
-
-    /**
      * Add method
      *
      * @return void Redirects on successful add, renders view otherwise.
      */
-    public function add() {
-        $this->verifyAcess(2);
+    public function add($idAvaliator, $situation) {
+        $this->verifyAcess(1);
         $avaliation = $this->Avaliations->newEntity();
         if ($this->request->is('post')) {
             $avaliation = $this->Avaliations->patchEntity($avaliation, $this->request->data);
+            $avaliation->situation = $situation;
+            $avaliation->avaliator_id = $idAvaliator;
             if ($this->Avaliations->save($avaliation)) {
-                $this->Flash->success('The avaliation has been saved.');
-                return $this->redirect(['action' => 'index']);
+                return $avaliation->idavaliation;
             } else {
-                $this->Flash->error('The avaliation could not be saved. Please, try again.');
+                $this->Flash->error('A Atividade não pode ser salva! Tente novamente mais tarde!');
+                header("Location: /vaco/pages/index");
+                die();
             }
         }
-        $this->set(compact('avaliation'));
-        $this->set('_serialize', ['avaliation']);
+    }
+
+    public function approve($id = null) {
+        $this->verifyAcess(3);
+        $users = new UsersController();
+        $class = new ClassificationsController();
+        $this->set('nome', $this->Auth->user('name'));
+        $this->set('user', $users->getUsers());
+        $this->set('class', $class->getDropClassifications());
+        $this->paginate = ['contain' => ['Users', 'Activities']];
+        $avaliation = $this->paginate($this->Avaliations->find("all", ['conditions' => ['Avaliations.idavaliation' => $id, 'Avaliations.situation' => 1]]))->first();
+        if ($this->request->is(['patch', 'post', 'put'])) {
+            $avaliation = $this->Avaliations->get($id, ['contain' => []]);
+            $avaliationActivity = $this->Avaliations->patchEntity($avaliation, $this->request->data);
+            if ($this->Avaliations->save($avaliationActivity)) {
+                $this->Flash->success('A Atividade foi avaliada com sucesso!');
+            } else {
+                $this->Flash->error('A Atividade não pode ser avaliada. Tente novamente mais tarde.');
+            }
+            header("Location: /vaco/activities/approveList");
+            die();
+        }
+
+        $this->set('avaliation', $avaliation);
     }
 
     /**
@@ -66,22 +64,44 @@ class AvaliationsController extends AppController {
      * @return void Redirects on successful edit, renders view otherwise.
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
-    public function edit($id = null) {
-        $this->verifyAcess(2);
-        $avaliation = $this->Avaliations->get($id, [
-            'contain' => []
-        ]);
-        if ($this->request->is(['patch', 'post', 'put'])) {
-            $avaliation = $this->Avaliations->patchEntity($avaliation, $this->request->data);
-            if ($this->Avaliations->save($avaliation)) {
-                $this->Flash->success('The avaliation has been saved.');
-                return $this->redirect(['action' => 'index']);
-            } else {
-                $this->Flash->error('The avaliation could not be saved. Please, try again.');
+    public function avalia($id = null) {
+        $this->verifyAcess([2, 3]);
+        $users = new UsersController();
+        $class = new ClassificationsController();
+        $activity = new ActivitiesController();
+        
+        $this->set('nome', $this->Auth->user('name'));
+        $this->set('user', $users->getUsers());
+        $this->set('class', $class->getDropClassifications());
+        
+        $conditions = ['Avaliations.idavaliation' => $id];
+        $conditions[] = ($this->Auth->user('type') === 3) ?         
+                                 ['Avaliations.situation' => -1] : ['Avaliations.avaliator_id' => $this->Auth->user('iduser')];
+        $this->paginate = ['contain' =>
+                        ['Users', 'Activities']];
+        $avaliation = $this->paginate($this->Avaliations
+                        ->find("all", ['conditions' => $conditions]))->first();
+        if (count($avaliation) > 0) {
+            if ($this->request->is(['patch', 'post', 'put'])) {
+                $activity->edit($id, $this->request->data['activity_hours']);
+                $avaliation = $this->Avaliations->get($id, ['contain' => []]);
+                $avaliationActivity = $this->Avaliations->patchEntity($avaliation, $this->request->data);             
+                $avaliationActivity->date = date('Y-m-d');
+                if ($this->Avaliations->save($avaliationActivity)) {
+                    $this->Flash->success('A Atividade foi avaliada com sucesso!');
+                } else {
+                    $this->Flash->error('A Atividade não pode ser avaliada. Tente novamente mais tarde.');
+                }
+                header("Location: /vaco/activities/activityList");
+                die();
             }
+        } else {
+            $this->Flash->success('Não há atividades para serem avaliadas!');
+            header("Location: /vaco/activities/activityList");
+            die();
         }
-        $this->set(compact('avaliation'));
-        $this->set('_serialize', ['avaliation']);
+
+        $this->set('avaliation', $avaliation);
     }
 
     /**
@@ -92,19 +112,52 @@ class AvaliationsController extends AppController {
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
     public function delete($id = null) {
-        $this->verifyAcess(2);
         $this->request->allowMethod(['post', 'delete']);
         $avaliation = $this->Avaliations->get($id);
-        if ($this->Avaliations->delete($avaliation)) {
-            $this->Flash->success('The avaliation has been deleted.');
-        } else {
-            $this->Flash->error('The avaliation could not be deleted. Please, try again.');
-        }
-        return $this->redirect(['action' => 'index']);
+        $this->Avaliations->delete($avaliation);
     }
 
-    public function generateAvaliation() {
-        
+    public function generateAvaliation($idClass) {
+        $classification = new ClassificationsController();
+        $avaliatorType = $classification->getClassifications($idClass);
+
+        if (($avaliatorType->avaliator_type) == 2) {
+            $users = $this->Avaliations->users->find("all", ['conditions' =>
+                ['Users.type' => 2,
+                    'Users.course_id' => $this->Auth->user('course_id')]]);
+            if (count($users->all()) === 0) {
+                $this->Flash->error('A Atividade não pode ser salva! Tente novamente mais tarde!');
+                header("Location: /vaco/pages/index");
+                die();
+            } else {
+                $avaliations = $this->Avaliations->find("all", ['join' => [
+                        'table' => 'Activities',
+                        'alias' => 'act',
+                        'type' => 'INNER',
+                        'foreignKey' => 'user_id',
+                        'conditions' => ['act.avaliation_id = Avaliations.idavaliation']],
+                    'conditions' => ["act.submition_date  BETWEEN '" . date('Y-m-d', strtotime('-1 months')) . "' AND '" . date('Y-m-d') . "'"]]);
+                foreach ($users as $user) {
+                    $contador = 0;
+                    foreach ($avaliations as $aval) {
+                        if ($user->iduser === $aval->avaliator_id) {
+                            $contador++;
+                        }
+                    }
+                    $avaliatorCount[$user->iduser] = $contador;
+                }
+                $situation = 0;
+                $idAvaliator = array_search(min($avaliatorCount), $avaliatorCount);
+            }
+        } else {
+            $users = $this->Avaliations->users->find("all", ['conditions' =>
+                        ['Users.type' => 3,
+                            'Users.course_id' => $this->Auth->user('course_id')]])->first();
+            $situation = -1;
+            $idAvaliator = $users->iduser;
+        }
+        $avaliation = $this->add($idAvaliator, $situation);
+        return $avaliation;
     }
 
 }

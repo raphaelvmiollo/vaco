@@ -21,6 +21,10 @@ class ActivitiesTable extends Table {
         $this->table('activities');
         $this->displayField('idactivity');
         $this->primaryKey('idactivity');
+        $this->belongsTo('Users', [
+            'foreignKey' => 'user_id',
+            'joinType' => 'INNER'
+        ]);
         $this->belongsTo('Classifications', [
             'foreignKey' => 'classification_id',
             'joinType' => 'INNER'
@@ -55,10 +59,8 @@ class ActivitiesTable extends Table {
                 ->add('submition_date', 'valid', ['rule' => 'date'])
                 ->requirePresence('submition_date', 'create')
                 ->notEmpty('submition_date')
-
                 ->requirePresence('path', 'create')
                 ->notEmpty('path')
-               
                 ->add('user_id', 'valid', ['rule' => 'numeric'])
                 ->requirePresence('user_id', 'create')
                 ->notEmpty('user_id');

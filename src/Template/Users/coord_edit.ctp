@@ -10,7 +10,7 @@ $this->start('sidebar');?>
                 <fieldset>
                     <?php
                     echo $this->Form->input('name', ['class' => 'form-control', 'type' => 'text', 'label' => 'Nome:', 'required' => true]). "<br>";
-                    echo $this->Form->input('login',['class' => 'form-control', 'type' => 'text', 'label' => 'Login:', 'required' => true]). "<br>";
+                    echo $this->Form->input('login',['class' => 'form-control', 'type' => 'number', 'label' => 'Login:', 'required' => true]). "<br>";
                     echo $this->Form->input('email',['class' => 'form-control', 'type' => 'text', 'label' => 'Email:', 'required' => true]). "<br>";
                     //echo $this->Form->input('password', array('class' => 'form-control'));
                     echo '<strong>Tipo: </strong>';

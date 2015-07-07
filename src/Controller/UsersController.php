@@ -41,14 +41,15 @@ class UsersController extends AppController {
      * Change Password Method
      * @param type $id $2y$10$XaUn6KT7Fm7rrrS/GzvKneKqxfv4d7IexdL8P73DUhrutYF6SXh6a
      */
-    public function changePass($id = null) {
-        $id = $this->Auth->user('iduser');
+    public function changePass() {
         $this->set('nome', $this->Auth->user('name'));
+        
+        $id = $this->Auth->user('iduser');
         $user = $this->Users->get($id, [ 'contain' => []]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             if ($this->request->data['newPassword1'] === $this->request->data['newPassword2']) {
                 $user = $this->Users->patchEntity($user, $this->request->data);
-                $user["password"] =  $this->request->data['newPassword1'];
+                $user["password"] = $this->request->data['newPassword1'];
                 if ($this->Users->save($user)) {
                     $this->Flash->success('Senha alterada com sucesso!');
                 } else {
@@ -150,14 +151,15 @@ class UsersController extends AppController {
      * 
      */
     public function coordList() {
-        $this->verifyAcess(3);
+        $this->verifyAcess([3]);
         $this->set('nome', $this->Auth->user('name'));
         $user = $this->Auth->identify();
         $this->paginate = [
             'contain' => ['Courses']
         ];
-        $this->set('users', $this->paginate($this->Users->find('all', ['conditions' => ['Users.course_id' => $this->Auth->user('course_id'),
-                                'OR' => [['Users.type' => 1], ['Users.type' => 2]]]])));
+        $this->set('users', $this->paginate($this->Users->find('all', ['conditions' => 
+                                        ['Users.course_id' => $this->Auth->user('course_id'),
+                                        'OR' => [['Users.type' => 1], ['Users.type' => 2]]]])));
         $this->set('_serialize', ['users']);
     }
 
@@ -166,7 +168,7 @@ class UsersController extends AppController {
      * @return type
      */
     public function coordAdd() {
-        $this->verifyAcess(3);
+        $this->verifyAcess([3]);
         $this->set('nome', $this->Auth->user('name'));
         $user = $this->Users->newEntity();
         if ($this->request->is('post')) {
@@ -228,7 +230,6 @@ class UsersController extends AppController {
      * @return type
      */
     public function getUsers() {
-        $classifications = array();
         $users = TableRegistry::get('Users');
         $query = $users->find('all');
         foreach ($query as $row) {

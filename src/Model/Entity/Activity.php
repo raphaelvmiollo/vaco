@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Model\Entity;
 
 use Cake\ORM\Entity;
@@ -6,8 +7,7 @@ use Cake\ORM\Entity;
 /**
  * Activity Entity.
  */
-class Activity extends Entity
-{
+class Activity extends Entity {
 
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
@@ -20,7 +20,7 @@ class Activity extends Entity
         'semester' => true,
         'abstract' => true,
         'date' => true,
-        'submition_date'=> true,
+        'submition_date' => true,
         'path' => true,
         'user_id' => true,
         'classification_id' => true,
@@ -28,4 +28,5 @@ class Activity extends Entity
         'classification' => true,
         'avaliation' => true,
     ];
+
 }

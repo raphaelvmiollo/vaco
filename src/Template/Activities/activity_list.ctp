@@ -8,12 +8,12 @@ $this->start('sidebar');
             <h2>Atividades Complementares de Graduação</h2>
         </div> 
     </div>
-
     <div class="activities index large-10 medium-9 columns">
+        <?= $this->Flash->render() ?>
         <table cellpadding="0" cellspacing="0" class="table">
             <thead>
                 <tr>
-                    <th><?= $this->Paginator->sort('submition_date', 'Data') ?></th>
+                    <th><?= $this->Paginator->sort('submition_date', 'Submissão') ?></th>
                     <th><?= $this->Paginator->sort('user_id', 'Usuário') ?></th>
                     <th><?= $this->Paginator->sort('classification_id', 'Categoria') ?></th>
                     <th><?= $this->Paginator->sort('activity_local', 'Local da Atividade') ?></th>
@@ -22,22 +22,26 @@ $this->start('sidebar');
                     <th><?= $this->Paginator->sort('date', 'Data') ?></th>
                     <th><?= $this->Paginator->sort('path', 'Arquivo') ?></th>
                     <th><?= $this->Paginator->sort('situation', 'Situação') ?></th>
+                     <th class="actions"><?= __('Ações') ?></th>
                 </tr>
             </thead>
             <tbody>
                 <?php foreach ($activities as $activity):
                     $verify = $this->statusOfAcg($activity->avaliation->situation);
-                    ?>
-                    <tr <?php echo $verify["classe"]; ?> >
-                        <td><?= h($activity->submition_date) ?></td>
-                        <td><?= h($user[$this->Number->format($activity->user_id)]) ?></td>
-                        <td><?= h($classif[$this->Number->format($activity->classification_id)]) ?></td>
+                ?>
+                    <tr class="<?php echo $verify["classe"]; ?>" >
+                        <td><?= h(date_format($activity->submition_date, 'd/m/Y')) ?></td>
+                        <td><?= h($activity->user->name) ?></td>
+                        <td><?= h($activity->classification->classification_name) ?></td>
                         <td><?= h($activity->activity_local) ?></td>
-                        <td><?= h($activity->activity_hours) ?></td>
+                        <td><?= h($activity->activity_hours) . ' h' ?></td>
                         <td><?= h($activity->semester) ?></td>
-                        <td><?= h($activity->date) ?></td>
+                        <td><?= h(date_format($activity->date, 'd/m/Y')) ?></td>
                         <td><?= h($activity->path) ?></td>
-                        <td><?= h($verify["situacao"]) ?></td>
+                        <td><strong><?= h($verify["situacao"])?></strong></td>
+                        <td class="actions">
+                            <?= $this->Html->link(__('Avaliar'), ['controller' => 'Avaliations', 'action' =>'avalia', $activity->avaliation_id], ['class' => 'btn btn-primary']) ?>
+                        </td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>

@@ -14,7 +14,7 @@ $this->start('sidebar');?>
                         echo $this->Form->select('avaliator_type', [2 => 'Membro do Colegiado', 3 => 'Coordenação'], ['class' => 'form-control', 'required' => true]). "<br>";
                     echo $this->Form->label('Descrição:');
                         echo $this->Form->textarea('description', ['class' => 'form-control', 'type' => 'text', 'value' => '', 'required' => true]). "<br>";
-                    echo $this->Form->input('max_hours', ['class' => 'form-control', 'type' => 'text', 'label' => 'Número máximo de horas:', 'value'  => '', 'required' => true]). "<br>";
+                    echo $this->Form->input('max_hours', ['class' => 'form-control', 'type' => 'number', 'label' => 'Número máximo de horas:', 'value'  => '', 'required' => true]). "<br>";
                     echo $this->Form->input('course_id', ['type' => 'hidden', 'value' =>  $this->request->session()->read('Auth.User.course_id')]);
                     ?>
                 </fieldset>

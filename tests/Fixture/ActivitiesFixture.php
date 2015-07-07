@@ -35,7 +35,7 @@ class ActivitiesFixture extends TestFixture
         ],
         '_constraints' => [
             'primary' => ['type' => 'primary', 'columns' => ['idactivity'], 'length' => []],
-            'fk_activities_avaliations1' => ['type' => 'foreign', 'columns' => ['avaliation_id'], 'references' => ['avaliations', 'idavalation'], 'update' => 'noAction', 'delete' => 'noAction', 'length' => []],
+            'fk_activities_avaliations1' => ['type' => 'foreign', 'columns' => ['avaliation_id'], 'references' => ['avaliations', 'idavaliation'], 'update' => 'noAction', 'delete' => 'noAction', 'length' => []],
             'fk_activities_classifications1' => ['type' => 'foreign', 'columns' => ['classification_id'], 'references' => ['classifications', 'idclassification'], 'update' => 'noAction', 'delete' => 'noAction', 'length' => []],
             'fk_activities_users1' => ['type' => 'foreign', 'columns' => ['user_id'], 'references' => ['users', 'iduser'], 'update' => 'noAction', 'delete' => 'noAction', 'length' => []],
         ],

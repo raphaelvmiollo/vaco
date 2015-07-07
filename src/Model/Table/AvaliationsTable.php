@@ -18,10 +18,11 @@ class AvaliationsTable extends Table {
      */
     public function initialize(array $config) {
         $this->table('avaliations');
-        $this->displayField('idavalation');
-        $this->primaryKey('idavalation');
-        $this->hasMany('Activities', [
-            'foreignKey' => 'avaliation_id'
+        $this->displayField('idavaliation');
+        $this->primaryKey('idavaliation');
+        $this->hasOne('Activities', [
+            'foreignKey' => 'avaliation_id',
+            'joinType' => 'INNER'
         ]);
         $this->belongsTo('Users', [
             'foreignKey' => 'avaliator_id',
@@ -37,8 +38,8 @@ class AvaliationsTable extends Table {
      */
     public function validationDefault(Validator $validator) {
         $validator
-                ->add('idavalation', 'valid', ['rule' => 'numeric'])
-                ->allowEmpty('idavalation', 'create')
+                ->add('idavaliation', 'valid', ['rule' => 'numeric'])
+                ->allowEmpty('idavaliation', 'create')
                 ->add('situation', 'valid', ['rule' => 'numeric'])
                 ->requirePresence('situation', 'create')
                 ->notEmpty('situation')

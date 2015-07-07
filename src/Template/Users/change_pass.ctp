@@ -6,6 +6,8 @@ $this->start('sidebar');?>
             <div class="col-sm-5">
                 <h2>Alterar Senha</h2>
                 <br>
+                <?= $this->Flash->render() ?>
+                <br>
                 <div class="users form large-10 medium-9 columns">
                     <?= $this->Form->create($user); ?>
                     <fieldset>
@@ -18,8 +20,7 @@ $this->start('sidebar');?>
                     <?= $this->Html->Link(__('Cancela'), array('controller' => 'Pages', 'action' => 'index'), ['class' => 'btn btn-danger']);?>
                     <?= $this->Form->button(__('Alterar'), ['class' => 'btn btn-primary' , 'type'=>'submit']);?>
                     <?= $this->Form->end() ?>
-                    <br>
-                    <?= $this->Flash->render() ?>
+                    <br>               
                 </div>
             </div>
             <div class="col-sm-7"></div>

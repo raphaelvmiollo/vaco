@@ -11,7 +11,7 @@ $this->start('sidebar');?>
                     <?php
                     asort($courses);
                     echo $this->Form->input('name',  ['class' => 'form-control', 'type' => 'text', 'label' => 'Nome:', 'required' => true]). "<br>";
-                    echo $this->Form->input('login',  ['class' => 'form-control', 'type' => 'text', 'label' => 'Login:', 'required' => true]). "<br>";
+                    echo $this->Form->input('login',  ['class' => 'form-control', 'type' => 'number', 'label' => 'Login:', 'required' => true]). "<br>";
                     echo $this->Form->input('email',  ['class' => 'form-control', 'type' => 'text', 'label' => 'Email:', 'required' => true]). "<br>";
                     echo '<strong>Tipo: </strong>';
                     echo $this->Form->select('type' ,[3 => 'Coordenação', 4 => 'Administrador'], ['class' => 'form-control', 'required' => true]). "<br>";

@@ -1,37 +1,15 @@
 <?php $this->extend('/Menus/menu_principal');
-$this->start('sidebar');?>
+$this->start('sidebar');
+?>
 
 <div class="container">
     <div class="row">
         <div class = "col-md-10">
-            <h2>Atividades Complementares de Graduação</h2>
+            <h2>Aprovação de Atividades Complementares de Gradução</h2>
         </div> 
     </div>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand">Pesquisar por</a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <form class="navbar-form navbar-left" role="search">
-                    Aluno:
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-                
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
     <div class="activities index large-10 medium-9 columns">
+        <?= $this->Flash->render() ?>
         <table cellpadding="0" cellspacing="0" class="table">
             <thead>
                 <tr>
@@ -44,6 +22,7 @@ $this->start('sidebar');?>
                     <th><?= $this->Paginator->sort('date', 'Data') ?></th>
                     <th><?= $this->Paginator->sort('path', 'Arquivo') ?></th>
                     <th><?= $this->Paginator->sort('situation', 'Situação') ?></th>
+                     <th class="actions"><?= __('Ações') ?></th>
                 </tr>
             </thead>
             <tbody>
@@ -59,14 +38,17 @@ $this->start('sidebar');?>
                         <td><?= h($activity->semester) ?></td>
                         <td><?= h(date_format($activity->date, 'd/m/Y')) ?></td>
                         <td><?= h($activity->path) ?></td>
-                        <td><strong><?= h($verify["situacao"]) ?></strong></td>
+                        <td><strong><?= h($verify["situacao"])?></strong></td>
+                        <td class="actions">
+                            <?= $this->Html->link(__('Avaliar'), ['controller' => 'Avaliations', 'action' =>'approve', $activity->avaliation_id], ['class' => 'btn btn-primary']) ?>
+                        </td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
         </table>
         <div class="paginator">
             <ul class="pagination">
-                <?= $this->Paginator->prev('< ' . __('Anterior')) ?>    
+                <?= $this->Paginator->prev('< ' . __('Anterior')) ?>
                 <?= $this->Paginator->numbers() ?>
                 <?= $this->Paginator->next(__('Próximo') . ' >') ?>
             </ul>

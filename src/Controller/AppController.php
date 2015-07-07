@@ -52,9 +52,16 @@ class AppController extends Controller {
 
     public function verifyAcess($acess) {
         $type = $this->Auth->user('type');
-        if ($type !== $acess) {
-            header("Location: /vaco/pages/index");
-            die();
+        if (is_array($acess)) {
+            if (!in_array($type, $acess)) {
+                header("Location: /vaco/pages/index");
+                die();
+            }
+        } else {
+            if ($type !== $acess) {
+                header("Location: /vaco/pages/index");
+                die();
+            }
         }
     }
 

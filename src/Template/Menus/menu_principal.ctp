@@ -53,7 +53,7 @@
                        <a href="/vaco/pages"><span class="glyphicon glyphicon-home"></span> Página Inicial</a>
                     </li>
                     <li class="button-bar">
-                        <?= $this->Html->link(__('Avaliar ACGs'), ['controller' => 'Activities', 'action' => 'colList']) ?>
+                        <a href="/vaco/activities/activityList"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Avaliar</a>
                     </li>
                 </ul>
             <? endif; ?>
@@ -68,7 +68,8 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;ACGs&nbsp;<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="/vaco/activities/coordList"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Listar</a></li>
-                            <li><a href="/vaco/activities/coordAvalia"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Avaliar</a></li>
+                            <li><a href="/vaco/activities/activityList"><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Avaliar</a></li>
+                            <li><a href="/vaco/activities/approveList"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Aprovar</a></li>
                         </ul>
                     </li>
                     <li class="button-bar">

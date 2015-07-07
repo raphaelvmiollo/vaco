@@ -4,6 +4,7 @@ $this->start('sidebar');
 ?>
 <div class="container">
     <br>
+    <?= $this->Flash->render() ?>
     <div class="alert alert-info" role="alert" style="border: 1px solid #33FFFF">
         <h4><strong> Você está vinculado(a) ao seguinte curso: </strong></h4>
         <ul>  

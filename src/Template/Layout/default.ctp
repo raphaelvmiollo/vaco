@@ -39,34 +39,36 @@ $cakeDescription = 'Portal de ACGs';
     </head>
 
     <body>
-        <div id="wrap">
-            <div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px; display:block;"> 
-                <ul id="menu-barra-temp" style="list-style:none;">
-                    <li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED"><a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a></li> 
-                    <li><a style="font-family:sans,sans-serif; text-decoration:none; color:white;" href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize sua Barra de Governo</a></li>
-                </ul>
-            </div>
-            <div id="container">
-                
-                <div id="content" style="margin-bottom: 5px;">
-                    <?= $this->fetch('content') ?>
+        <div class="response">
+            <div id="wrap">
+                <div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px; display:block;"> 
+                    <ul id="menu-barra-temp" style="list-style:none;">
+                        <li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED"><a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a></li> 
+                        <li><a style="font-family:sans,sans-serif; text-decoration:none; color:white;" href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize sua Barra de Governo</a></li>
+                    </ul>
                 </div>
-                <div id="push"></div>
+                <div id="container">
+                    <div id="content" style="margin-bottom: 5px;">
+                        <?= $this->fetch('content') ?>
+                    </div>
+                    <div id="push"></div>
+                </div>
             </div>
+            <div id="footer">
+                <div class="container">
+                    <hr>       
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p><strong>Portal de ACGS</strong> - Versão 1.0</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p style="text-align: right;">
+                                <strong>Projeto de Software I</strong> - 2015/1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>   
         </div>
-        <div id="footer">
-            <div class="container">
-                <hr>       
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p><strong>Portal de ACGS</strong> - Versão 1.0</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <p style="text-align: right;"><strong>Projeto de Software I</strong> - 2015/1</p>
-                    </div>
-                </div>
-            </div>
-        </div>   
         <script defer="defer" src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>
     </body>
 </html>
