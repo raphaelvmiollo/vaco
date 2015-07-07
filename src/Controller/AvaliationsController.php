@@ -74,9 +74,9 @@ class AvaliationsController extends AppController {
         $this->set('user', $users->getUsers());
         $this->set('class', $class->getDropClassifications());
         
-        $conditions = ['avaliations.idavaliation' => $id];
+        $conditions = ['Avaliations.idavaliation' => $id];
         $conditions[] = ($this->Auth->user('type') === 3) ?         
-                                 ['Avaliations.situation' => -1] : ['avaliations.avaliator_id' => $this->Auth->user('iduser')];
+                                 ['Avaliations.situation' => -1] : ['Avaliations.avaliator_id' => $this->Auth->user('iduser')];
         $this->paginate = ['contain' =>
                         ['Users', 'Activities']];
         $avaliation = $this->paginate($this->Avaliations
@@ -123,15 +123,15 @@ class AvaliationsController extends AppController {
 
         if (($avaliatorType->avaliator_type) == 2) {
             $users = $this->Avaliations->users->find("all", ['conditions' =>
-                ['users.type' => 2,
-                    'users.course_id' => $this->Auth->user('course_id')]]);
+                ['Users.type' => 2,
+                    'Users.course_id' => $this->Auth->user('course_id')]]);
             if (count($users->all()) === 0) {
                 $this->Flash->error('A Atividade não pode ser salva! Tente novamente mais tarde!');
                 header("Location: /vaco/pages/index");
                 die();
             } else {
                 $avaliations = $this->Avaliations->find("all", ['join' => [
-                        'table' => 'activities',
+                        'table' => 'Activities',
                         'alias' => 'act',
                         'type' => 'INNER',
                         'foreignKey' => 'user_id',
@@ -151,8 +151,8 @@ class AvaliationsController extends AppController {
             }
         } else {
             $users = $this->Avaliations->users->find("all", ['conditions' =>
-                        ['users.type' => 3,
-                            'users.course_id' => $this->Auth->user('course_id')]])->first();
+                        ['Users.type' => 3,
+                            'Users.course_id' => $this->Auth->user('course_id')]])->first();
             $situation = -1;
             $idAvaliator = $users->iduser;
         }

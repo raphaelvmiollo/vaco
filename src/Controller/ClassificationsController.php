@@ -20,7 +20,7 @@ class ClassificationsController extends AppController {
     public function coordList() {
         $this->verifyAcess(3);
         $this->set('nome', $this->Auth->user('name'));
-        $this->set('classifications', $this->paginate($this->Classifications->find('all', ['conditions' => ['classifications.course_id' => $this->Auth->user('course_id')]])));
+        $this->set('classifications', $this->paginate($this->Classifications->find('all', ['conditions' => ['Classifications.course_id' => $this->Auth->user('course_id')]])));
         $this->set('_serialize', ['classifications']);
     }
 
@@ -109,11 +109,11 @@ class ClassificationsController extends AppController {
         if ($id === null) {
             $result = $class->find('all', 
                         ['conditions' => 
-                        ['classifications.course_id' => $this->Auth->user('course_id')]]);
+                        ['Classifications.course_id' => $this->Auth->user('course_id')]]);
         } else {
             $query = $class->find('all', 
                         ['conditions' => 
-                        ['classifications.idclassification' => $id]]);
+                        ['Classifications.idclassification' => $id]]);
             $result = $query->first();
         }
         return $result;
